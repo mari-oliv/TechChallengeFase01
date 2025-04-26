@@ -19,12 +19,12 @@ def get_prod_data_year(year: int) -> pd.DataFrame: #funcao recebe ano
     for row in rows:
         cols = row.find_all("td")
         if len(cols) == 2:
-            produto = cols[0].text.strip() #verifica prod tira espacos
-            quantidade = cols[1].text.strip() ##verifica quant tira espacos
+            product = cols[0].text.strip() #verifica prod tira espacos
+            quantity = cols[1].text.strip() ##verifica quant tira espacos
             data.append({
-                "Ano": year, 
-                "Produto": produto,
-                "Quantidade (L)": quantidade
+                "Year": year, 
+                "Product": product,
+                "Quantity_L": quantity
             })
 
     return pd.DataFrame(data) #adc um dict com os atributos da lista, salva no df
@@ -35,7 +35,7 @@ def save_at_db(df: pd.DataFrame) -> None:
 
     cursor.execute('''
         CREATE TABLE IF NOT EXISTS prod (
-            id INTERGER PRIMARY KEY AUTOINCREMENT,
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
             Year INTEGER,
             Product TEXT, 
             Quantity_L TEXT
