@@ -1,4 +1,9 @@
+tests
+util
+versions
 env
 data_prod.xlsx
 proc_viniferas.xlsx
 vitibrasil.db
+vitibrasil_proc.db
+__pycache__

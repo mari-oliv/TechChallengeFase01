@@ -1,5 +1,6 @@
 from fastapi import APIRouter, Query
 import pandas as pd
+import sqlite3
 
 
 router = APIRouter()
@@ -8,11 +9,22 @@ router = APIRouter()
 @router.get("/producao") #?year=70-2023
 async def get_prod_data(year: int = Query(None, ge=1970, le=2023)): #filtragem de ano
     try:
-        df = pd.read_excel("data_prod.xlsx") #carregando modelo
-        if year:
-            df = df[df["Ano"] == year] #filtra df apenas se passar year
+        conn = sqlite3.connect("vitibrasil.db") #pega o banco
+        cursor = conn.cursor()
 
-        data = df.to_dict(orient="records") #converte para Json
+        if year:
+            query = "SELECT Year, Product, Quantity_L FROM prod WHERE Year = ?"
+            cursor.execute(query, (year,)) #monta a query e executa
+        
+        else:
+            query = "SELECT Year, Product, Quantity_L FROM prod"
+            cursor.execute(query)
+        
+        rows = cursor.fetchall() #pega todos os dados da query
+
+        data = [{"Year": row[0], "Product": row[1], "Quantity_L": row[2]} for row in rows]
+        conn.close() #fecha conexao
+
         return {"success": True, "total": len(data), "data": data}
     
     except Exception as e:
