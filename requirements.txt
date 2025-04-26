@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+requests
+beautifulsoup4
+pydantic
+python-jose
+passlib[bcrypt]
+pandas
+openpyxl
+lxml
