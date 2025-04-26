@@ -1,6 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd
+import sqlite3
 
 
 def get_prod_data_year(year: int) -> pd.DataFrame: #funcao recebe ano
@@ -28,18 +29,31 @@ def get_prod_data_year(year: int) -> pd.DataFrame: #funcao recebe ano
 
     return pd.DataFrame(data) #adc um dict com os atributos da lista, salva no df
 
+def save_at_db(df: pd.DataFrame) -> None:
+    conn = sqlite3.connect("vitibrasil.db")
+    cursor = conn.cursor()
+
+    cursor.execute('''
+        CREATE TABLE IF NOT EXISTS prod (
+            id INTERGER PRIMARY KEY AUTOINCREMENT,
+            Year INTEGER,
+            Product TEXT, 
+            Quantity_L TEXT
+        )
+''')
+    
+    df.to_sql("prod", conn, if_exists="append", index=False)
+
+    conn.commit()
+    conn.close()
+    print("All data saved")
 
 def export_all_years():
-    all_dfs = []
     for year in range(1970, 2024):
         print(f"Extracting data from year {year}")
         df = get_prod_data_year(year) #para cada ano chama a funcao
         if not df.empty:
-            all_dfs.append(df)
-    
-    df_final = pd.concat(all_dfs, ignore_index=True)
-    df_final.to_excel("data_prod.xlsx", index=False)
-    print("All data exported")
+            save_at_db(df)
 
 
 if __name__ == "__main__":
