@@ -58,7 +58,7 @@ def save_at_db_viniferas(df: pd.DataFrame) -> None:
         )
     ''')#cria a table
 
-    df.to_sql("proc_viniferas", conn, if_exists="append", index=False)#dataframe para sql
+    df.to_sql("proc_viniferas_ame_hib", conn, if_exists="append", index=False)#dataframe para sql
 
     conn.commit()
     conn.close()
