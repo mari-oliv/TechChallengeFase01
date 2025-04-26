@@ -40,9 +40,9 @@ def save_at_db(df: pd.DataFrame) -> None:
             Product TEXT, 
             Quantity_L TEXT
         )
-''')
+''')#cria a table
     
-    df.to_sql("prod", conn, if_exists="append", index=False)
+    df.to_sql("prod", conn, if_exists="append", index=False)#dataframe para sql
 
     conn.commit()
     conn.close()
