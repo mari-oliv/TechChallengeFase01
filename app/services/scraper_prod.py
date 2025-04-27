@@ -30,7 +30,7 @@ def get_prod_data_year(year: int) -> pd.DataFrame: #funcao recebe ano
     return pd.DataFrame(data) #adc um dict com os atributos da lista, salva no df
 
 def save_at_db(df: pd.DataFrame) -> None:
-    conn = sqlite3.connect("vitibrasil.db")
+    conn = sqlite3.connect("vitibrasil_prod.db")
     cursor = conn.cursor()
 
     cursor.execute('''
