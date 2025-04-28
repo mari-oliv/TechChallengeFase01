@@ -9,7 +9,7 @@ router = APIRouter()
 @router.get("/producao") #?year=70-2023
 async def get_prod_data(year: int = Query(None, ge=1970, le=2023)): #filtragem de ano
     try:
-        conn = sqlite3.connect("vitibrasil.db") #pega o banco
+        conn = sqlite3.connect("vitibrasil_prod.db") #pega o banco
         cursor = conn.cursor()
 
         if year:
@@ -58,6 +58,7 @@ async def get_viniferas(
 
         query = "SELECT Year, GroupName, Cultive, Quantity_Kg FROM proc_viniferas WHERE 1=1" #query inicial
         params = [] #armazena parametros da query
+
         if year is not None:
             query += " AND Year = ?"
             params.append(year) #adiciona ano a lista dos parametros criada
@@ -109,6 +110,7 @@ async def get_viniferas(
 
         query = "SELECT Year, GroupName, Cultive, Quantity_Kg FROM proc_viniferas_ame_hib WHERE 1=1" #query inicial
         params = [] #armazena parametros da query
+
         if year is not None:
             query += " AND Year = ?"
             params.append(year) #adiciona ano a lista dos parametros criada
@@ -160,6 +162,7 @@ async def get_viniferas(
 
         query = "SELECT Year, GroupName, Cultive, Quantity_Kg FROM proc_viniferas_uvas_mesa WHERE 1=1" #query inicial
         params = [] #armazena parametros da query
+
         if year is not None:
             query += " AND Year = ?"
             params.append(year) #adiciona ano a lista dos parametros criada
@@ -191,6 +194,61 @@ async def get_viniferas(
     
     except Exception as e:
         return {"success": False, "error": str(e)}
+    
+
+#rota da aba processamento, subselecao sem classificacao
+@router.get("/processamento/viniferas/sem_classificacao")
+async def get_viniferas(
+    year: int = Query(None, ge=1970, le=2023),
+    group: str = Query(None),
+    cultive: str = Query(None),
+    quant_min: Optional[str] = Query(None),
+    quant_max: Optional[str] = Query(None)
+):
+    try:
+        quant_min_value = parse_float(quant_min)
+        quant_max_value = parse_float(quant_max)
+
+        conn = sqlite3.connect("vitibrasil_proc.db")
+        cursor = conn.cursor()
+
+        query = "SELECT Year, SemClass, Cultive, Quantity_Kg FROM proc_viniferas_sem_class WHERE 1=1" #query inicial
+        params = [] #lista dos filtros
+
+        if year is not None:
+            query += " AND Year = ?"
+            params.append(year)
+        
+        if group:
+            query += " AND SemClass LIKE ?"
+            params.append(group)
+        
+        if cultive:
+            query += " AND Cultive LIKE ?"
+            params.append(group)
+        
+        if quant_min_value is not None:
+            query += " AND CAST(REPLACE(Quantity_Kg, '.', '') AS REAL) >= ?"
+            params.append(quant_min)
+        
+        if quant_max_value is not None:
+            query += " AND CAST(REPLACE(Quantity_Kg, '.', '') AS REAL) <= ?"
+            params.append(quant_max)
+        
+
+        cursor.execute(query, params)
+        rows = cursor.fetchall()
+
+        data = [{"Year": row[0], "SemClass": row[1], "Cultive": row[2], "Quantity": row[3]} for row in rows]
+        conn.close()
+
+        return {"success": True, "total": len(data), "data": data}
+    
+    except Exception as e:
+        return {"success": False, "error": str(e)}
+    
+
+
     
 
 

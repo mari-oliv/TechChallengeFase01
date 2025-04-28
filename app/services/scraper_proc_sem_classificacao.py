@@ -4,7 +4,7 @@ import pandas as pd
 import sqlite3
 
 def get_proc_viniferas_all_year(year: int) -> pd.DataFrame:
-    URL = f"http://vitibrasil.cnpuv.embrapa.br/index.php?ano={year}&opcao=opt_03&subopcao=subopt_02" #monta url dinamica
+    URL = f"http://vitibrasil.cnpuv.embrapa.br/index.php?ano={year}&opcao=opt_03&subopcao=subopt_04" #monta url dinamica
     response = requests.get(URL)
     response.encoding ='utf-8'
     soup = BeautifulSoup(response.text, "html.parser")
@@ -37,7 +37,7 @@ def get_proc_viniferas_all_year(year: int) -> pd.DataFrame:
 
         data.append({
             "Year": year, 
-            "GroupName": group, 
+            "SemClass": group, 
             "Cultive": cultive,
             "Quantity_Kg": quantity
         })
@@ -49,16 +49,16 @@ def save_at_db_viniferas(df: pd.DataFrame) -> None:
     cursor = conn.cursor()
 
     cursor.execute('''
-        CREATE TABLE IF NOT EXISTS proc_viniferas_ame_hib (
+        CREATE TABLE IF NOT EXISTS proc_viniferas_sem_class (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
             Year INTEGER,
-            GroupName TEXT, 
+            SemClass TEXT, 
             Cultive TEXT,
             Quantity_Kg TEXT
         )
     ''')#cria a table
 
-    df.to_sql("proc_viniferas_ame_hib", conn, if_exists="append", index=False)#dataframe para sql
+    df.to_sql("proc_viniferas_sem_class", conn, if_exists="append", index=False)#dataframe para sql
 
     conn.commit()
     conn.close()
