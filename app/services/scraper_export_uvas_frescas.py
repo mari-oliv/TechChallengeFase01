@@ -34,7 +34,7 @@ def get_export_uvas_frescas(year: int) -> pd.DataFrame:
 
     return pd.DataFrame(data) #salva dados
 
-def save_at_db_importacao(df: pd.DataFrame) -> None:
+def save_at_db_exportacao(df: pd.DataFrame) -> None:
     conn = sqlite3.connect("vitibrasil_export.db")
     cursor = conn.cursor()
 
@@ -61,7 +61,7 @@ def export_all_years_exportacao():
         print(f"Extracting data year: {year}")
         df = get_export_uvas_frescas(year) #chama a function para cada ano 70's - 2024
         if not df.empty:
-            save_at_db_importacao(df)
+            save_at_db_exportacao(df)
     
     
 if __name__ == "__main__":
