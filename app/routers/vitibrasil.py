@@ -31,6 +31,7 @@ async def get_prod_data(year: int = Query(None, ge=1970, le=2023)): #filtragem d
         return {"success": False, "error": str(e)}
     
 
+#funtcion for parsing kg values
 def parse_float(value: Optional[str]) -> Optional[float]:
     if value is None:
         return None
@@ -38,8 +39,7 @@ def parse_float(value: Optional[str]) -> Optional[float]:
         return float(value.replace(",", ".")) #substitui virgula por ponto
     except ValueError:
         return None
-
-
+    
 #rota da aba processamento, subseleção viniferas
 @router.get("/processamento/viniferas")
 async def get_proc_viniferas(
@@ -250,7 +250,7 @@ async def get_proc_sem_class(
 
 #rota da aba comercializacao
 @router.get("/comercializacao")
-async def get_proc_sem_class(
+async def get_comercializacao(
     year: int = Query(None, ge=1970, le=2023),
     group: str = Query(None),
     cultive: str = Query(None),
@@ -299,6 +299,295 @@ async def get_proc_sem_class(
     except Exception as e:
         return {"success": False, "error": str(e)}
     
+
+#rota para aba de importacao de vinhos de mesa
+@router.get("/importacao/vinhos_mesa")
+async def get_impor_vinhos_mesa(
+    year: int = Query(None, ge= 1970, le= 2024),
+    country: str = Query(None),
+    quant_min: Optional[str] = Query(None),
+    quant_max: Optional[str] = Query(None),
+    value_min: Optional[str] = Query(None),
+    value_max: Optional[str] = Query(None)
+):
+    try:
+        quant_min_value = parse_float(quant_min)
+        quant_max_value = parse_float(quant_max)
+        value_max_quant = parse_float(value_max)
+        value_min_quant = parse_float(value_min)
+    
+        conn = sqlite3.connect("vitibrasil_impor.db")
+        cursor = conn.cursor()
+
+        query = "SELECT Year, Country, Quantity_Kg, Value_USD FROM importacao_vinhos WHERE 1=1" #query inicial
+        params = [] #lista dos filtros
+
+        if year is not None:
+            query += " AND Year = ?"
+            params.append(year)
+        
+        if country:
+            query += " AND Country LIKE ?"
+            params.append(country)
+        
+        if quant_min_value is not None:
+            query += " AND CAST(REPLACE(Quantity_Kg, '.', '') AS REAL) >= ?"
+            params.append(quant_min)
+
+        if quant_max_value is not None:
+            query += " AND CAST(REPLACE(Quantity_Kg, '.', '') AS REAL) <= ?"
+            params.append(quant_max)
+        
+        if value_min_quant is not None:
+            query += " AND CAST(REPLACE(Value_USD, '.', '') AS REAL) >= ?"
+            params.append(value_min)
+        
+        if value_max_quant is not None:
+            query += " AND CAST(REPLACE(Value_USD, '.', '') AS REAL) <= ?"
+            params.append(value_max)
+
+        cursor.execute(query, params)
+        rows = cursor.fetchall()
+
+        data = [{"Year": row[0], "Country": row[1], "Quantity_Kg": row[2], "Value_USD": row[3]} for row in rows]
+        conn.close()
+
+        return {"Success": True, "total": len(data), "data": data}
+    
+    except Exception as e:
+        return {"Success": False, "error": str(e)}
+
+
+#rota para aba de importacao de espumantes
+@router.get("/importacao/espumantes")
+async def get_impor_espumantes(
+    year: int = Query(None, ge= 1970, le= 2024),
+    country: str = Query(None),
+    quant_min: Optional[str] = Query(None),
+    quant_max: Optional[str] = Query(None),
+    value_min: Optional[str] = Query(None),
+    value_max: Optional[str] = Query(None)
+):
+    try:
+        quant_min_value = parse_float(quant_min)
+        quant_max_value = parse_float(quant_max)
+        value_max_quant = parse_float(value_max)
+        value_min_quant = parse_float(value_min)
+    
+        conn = sqlite3.connect("vitibrasil_impor.db")
+        cursor = conn.cursor()
+
+        query = "SELECT Year, Country, Quantity_Kg, Value_USD FROM importacao_espumantes WHERE 1=1" #query inicial
+        params = [] #lista dos filtros
+
+        if year is not None:
+            query += " AND Year = ?"
+            params.append(year)
+        
+        if country:
+            query += " AND Country LIKE ?"
+            params.append(country)
+        
+        if quant_min_value is not None:
+            query += " AND CAST(REPLACE(Quantity_Kg, '.', '') AS REAL) >= ?"
+            params.append(quant_min)
+
+        if quant_max_value is not None:
+            query += " AND CAST(REPLACE(Quantity_Kg, '.', '') AS REAL) <= ?"
+            params.append(quant_max)
+        
+        if value_min_quant is not None:
+            query += " AND CAST(REPLACE(Value_USD, '.', '') AS REAL) >= ?"
+            params.append(value_min)
+        
+        if value_max_quant is not None:
+            query += " AND CAST(REPLACE(Value_USD, '.', '') AS REAL) <= ?"
+            params.append(value_max)
+
+        cursor.execute(query, params)
+        rows = cursor.fetchall()
+
+        data = [{"Year": row[0], "Country": row[1], "Quantity_Kg": row[2], "Value_USD": row[3]} for row in rows]
+        conn.close()
+
+        return {"Success": True, "total": len(data), "data": data}
+    
+    except Exception as e:
+        return {"Success": False, "error": str(e)}
+    
+
+#rota para aba de importacao de uvas frescas
+@router.get("/importacao/uvas_frescas")
+async def get_impor_uvas_frescas(
+    year: int = Query(None, ge= 1970, le= 2024),
+    country: str = Query(None),
+    quant_min: Optional[str] = Query(None),
+    quant_max: Optional[str] = Query(None),
+    value_min: Optional[str] = Query(None),
+    value_max: Optional[str] = Query(None)
+):
+    try:
+        quant_min_value = parse_float(quant_min)
+        quant_max_value = parse_float(quant_max)
+        value_max_quant = parse_float(value_max)
+        value_min_quant = parse_float(value_min)
+    
+        conn = sqlite3.connect("vitibrasil_impor.db")
+        cursor = conn.cursor()
+
+        query = "SELECT Year, Country, Quantity_Kg, Value_USD FROM importacao_uvas_frescas WHERE 1=1" #query inicial
+        params = [] #lista dos filtros
+
+        if year is not None:
+            query += " AND Year = ?"
+            params.append(year)
+        
+        if country:
+            query += " AND Country LIKE ?"
+            params.append(country)
+        
+        if quant_min_value is not None:
+            query += " AND CAST(REPLACE(Quantity_Kg, '.', '') AS REAL) >= ?"
+            params.append(quant_min)
+
+        if quant_max_value is not None:
+            query += " AND CAST(REPLACE(Quantity_Kg, '.', '') AS REAL) <= ?"
+            params.append(quant_max)
+        
+        if value_min_quant is not None:
+            query += " AND CAST(REPLACE(Value_USD, '.', '') AS REAL) >= ?"
+            params.append(value_min)
+        
+        if value_max_quant is not None:
+            query += " AND CAST(REPLACE(Value_USD, '.', '') AS REAL) <= ?"
+            params.append(value_max)
+
+        cursor.execute(query, params)
+        rows = cursor.fetchall()
+
+        data = [{"Year": row[0], "Country": row[1], "Quantity_Kg": row[2], "Value_USD": row[3]} for row in rows]
+        conn.close()
+
+        return {"Success": True, "total": len(data), "data": data}
+    
+    except Exception as e:
+        return {"Success": False, "error": str(e)}
+    
+
+#rota para aba de importacao de uvas passas
+@router.get("/importacao/uvas_passas")
+async def get_impor_uvas_passas(
+    year: int = Query(None, ge= 1970, le= 2024),
+    country: str = Query(None),
+    quant_min: Optional[str] = Query(None),
+    quant_max: Optional[str] = Query(None),
+    value_min: Optional[str] = Query(None),
+    value_max: Optional[str] = Query(None)
+):
+    try:
+        quant_min_value = parse_float(quant_min)
+        quant_max_value = parse_float(quant_max)
+        value_max_quant = parse_float(value_max)
+        value_min_quant = parse_float(value_min)
+    
+        conn = sqlite3.connect("vitibrasil_impor.db")
+        cursor = conn.cursor()
+
+        query = "SELECT Year, Country, Quantity_Kg, Value_USD FROM importacao_uvas_passas WHERE 1=1" #query inicial
+        params = [] #lista dos filtros
+
+        if year is not None:
+            query += " AND Year = ?"
+            params.append(year)
+        
+        if country:
+            query += " AND Country LIKE ?"
+            params.append(country)
+        
+        if quant_min_value is not None:
+            query += " AND CAST(REPLACE(Quantity_Kg, '.', '') AS REAL) >= ?"
+            params.append(quant_min)
+
+        if quant_max_value is not None:
+            query += " AND CAST(REPLACE(Quantity_Kg, '.', '') AS REAL) <= ?"
+            params.append(quant_max)
+        
+        if value_min_quant is not None:
+            query += " AND CAST(REPLACE(Value_USD, '.', '') AS REAL) >= ?"
+            params.append(value_min)
+        
+        if value_max_quant is not None:
+            query += " AND CAST(REPLACE(Value_USD, '.', '') AS REAL) <= ?"
+            params.append(value_max)
+
+        cursor.execute(query, params)
+        rows = cursor.fetchall()
+
+        data = [{"Year": row[0], "Country": row[1], "Quantity_Kg": row[2], "Value_USD": row[3]} for row in rows]
+        conn.close()
+
+        return {"Success": True, "total": len(data), "data": data}
+    
+    except Exception as e:
+        return {"Success": False, "error": str(e)}
+
+        
+ #rota para aba de importacao de suco de uva
+@router.get("/importacao/suco_de_uva")
+async def get_impor_suco_de_uva(
+    year: int = Query(None, ge= 1970, le= 2024),
+    country: str = Query(None),
+    quant_min: Optional[str] = Query(None),
+    quant_max: Optional[str] = Query(None),
+    value_min: Optional[str] = Query(None),
+    value_max: Optional[str] = Query(None)
+):
+    try:
+        quant_min_value = parse_float(quant_min)
+        quant_max_value = parse_float(quant_max)
+        value_max_quant = parse_float(value_max)
+        value_min_quant = parse_float(value_min)
+    
+        conn = sqlite3.connect("vitibrasil_impor.db")
+        cursor = conn.cursor()
+
+        query = "SELECT Year, Country, Quantity_Kg, Value_USD FROM importacao_suco_de_uva WHERE 1=1" #query inicial
+        params = [] #lista dos filtros
+
+        if year is not None:
+            query += " AND Year = ?"
+            params.append(year)
+        
+        if country:
+            query += " AND Country LIKE ?"
+            params.append(country)
+        
+        if quant_min_value is not None:
+            query += " AND CAST(REPLACE(Quantity_Kg, '.', '') AS REAL) >= ?"
+            params.append(quant_min)
+
+        if quant_max_value is not None:
+            query += " AND CAST(REPLACE(Quantity_Kg, '.', '') AS REAL) <= ?"
+            params.append(quant_max)
+        
+        if value_min_quant is not None:
+            query += " AND CAST(REPLACE(Value_USD, '.', '') AS REAL) >= ?"
+            params.append(value_min)
+        
+        if value_max_quant is not None:
+            query += " AND CAST(REPLACE(Value_USD, '.', '') AS REAL) <= ?"
+            params.append(value_max)
+
+        cursor.execute(query, params)
+        rows = cursor.fetchall()
+
+        data = [{"Year": row[0], "Country": row[1], "Quantity_Kg": row[2], "Value_USD": row[3]} for row in rows]
+        conn.close()
+
+        return {"Success": True, "total": len(data), "data": data}
+    
+    except Exception as e:
+        return {"Success": False, "error": str(e)}   
 
 
     
