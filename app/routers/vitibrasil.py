@@ -302,7 +302,7 @@ async def get_comercializacao(
 
 #rota para aba de importacao de vinhos de mesa
 @router.get("/importacao/vinhos_mesa")
-async def get_impor_vinhos_mesa(
+async def get_import_vinhos_mesa(
     year: int = Query(None, ge= 1970, le= 2024),
     country: str = Query(None),
     quant_min: Optional[str] = Query(None),
@@ -316,7 +316,7 @@ async def get_impor_vinhos_mesa(
         value_max_quant = parse_float(value_max)
         value_min_quant = parse_float(value_min)
     
-        conn = sqlite3.connect("vitibrasil_impor.db")
+        conn = sqlite3.connect("vitibrasil_import.db")
         cursor = conn.cursor()
 
         query = "SELECT Year, Country, Quantity_Kg, Value_USD FROM importacao_vinhos WHERE 1=1" #query inicial
@@ -360,7 +360,7 @@ async def get_impor_vinhos_mesa(
 
 #rota para aba de importacao de espumantes
 @router.get("/importacao/espumantes")
-async def get_impor_espumantes(
+async def get_import_espumantes(
     year: int = Query(None, ge= 1970, le= 2024),
     country: str = Query(None),
     quant_min: Optional[str] = Query(None),
@@ -374,7 +374,7 @@ async def get_impor_espumantes(
         value_max_quant = parse_float(value_max)
         value_min_quant = parse_float(value_min)
     
-        conn = sqlite3.connect("vitibrasil_impor.db")
+        conn = sqlite3.connect("vitibrasil_import.db")
         cursor = conn.cursor()
 
         query = "SELECT Year, Country, Quantity_Kg, Value_USD FROM importacao_espumantes WHERE 1=1" #query inicial
@@ -418,7 +418,7 @@ async def get_impor_espumantes(
 
 #rota para aba de importacao de uvas frescas
 @router.get("/importacao/uvas_frescas")
-async def get_impor_uvas_frescas(
+async def get_import_uvas_frescas(
     year: int = Query(None, ge= 1970, le= 2024),
     country: str = Query(None),
     quant_min: Optional[str] = Query(None),
@@ -432,7 +432,7 @@ async def get_impor_uvas_frescas(
         value_max_quant = parse_float(value_max)
         value_min_quant = parse_float(value_min)
     
-        conn = sqlite3.connect("vitibrasil_impor.db")
+        conn = sqlite3.connect("vitibrasil_import.db")
         cursor = conn.cursor()
 
         query = "SELECT Year, Country, Quantity_Kg, Value_USD FROM importacao_uvas_frescas WHERE 1=1" #query inicial
@@ -476,7 +476,7 @@ async def get_impor_uvas_frescas(
 
 #rota para aba de importacao de uvas passas
 @router.get("/importacao/uvas_passas")
-async def get_impor_uvas_passas(
+async def get_import_uvas_passas(
     year: int = Query(None, ge= 1970, le= 2024),
     country: str = Query(None),
     quant_min: Optional[str] = Query(None),
@@ -490,7 +490,7 @@ async def get_impor_uvas_passas(
         value_max_quant = parse_float(value_max)
         value_min_quant = parse_float(value_min)
     
-        conn = sqlite3.connect("vitibrasil_impor.db")
+        conn = sqlite3.connect("vitibrasil_import.db")
         cursor = conn.cursor()
 
         query = "SELECT Year, Country, Quantity_Kg, Value_USD FROM importacao_uvas_passas WHERE 1=1" #query inicial
@@ -534,7 +534,7 @@ async def get_impor_uvas_passas(
         
  #rota para aba de importacao de suco de uva
 @router.get("/importacao/suco_de_uva")
-async def get_impor_suco_de_uva(
+async def get_import_suco_de_uva(
     year: int = Query(None, ge= 1970, le= 2024),
     country: str = Query(None),
     quant_min: Optional[str] = Query(None),
@@ -548,7 +548,7 @@ async def get_impor_suco_de_uva(
         value_max_quant = parse_float(value_max)
         value_min_quant = parse_float(value_min)
     
-        conn = sqlite3.connect("vitibrasil_impor.db")
+        conn = sqlite3.connect("vitibrasil_import.db")
         cursor = conn.cursor()
 
         query = "SELECT Year, Country, Quantity_Kg, Value_USD FROM importacao_suco_de_uva WHERE 1=1" #query inicial

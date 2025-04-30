@@ -3,8 +3,8 @@ from bs4 import BeautifulSoup
 import pandas as pd
 import sqlite3
 
-def get_import_espumantes(year: int) -> pd.DataFrame:
-    URL = f"http://vitibrasil.cnpuv.embrapa.br/index.php?ano={year}&opcao=opt_05&subopcao=subopt_02" #monta url dinamica
+def get_import_uvas_passas(year: int) -> pd.DataFrame:
+    URL = f"http://vitibrasil.cnpuv.embrapa.br/index.php?ano={year}&opcao=opt_05&subopcao=subopt_04" #monta url dinamica
     response = requests.get(URL)
     response.encoding ='utf-8'
     soup = BeautifulSoup(response.text, "html.parser")
@@ -35,11 +35,11 @@ def get_import_espumantes(year: int) -> pd.DataFrame:
     return pd.DataFrame(data) #salva dados
 
 def save_at_db_importacao(df: pd.DataFrame) -> None:
-    conn = sqlite3.connect("vitibrasil_impor.db")
+    conn = sqlite3.connect("vitibrasil_import.db")
     cursor = conn.cursor()
 
     cursor.execute('''
-        CREATE TABLE IF NOT EXISTS importacao_espumantes (
+        CREATE TABLE IF NOT EXISTS importacao_uvas_passas (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
             Year INTEGER,
             Country TEXT,
@@ -48,7 +48,7 @@ def save_at_db_importacao(df: pd.DataFrame) -> None:
         )
     ''')#cria a table
 
-    df.to_sql("importacao_espumantes", conn, if_exists="append", index=False)#dataframe para sql
+    df.to_sql("importacao_uvas_passas", conn, if_exists="append", index=False)#dataframe para sql
 
     conn.commit()
     conn.close()
@@ -59,7 +59,7 @@ def export_all_years_importacao():
     
     for year in range(1970, 2025):
         print(f"Extracting data year: {year}")
-        df = get_import_espumantes(year) #chama a function para cada ano 70's - 2024
+        df = get_import_uvas_passas(year) #chama a function para cada ano 70's - 2024
         if not df.empty:
             save_at_db_importacao(df)
     
