@@ -48,7 +48,7 @@ def save_at_db_exportacao(df: pd.DataFrame) -> None:
         )
     ''')#cria a table
 
-    df.to_sql("exportacao_uvas_frescas", conn, if_exists="append", index=False)#dataframe para sql
+    df.to_sql("exportacao_suco_de_uva", conn, if_exists="append", index=False)#dataframe para sql
 
     conn.commit()
     conn.close()
