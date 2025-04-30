@@ -592,7 +592,7 @@ async def get_import_suco_de_uva(
 
  #rota para aba de exportacao vinhos de mesa
 @router.get("/exportacao/vinho_mesa")
-async def get_import_suco_de_uva(
+async def get_export_vinho_mesa(
     year: int = Query(None, ge= 1970, le= 2024),
     country: str = Query(None),
     quant_min: Optional[str] = Query(None),
@@ -646,7 +646,64 @@ async def get_import_suco_de_uva(
     
     except Exception as e:
         return {"Success": False, "error": str(e)}  
+    
 
+ #rota para aba de exportacao espumantes
+@router.get("/exportacao/espumantes")
+async def get_export_espumantes(
+    year: int = Query(None, ge= 1970, le= 2024),
+    country: str = Query(None),
+    quant_min: Optional[str] = Query(None),
+    quant_max: Optional[str] = Query(None),
+    value_min: Optional[str] = Query(None),
+    value_max: Optional[str] = Query(None)
+):
+    try:
+        quant_min_value = parse_float(quant_min)
+        quant_max_value = parse_float(quant_max)
+        value_max_quant = parse_float(value_max)
+        value_min_quant = parse_float(value_min)
+    
+        conn = sqlite3.connect("vitibrasil_export.db")
+        cursor = conn.cursor()
+
+        query = "SELECT Year, Country, Quantity_Kg, Value_USD FROM exportacao_espumantes WHERE 1=1" #query inicial
+        params = [] #lista dos filtros
+
+        if year is not None:
+            query += " AND Year = ?"
+            params.append(year)
+        
+        if country:
+            query += " AND Country LIKE ?"
+            params.append(country)
+        
+        if quant_min_value is not None:
+            query += " AND CAST(REPLACE(Quantity_Kg, '.', '') AS REAL) >= ?"
+            params.append(quant_min)
+
+        if quant_max_value is not None:
+            query += " AND CAST(REPLACE(Quantity_Kg, '.', '') AS REAL) <= ?"
+            params.append(quant_max)
+        
+        if value_min_quant is not None:
+            query += " AND CAST(REPLACE(Value_USD, '.', '') AS REAL) >= ?"
+            params.append(value_min)
+        
+        if value_max_quant is not None:
+            query += " AND CAST(REPLACE(Value_USD, '.', '') AS REAL) <= ?"
+            params.append(value_max)
+
+        cursor.execute(query, params)
+        rows = cursor.fetchall()
+
+        data = [{"Year": row[0], "Country": row[1], "Quantity_Kg": row[2], "Value_USD": row[3]} for row in rows]
+        conn.close()
+
+        return {"Success": True, "total": len(data), "data": data}
+    
+    except Exception as e:
+        return {"Success": False, "error": str(e)} 
 
     
 
