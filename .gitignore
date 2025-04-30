@@ -1,14 +1,1 @@
-tests
-util
-versions
-.venv
-env
-data_prod.xlsx
-proc_viniferas.xlsx
-vitibrasil_prod.db
-vitibrasil_proc.db
-__pycache__
-.vscode
-vitibrasil_comer.db
-vitibrasil_import.db
-vitibrasil_export.db
+
