@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import pandas as pd
 import sqlite3
 
-def get_proc_viniferas_all_year(year: int) -> pd.DataFrame:
+def get_proc_sem_class(year: int) -> pd.DataFrame:
     URL = f"http://vitibrasil.cnpuv.embrapa.br/index.php?ano={year}&opcao=opt_03&subopcao=subopt_04" #monta url dinamica
     response = requests.get(URL)
     response.encoding ='utf-8'
@@ -69,7 +69,7 @@ def export_all_years_viniferas():
     
     for year in range(1970, 2024):
         print(f"Extracting data year: {year}")
-        df = get_proc_viniferas_all_year(year) #chama a function para cada ano 70's - 2024
+        df = get_proc_sem_class(year) #chama a function para cada ano 70's - 2024
         if not df.empty:
             save_at_db_viniferas(df)
     
