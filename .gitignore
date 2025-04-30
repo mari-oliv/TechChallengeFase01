@@ -11,3 +11,4 @@ __pycache__
 .vscode
 vitibrasil_comer.db
 vitibrasil_import.db
+vitibrasil_export.db
