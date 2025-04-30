@@ -55,7 +55,7 @@ def save_at_db_importacao(df: pd.DataFrame) -> None:
     print("All data saved")
 
 
-def export_all_years_importacao():
+def export_all_years_exportacao():
     
     for year in range(1970, 2025):
         print(f"Extracting data year: {year}")
@@ -65,4 +65,4 @@ def export_all_years_importacao():
     
     
 if __name__ == "__main__":
-    export_all_years_importacao()
+    export_all_years_exportacao()

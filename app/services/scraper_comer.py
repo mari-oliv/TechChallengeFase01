@@ -44,7 +44,7 @@ def get_comercializacao(year: int) -> pd.DataFrame:
 
     return pd.DataFrame(data) #salva dados
 
-def save_at_db_viniferas(df: pd.DataFrame) -> None:
+def save_at_db_comercializacao(df: pd.DataFrame) -> None:
     conn = sqlite3.connect("vitibrasil_comer.db")
     cursor = conn.cursor()
 
@@ -65,14 +65,14 @@ def save_at_db_viniferas(df: pd.DataFrame) -> None:
     print("All data saved")
 
 
-def export_all_years_viniferas():
+def export_all_years_comercializacao():
     
     for year in range(1970, 2024):
         print(f"Extracting data year: {year}")
         df = get_comercializacao(year) #chama a function para cada ano 70's - 2024
         if not df.empty:
-            save_at_db_viniferas(df)
+            save_at_db_comercializacao(df)
     
     
 if __name__ == "__main__":
-    export_all_years_viniferas()
+    export_all_years_comercializacao()

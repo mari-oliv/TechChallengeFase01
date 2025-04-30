@@ -34,7 +34,7 @@ def get_export_vinhos_de_mesa(year: int) -> pd.DataFrame:
 
     return pd.DataFrame(data) #salva dados
 
-def save_at_db_importacao(df: pd.DataFrame) -> None:
+def save_at_db_exportacao(df: pd.DataFrame) -> None:
     conn = sqlite3.connect("vitibrasil_export.db")
     cursor = conn.cursor()
 
@@ -55,14 +55,14 @@ def save_at_db_importacao(df: pd.DataFrame) -> None:
     print("All data saved")
 
 
-def export_all_years_importacao():
+def export_all_years_exportacao():
     
     for year in range(1970, 2025):
         print(f"Extracting data year: {year}")
         df = get_export_vinhos_de_mesa(year) #chama a function para cada ano 70's - 2024
         if not df.empty:
-            save_at_db_importacao(df)
+            save_at_db_exportacao(df)
     
     
 if __name__ == "__main__":
-    export_all_years_importacao()
+    export_all_years_exportacao()
