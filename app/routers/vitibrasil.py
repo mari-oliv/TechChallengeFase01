@@ -708,7 +708,7 @@ async def get_export_espumantes(
 
  #rota para aba de exportacao uvas frescas
 @router.get("/exportacao/uvas_frescas")
-async def get_export_espumantes(
+async def get_export_uvas_frescas(
     year: int = Query(None, ge= 1970, le= 2024),
     country: str = Query(None),
     quant_min: Optional[str] = Query(None),
