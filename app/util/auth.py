@@ -1,5 +1,5 @@
 from datetime import datetime, timedelta
-from jose import JWSError, jwt
+from jose import JWTError, jwt
 from fastapi import Depends, HTTPException, status
 from fastapi.security import OAuth2PasswordBearer
 from typing import Optional
@@ -17,4 +17,13 @@ def cria_token(data: dict, expires_delta: Optional[timedelta] = None):
     encode_jwt = jwt.encode(to_encode, SECRET_KEY, algorithm=[ALGORITHM])
     return encode_jwt
 
-def verifica_token(token: str)
+def verifica_token(token: str = Depends(oauth2)):
+    try:
+        payload = jwt.decode(token, SECRET_KEY, algorithms=[ALGORITHM])
+        username: str = payload.get("sub")
+        if username is None:
+            raise HTTPException(status_code=401, detail="O token não é válido")
+        return username
+    except JWTError:
+        raise HTTPException(status_code=401, detail="O token não é válido")
+    
