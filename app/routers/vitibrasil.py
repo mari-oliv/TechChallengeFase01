@@ -1,13 +1,30 @@
-from fastapi import APIRouter, Query
+from fastapi import APIRouter, Query, Depends, HTTPException, Form
 from typing import Optional
 import sqlite3
-
+from app.util.auth import verifica_token
+from app.util.auth import cria_token
 
 router = APIRouter()
 
+
+USER_TEST = {
+    "username": "admin",
+    "password": "admin"
+}
+
+@router.post("/token")
+async def login(username: str = Form(...), password: str = Form(...)):
+    if username != USER_TEST["username"] or password != USER_TEST["password"]:
+        raise HTTPException(status_code=401, detail="As credenciais sao invalidas")
+    
+    access_token = cria_token(data={"sub": username})
+    return {"access_token": access_token, "token_type": "bearer"}
+
+
 #rota da aba produtos
 @router.get("/producao") #?year=70-2023
-async def get_prod_data(year: int = Query(None, ge=1970, le=2023)): #filtragem de ano
+async def get_prod_data(year: int = Query(None, ge=1970, le=2023), #filtragem de ano
+    token_user: str = Depends(verifica_token)):
     try:
         conn = sqlite3.connect("vitibrasil_prod.db") #pega o banco
         cursor = conn.cursor()
