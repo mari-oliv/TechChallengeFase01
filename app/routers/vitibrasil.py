@@ -3,18 +3,49 @@ from typing import Optional
 import sqlite3
 from app.util.auth import verifica_token
 from app.util.auth import cria_token
+from app.util.auth import hash_pass
+from app.util.auth import verifica_pass
 
 router = APIRouter()
 
+#cria usuario para poder capturar token
+@router.post("/signup")
+async def signup(username: str = Form(...), password: str = Form(...)):
+    conn = sqlite3.connect("users.db")
+    cursor = conn.cursor()
 
-USER_TEST = {
-    "username": "admin",
-    "password": "admin"
-}
+    cursor.execute('''
+        CREATE TABLE IF NOT EXISTS users(
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            username TEXT UNIQUE,
+            password TEXT
+        )
+    ''')
 
+    hashed_pw = hash_pass(password)
+
+    try:
+        cursor.execute("INSERT INTO users (username, password) VALUES (?, ?)", (username, hashed_pw))
+        conn.commit()
+    except sqlite3.IntegrityError:
+        conn.close()
+        raise HTTPException(status_code=400, detail="Usuario ja existe no sistema")
+    
+    conn.close()
+    return {"msg": "Usuario criado com sucesso!"}
+
+
+#rota para capturar token
 @router.post("/token")
 async def login(username: str = Form(...), password: str = Form(...)):
-    if username != USER_TEST["username"] or password != USER_TEST["password"]:
+    conn = sqlite3.connect("users.db")
+    cursor = conn.cursor()
+
+    cursor.execute("SELECT password FROM users WHERE username = ?", (username,))
+    result = cursor.fetchone()
+    conn.close()
+
+    if not result or not verifica_pass(password, result[0]):
         raise HTTPException(status_code=401, detail="As credenciais sao invalidas")
     
     access_token = cria_token(data={"sub": username})
@@ -65,7 +96,8 @@ async def get_proc_viniferas(
     cultive: str = Query(None),
     quant_min: Optional[str] = Query(None),
     quant_max: Optional[str] = Query(None)
-):
+,
+token_user: str = Depends(verifica_token)):
     try:
         quant_min_value = parse_float(quant_min)
         quant_max_value = parse_float(quant_max)
@@ -117,7 +149,8 @@ async def get_proc_ame_hib(
     cultive: str = Query(None),
     quant_min: Optional[str] = Query(None),
     quant_max: Optional[str] = Query(None)
-):
+,
+token_user: str = Depends(verifica_token)):
     try:
         quant_min_value = parse_float(quant_min)
         quant_max_value = parse_float(quant_max)
@@ -169,7 +202,8 @@ async def get_proc_uvas_mesa(
     cultive: str = Query(None),
     quant_min: Optional[str] = Query(None),
     quant_max: Optional[str] = Query(None)
-):
+,
+token_user: str = Depends(verifica_token)):
     try:
         quant_min_value = parse_float(quant_min)
         quant_max_value = parse_float(quant_max)
@@ -221,7 +255,8 @@ async def get_proc_sem_class(
     cultive: str = Query(None),
     quant_min: Optional[str] = Query(None),
     quant_max: Optional[str] = Query(None)
-):
+,
+token_user: str = Depends(verifica_token)):
     try:
         quant_min_value = parse_float(quant_min)
         quant_max_value = parse_float(quant_max)
@@ -273,7 +308,8 @@ async def get_comercializacao(
     cultive: str = Query(None),
     quant_min: Optional[str] = Query(None),
     quant_max: Optional[str] = Query(None)
-):
+,
+token_user: str = Depends(verifica_token)):
     try:
         quant_min_value = parse_float(quant_min)
         quant_max_value = parse_float(quant_max)
@@ -326,7 +362,8 @@ async def get_import_vinhos_mesa(
     quant_max: Optional[str] = Query(None),
     value_min: Optional[str] = Query(None),
     value_max: Optional[str] = Query(None)
-):
+,
+token_user: str = Depends(verifica_token)):
     try:
         quant_min_value = parse_float(quant_min)
         quant_max_value = parse_float(quant_max)
@@ -384,7 +421,8 @@ async def get_import_espumantes(
     quant_max: Optional[str] = Query(None),
     value_min: Optional[str] = Query(None),
     value_max: Optional[str] = Query(None)
-):
+,
+token_user: str = Depends(verifica_token)):
     try:
         quant_min_value = parse_float(quant_min)
         quant_max_value = parse_float(quant_max)
@@ -442,7 +480,8 @@ async def get_import_uvas_frescas(
     quant_max: Optional[str] = Query(None),
     value_min: Optional[str] = Query(None),
     value_max: Optional[str] = Query(None)
-):
+,
+token_user: str = Depends(verifica_token)):
     try:
         quant_min_value = parse_float(quant_min)
         quant_max_value = parse_float(quant_max)
@@ -500,7 +539,8 @@ async def get_import_uvas_passas(
     quant_max: Optional[str] = Query(None),
     value_min: Optional[str] = Query(None),
     value_max: Optional[str] = Query(None)
-):
+,
+token_user: str = Depends(verifica_token)):
     try:
         quant_min_value = parse_float(quant_min)
         quant_max_value = parse_float(quant_max)
@@ -558,7 +598,8 @@ async def get_import_suco_de_uva(
     quant_max: Optional[str] = Query(None),
     value_min: Optional[str] = Query(None),
     value_max: Optional[str] = Query(None)
-):
+,
+token_user: str = Depends(verifica_token)):
     try:
         quant_min_value = parse_float(quant_min)
         quant_max_value = parse_float(quant_max)
@@ -616,7 +657,8 @@ async def get_export_vinho_mesa(
     quant_max: Optional[str] = Query(None),
     value_min: Optional[str] = Query(None),
     value_max: Optional[str] = Query(None)
-):
+,
+token_user: str = Depends(verifica_token)):
     try:
         quant_min_value = parse_float(quant_min)
         quant_max_value = parse_float(quant_max)
@@ -674,7 +716,8 @@ async def get_export_espumantes(
     quant_max: Optional[str] = Query(None),
     value_min: Optional[str] = Query(None),
     value_max: Optional[str] = Query(None)
-):
+,
+token_user: str = Depends(verifica_token)):
     try:
         quant_min_value = parse_float(quant_min)
         quant_max_value = parse_float(quant_max)
@@ -732,7 +775,8 @@ async def get_export_uvas_frescas(
     quant_max: Optional[str] = Query(None),
     value_min: Optional[str] = Query(None),
     value_max: Optional[str] = Query(None)
-):
+,
+token_user: str = Depends(verifica_token)):
     try:
         quant_min_value = parse_float(quant_min)
         quant_max_value = parse_float(quant_max)
@@ -790,7 +834,8 @@ async def get_export_uvas_frescas(
     quant_max: Optional[str] = Query(None),
     value_min: Optional[str] = Query(None),
     value_max: Optional[str] = Query(None)
-):
+,
+token_user: str = Depends(verifica_token)):
     try:
         quant_min_value = parse_float(quant_min)
         quant_max_value = parse_float(quant_max)

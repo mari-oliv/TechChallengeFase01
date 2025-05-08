@@ -3,12 +3,23 @@ from jose import JWTError, jwt
 from fastapi import Depends, HTTPException, status
 from fastapi.security import OAuth2PasswordBearer
 from typing import Optional
+from passlib.context import CryptContext
 
 SECRET_KEY = "chave"
 ALGORITHM = "HS256"
 ACCESS_TOKEN_MINUTES = 30
 
 oauth2 = OAuth2PasswordBearer(tokenUrl="/token")
+
+pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
+
+#define
+def hash_pass(password: str) -> str:
+    return pwd_context.hash(password)
+
+#verifies
+def verifica_pass(plain_password: str, hashed_password: str) -> bool:
+    return pwd_context.verify(plain_password, hashed_password)
 
 def cria_token(data: dict, expires_delta: Optional[timedelta] = None):
     to_encode = data.copy()

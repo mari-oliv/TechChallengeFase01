@@ -6,5 +6,5 @@ vitibrasil_prod.db
 env
 tests
 .vscode
-
+users.db
 
