@@ -1,10 +1,10 @@
 from fastapi import APIRouter, Query, Depends, HTTPException, Form
 from typing import Optional
 import sqlite3
-from app.util.auth import verifica_token
-from app.util.auth import cria_token
-from app.util.auth import hash_pass
-from app.util.auth import verifica_pass
+from util.auth import verifica_token
+from util.auth import cria_token
+from util.auth import hash_pass
+from util.auth import verifica_pass
 
 router = APIRouter()
 
