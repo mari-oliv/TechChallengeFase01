@@ -5,35 +5,49 @@ from util.auth import verifica_token
 from util.auth import cria_token
 from util.auth import hash_pass
 from util.auth import verifica_pass
+from core.database_config import init_db
+import logging
+from pydantic import BaseModel
+
+# Configuração de logging
+logging.basicConfig(level=logging.INFO)
+
 
 router = APIRouter()
 
+class UserRequest(BaseModel):
+    username: str
+    password: str
+
+
+@router.get("/")
+async def root():
+    await init_db()
+    return {"msg": "Vitibrasil API is aliiive"}
+
+
+
 #cria usuario para poder capturar token
 @router.post("/signup")
-async def signup(username: str = Form(...), password: str = Form(...)):
+def signup(user: UserRequest):
+    logging.info('Iniciando sign-up')
     conn = sqlite3.connect("users.db")
     cursor = conn.cursor()
 
-    cursor.execute('''
-        CREATE TABLE IF NOT EXISTS users(
-            id INTEGER PRIMARY KEY AUTOINCREMENT,
-            username TEXT UNIQUE,
-            password TEXT
-        )
-    ''')
-
-    hashed_pw = hash_pass(password)
+    hashed_pw = hash_pass(user.password)
 
     try:
-        cursor.execute("INSERT INTO users (username, password) VALUES (?, ?)", (username, hashed_pw))
+        cursor.execute('''
+            INSERT INTO users (username, password) VALUES (?, ?)
+        ''', (user.username, hashed_pw))
         conn.commit()
+        logging.info(f"Usuário {user.username} cadastrado com sucesso.")
+        return {"message": "Usuário cadastrado com sucesso!"}
     except sqlite3.IntegrityError:
+        logging.error(f"Usuário {user.username} já existe.")
+        raise HTTPException(status_code=202, detail="Usuário já existe.")
+    finally:
         conn.close()
-        raise HTTPException(status_code=400, detail="Usuario ja existe no sistema")
-    
-    conn.close()
-    return {"msg": "Usuario criado com sucesso!"}
-
 
 #rota para capturar token
 @router.post("/token")

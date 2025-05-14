@@ -1,0 +1,30 @@
+05/14/2025 10:40:21 AM - INFO - Banco de dados não encontrado. Criando...
+05/14/2025 10:40:21 AM - INFO - Banco de dados criado com sucesso.
+05/14/2025 10:46:46 AM - INFO - Banco de dados já existe.
+05/14/2025 11:26:51 AM - INFO - Banco de dados já existe.
+05/14/2025 11:27:21 AM - INFO - Iniciando sign-up
+05/14/2025 11:27:22 AM - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "/Users/marina.oliveira/Documents/FIAP/projeto1/env/lib/python3.12/site-packages/passlib/handlers/bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+05/14/2025 11:27:23 AM - INFO - Usuário marina cadastrado com sucesso.
+05/14/2025 01:55:11 PM - INFO - Banco de dados já existe.
+05/14/2025 01:55:24 PM - INFO - Iniciando sign-up
+05/14/2025 01:55:24 PM - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "/Users/marina.oliveira/Documents/FIAP/projeto1/env/lib/python3.12/site-packages/passlib/handlers/bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+05/14/2025 01:55:24 PM - ERROR - Usuário marina já existe.
+05/14/2025 02:25:32 PM - INFO - Banco de dados já existe.
+05/14/2025 02:25:42 PM - INFO - Iniciando sign-up
+05/14/2025 02:25:42 PM - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "/Users/marina.oliveira/Documents/FIAP/projeto1/env/lib/python3.12/site-packages/passlib/handlers/bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+05/14/2025 02:25:43 PM - INFO - Usuário marina3 cadastrado com sucesso.

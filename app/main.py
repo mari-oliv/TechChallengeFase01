@@ -1,17 +1,25 @@
 from fastapi import FastAPI
 from routers import vitibrasil
+from core import init_db
 import uvicorn
+import logging
 
 app = FastAPI(
     title="Vitibrasil API",
     version ="1.0.0"
     )
 
-app.include_router(vitibrasil.router)
+logging.basicConfig(
+    level=logging.INFO, 
+    format="%(asctime)s - %(levelname)s - %(message).200s",
+    datefmt='%m/%d/%Y %I:%M:%S %p',
+    handlers=[
+        logging.StreamHandler(),
+        logging.FileHandler(".logs")
+    ]
+)
 
-@app.get("/")
-def root():
-    return {"msg": "Vitibrasil API is aliiive"}
+app.include_router(vitibrasil.router)
 
 def main():
     uvicorn.run(app, host='127.0.0.1', port=8000)
