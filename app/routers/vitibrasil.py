@@ -1,11 +1,11 @@
 from fastapi import APIRouter, Query, Depends, HTTPException, Form
 from typing import Optional
 import sqlite3
-from util.auth import verifica_token
-from util.auth import cria_token
-from util.auth import hash_pass
-from util.auth import verifica_pass
-from core.database_config import init_db
+from app.util.auth import verifica_token
+from app.util.auth import cria_token
+from app.util.auth import hash_pass
+from app.util.auth import verifica_pass
+from app.core.database_config import init_db
 import logging
 from pydantic import BaseModel
 
@@ -22,14 +22,14 @@ class UserRequest(BaseModel):
 
 @router.get("/")
 async def root():
-    await init_db()
     return {"msg": "Vitibrasil API is aliiive"}
 
 
 
 #cria usuario para poder capturar token
 @router.post("/signup")
-def signup(user: UserRequest):
+async def signup(user: UserRequest):
+    await init_db()
     logging.info('Iniciando sign-up')
     conn = sqlite3.connect("users.db")
     cursor = conn.cursor()
@@ -895,13 +895,6 @@ token_user: str = Depends(verifica_token)):
         return {"Success": True, "total": len(data), "data": data}
     
     except Exception as e:
-        return {"Success": False, "error": str(e)} 
-    
+        return {"Success": False, "error": str(e)}
 
-
-    
-
-
-
-    
 

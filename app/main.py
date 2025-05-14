@@ -1,6 +1,6 @@
 from fastapi import FastAPI
-from routers import vitibrasil
-from core import init_db
+from app.routers import vitibrasil
+from app.core import init_db
 import uvicorn
 import logging
 
