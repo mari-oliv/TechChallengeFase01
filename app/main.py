@@ -31,11 +31,3 @@ async def main():
     
 if __name__ == "__main__":
     main()
-
-
-"""
-    @app.get("/users/{user_id}/items/{item_id}")
-async def read_user_item(
-    user_id: int, item_id: str, q: str | None = None, short: bool = False
-):
-"""

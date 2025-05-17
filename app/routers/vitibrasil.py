@@ -65,14 +65,6 @@ async def login(username: str = Form(...), password: str = Form(...)):
     access_token = cria_token(data={"sub": username})
     return {"access_token": access_token, "token_type": "bearer"}
 
-
-"""
-    @app.get("/users/{user_id}/items/{item_id}")
-async def read_user_item(
-    user_id: int, item_id: str, q: str | None = None, short: bool = False
-):
-"""
-
 #rota da aba produtos
 @router.get("/producao/{year}") #?year=70-2023
 async def get_prod_data(
@@ -435,12 +427,13 @@ token_user: str = Depends(verifica_token)):
     except Exception as e:
         return {"Success": False, "error": str(e)}
 
-
+#product: Optional[str] = Query(None),  
 #rota para aba de importacao de espumantes
-@router.get("/importacao/espumantes")
+@router.get("/importacao")
 async def get_import_espumantes(
     year: int = Query(None, ge= 1970, le= 2024),
     country: str = Query(None),
+    product: str = Query(None),
     quant_min: Optional[str] = Query(None),
     quant_max: Optional[str] = Query(None),
     value_min: Optional[str] = Query(None),
@@ -456,7 +449,7 @@ token_user: str = Depends(verifica_token)):
         conn = sqlite3.connect("vitibrasil_import.db")
         cursor = conn.cursor()
 
-        query = "SELECT Year, Country, Quantity_Kg, Value_USD FROM importacao_espumantes WHERE 1=1" #query inicial
+        query = "SELECT Year, Country, Quantity_Kg, Value_USD, Product FROM importacao WHERE 1=1" #query inicial
         params = [] #lista dos filtros
 
         if year is not None:
@@ -466,6 +459,10 @@ token_user: str = Depends(verifica_token)):
         if country:
             query += " AND Country LIKE ?"
             params.append(country)
+            
+        if product:
+            query += " AND Product LIKE ?"
+            params.append(product)
         
         if quant_min_value is not None:
             query += " AND CAST(REPLACE(Quantity_Kg, '.', '') AS REAL) >= ?"
@@ -486,7 +483,7 @@ token_user: str = Depends(verifica_token)):
         cursor.execute(query, params)
         rows = cursor.fetchall()
 
-        data = [{"Year": row[0], "Country": row[1], "Quantity_Kg": row[2], "Value_USD": row[3]} for row in rows]
+        data = [{"Year": row[0], "Country": row[1], "Quantity_Kg": row[2], "Value_USD": row[3], "Product": row[4]} for row in rows]
         conn.close()
 
         return {"Success": True, "total": len(data), "data": data}
