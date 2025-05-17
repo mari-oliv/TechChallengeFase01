@@ -1,0 +1,18 @@
+05/16/2025 10:51:35 PM - ERROR - Form data requires "python-multipart" to be installed. 
+You can install "python-multipart" with: 
+
+pip install python-multipart
+
+05/16/2025 11:08:39 PM - INFO - Banco de dados não encontrado. Criando...
+05/16/2025 11:08:39 PM - INFO - Banco de dados criado com sucesso.
+05/16/2025 11:08:39 PM - INFO - Iniciando sign-up
+05/16/2025 11:08:39 PM - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "/Users/marina.oliveira/Documents/FIAP/PROJETO FINAL TC/TechChallengeFase1/env/lib/python3.12/site-packages/passlib/handlers/bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+05/16/2025 11:08:40 PM - INFO - Usuário admin2 cadastrado com sucesso.
+05/16/2025 11:15:00 PM - INFO - Banco de dados já existe.
+05/16/2025 11:15:00 PM - INFO - Iniciando sign-up
+05/16/2025 11:15:01 PM - INFO - Usuário admin3 cadastrado com sucesso.

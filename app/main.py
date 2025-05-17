@@ -3,6 +3,9 @@ from app.routers import vitibrasil
 from app.core import init_db
 import uvicorn
 import logging
+import nest_asyncio
+
+nest_asyncio.apply()
 
 app = FastAPI(
     title="Vitibrasil API",
@@ -21,12 +24,18 @@ logging.basicConfig(
 
 app.include_router(vitibrasil.router)
 
-def main():
-    uvicorn.run(app, host='127.0.0.1', port=8000)
-    # uvicorn app:main --reload
+async def main():
+    await uvicorn.run(app, host='127.0.0.1', port=5000)
+    # uvicorn app.main:app --reload
         # para testar a api precisa ativar com o comando acima
     
 if __name__ == "__main__":
     main()
 
 
+"""
+    @app.get("/users/{user_id}/items/{item_id}")
+async def read_user_item(
+    user_id: int, item_id: str, q: str | None = None, short: bool = False
+):
+"""

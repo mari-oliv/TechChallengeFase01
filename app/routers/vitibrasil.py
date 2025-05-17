@@ -66,17 +66,27 @@ async def login(username: str = Form(...), password: str = Form(...)):
     return {"access_token": access_token, "token_type": "bearer"}
 
 
+"""
+    @app.get("/users/{user_id}/items/{item_id}")
+async def read_user_item(
+    user_id: int, item_id: str, q: str | None = None, short: bool = False
+):
+"""
+
 #rota da aba produtos
-@router.get("/producao") #?year=70-2023
-async def get_prod_data(year: int = Query(None, ge=1970, le=2023), #filtragem de ano
-    token_user: str = Depends(verifica_token)):
+@router.get("/producao/{year}") #?year=70-2023
+async def get_prod_data(
+    year: int,  # agora é path param
+    product: Optional[str] = Query(None),  # pode ser query param
+    token_user: str = Depends(verifica_token)
+):
     try:
         conn = sqlite3.connect("vitibrasil_prod.db") #pega o banco
         cursor = conn.cursor()
 
         if year:
-            query = "SELECT Year, Product, Quantity_L FROM prod WHERE Year = ?"
-            cursor.execute(query, (year,)) #monta a query e executa
+            query = "SELECT Year, Product, Quantity_L FROM prod WHERE Year = ? AND Product LIKE ?"
+            cursor.execute(query, (year,product)) #monta a query e executa
         
         else:
             query = "SELECT Year, Product, Quantity_L FROM prod"
@@ -261,7 +271,7 @@ token_user: str = Depends(verifica_token)):
         return {"success": False, "error": str(e)}
     
 
-#rota da aba processamento, subselecao sem classificacao
+#rota da aba processamento, subseleção sem classificacao
 @router.get("/processamento/viniferas/sem_classificacao")
 async def get_proc_sem_class(
     year: int = Query(None, ge=1970, le=2023),
@@ -604,6 +614,7 @@ token_user: str = Depends(verifica_token)):
 
         
  #rota para aba de importacao de suco de uva
+
 @router.get("/importacao/suco_de_uva")
 async def get_import_suco_de_uva(
     year: int = Query(None, ge= 1970, le= 2024),
@@ -663,6 +674,7 @@ token_user: str = Depends(verifica_token)):
     
 
  #rota para aba de exportacao vinhos de mesa
+
 @router.get("/exportacao/vinho_mesa")
 async def get_export_vinho_mesa(
     year: int = Query(None, ge= 1970, le= 2024),
@@ -781,6 +793,7 @@ token_user: str = Depends(verifica_token)):
     
 
  #rota para aba de exportacao uvas frescas
+
 @router.get("/exportacao/uvas_frescas")
 async def get_export_uvas_frescas(
     year: int = Query(None, ge= 1970, le= 2024),
@@ -840,6 +853,7 @@ token_user: str = Depends(verifica_token)):
     
 
  #rota para aba de exportacao suco de uva
+
 @router.get("/exportacao/suco_de_uva")
 async def get_export_uvas_frescas(
     year: int = Query(None, ge= 1970, le= 2024),
