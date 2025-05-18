@@ -2,44 +2,52 @@ import requests
 from bs4 import BeautifulSoup
 import pandas as pd
 import sqlite3
-from app.core import save_at_db_importacao
+from app.core import save_data
 import logging
 
 def get_import_espumantes(year: int) -> pd.DataFrame:
-    all_data = []
-    for idx in range(5):
-        logging.info(idx)
-        URL = f"http://vitibrasil.cnpuv.embrapa.br/index.php?ano={year}&opcao=opt_{idx}&subopcao=subopt_05"
+    import_data = []
+    for option in range(5):
+        URL = f"http://vitibrasil.cnpuv.embrapa.br/index.php?ano={year}&opcao=opt_{option}&subopcao=subopt_05"
         response = requests.get(URL)
-        response.encoding ='utf-8'
-        soup = BeautifulSoup(response.text, "html.parser")
+        if response.status_code != 202 or response.status_code != 200:
+            response.encoding ='utf-8'
+            
+            soup = BeautifulSoup(response.text, "html.parser")
+            
+            with open("meuarquivo.txt", "w", encoding="utf-8") as f:
+                f.write(soup.prettify())
 
-        table = soup.find("table", class_="tb_base tb_dados")
-        product_tag = soup.find("button", class_='btn_sopt')
-        product = product_tag.text.strip() if product_tag else None
+            table = soup.find("table", class_="tb_base tb_dados")
+            
+            product_tag = soup.find("button", class_='btn_sopt')
+            
+            product = product_tag.text.strip() if product_tag else None
 
-        if not table:
-            continue  # pula para o próximo idx
-
-        rows = table.find_all("tr")
-        for row in rows:
-            cols = row.find_all("td")
-            if len(cols) != 3:
+            if not table:
                 continue
 
-            country = cols[0].text.strip()
-            quantity = cols[1].text.strip()
-            value = cols[2].text.strip()
+            rows = table.find_all("tr")
+            for row in rows:
+                cols = row.find_all("td")
+                if len(cols) != 3:
+                    continue
 
-            all_data.append({
-                "Year": year,
-                "Country": country, 
-                "Quantity_Kg": quantity, 
-                "Value_USD": value,
-                "Product": product
-            })
-
-    return pd.DataFrame(all_data) #salva dados
+                country = cols[0].text.strip()
+                quantity = cols[1].text.strip()
+                value = cols[2].text.strip()
+                
+                import_data.append({
+                    "Year": year,
+                    "Country": country, 
+                    "Quantity_Kg": quantity, 
+                    "Value_USD": value,
+                    "Product": product,
+                    "Page": "importacao"
+                })
+            else:
+                logging.error('failed to connect: Vitibrasil website')
+    return pd.DataFrame(import_data)
 
 """def save_at_db_importacao(df: pd.DataFrame) -> None:
     conn = sqlite3.connect("vitibrasil_import.db")
@@ -64,13 +72,21 @@ def get_import_espumantes(year: int) -> pd.DataFrame:
 """
 
 def export_all_years_importacao():
-    
+    all_data = []
     for year in range(1970, 2025):
         print(f"Extracting data year: {year}")
-        all_data = get_import_espumantes(year) #chama a function para cada ano 70's - 2024
-        if not all_data.empty:
-            logging.info('salvando no banco')
-            save_at_db_importacao(all_data)
+        df = get_import_espumantes(year)
+        logging.info('checking df: %s',df)
+        if not df.empty:
+            all_data.append(df)
+            logging.info('Data saved on import table')
+        else:
+            logging.error('Error: data not saved on import table')
+            
+    if all_data:
+        logging.info('Data: %s', all_data)
+        final_df = pd.concat(all_data, ignore_index=True)
+        save_data(final_df, table="importacao")
     
     
 if __name__ == "__main__":

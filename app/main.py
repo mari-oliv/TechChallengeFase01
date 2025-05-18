@@ -25,6 +25,7 @@ logging.basicConfig(
 app.include_router(vitibrasil.router)
 
 async def main():
+    init_db()
     await uvicorn.run(app, host='127.0.0.1', port=5000)
     # uvicorn app.main:app --reload
         # para testar a api precisa ativar com o comando acima
