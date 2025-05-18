@@ -6,7 +6,7 @@ from app.core import init_db
 import logging
 import os
 
-def get_import_espumantes(year: int, option: int) -> pd.DataFrame:
+def get_import(year: int, option: int) -> pd.DataFrame:
     data = []   
     URL = f"http://vitibrasil.cnpuv.embrapa.br/index.php?ano={year}&opcao=opt_05&subopcao=subopt_0{option}"
     #logging.info('url %s', URL)
@@ -19,8 +19,11 @@ def get_import_espumantes(year: int, option: int) -> pd.DataFrame:
     if not table: #se nao encontrar nao teve prod esse ano 'vazio'
         return pd.DataFrame()
 
-    product_tag = soup.find("button", class_="btn_sopt")
-    product = product_tag.text.strip() if product_tag else None
+    product_tags = soup.find_all("button", class_="btn_sopt")
+    if len(product_tags) >= option:
+        product = product_tags[option-1].text.strip()
+    else:
+        product = None
     
     rows = table.find_all("tr")
     for row in rows:
@@ -60,20 +63,19 @@ def save_at_db_importacao(df: pd.DataFrame) -> None:
 
     conn.commit()
     conn.close()
-    print("All data saved")
+    logging.info("All data saved")
 
 def export_all_years_importacao():
     all_data = []
     for year in range(1970, 2025):
-        print(f"Extracting data year: {year}")
+        logging.info(f"Extracting data year: {year}")
         for option in range(1,5):
-            df = get_import_espumantes(year,option)
-            all_data.append(df)
-    if not df.empty:
-        save_at_db_importacao(df)
-        logging.info('Data saved on import table')
-    else:
-        logging.error('data not saved on import table because is empty')
+            df = get_import(year,option)
+            if not df.empty:
+                save_at_db_importacao(df)
+            else:
+                logging.error('data not saved on import table because is empty')
+                return {'error': 'não foi possível coletar as informações'}
 
 if __name__ == "__main__":
     export_all_years_importacao()
