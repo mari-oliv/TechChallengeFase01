@@ -1,1 +1,1 @@
-from app.core.database_config import init_db, save_data
+from app.core.database_config import init_db

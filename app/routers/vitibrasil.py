@@ -446,7 +446,7 @@ token_user: str = Depends(verifica_token)):
         value_max_quant = parse_float(value_max)
         value_min_quant = parse_float(value_min)
     
-        conn = sqlite3.connect("vitibrasil_import.db")
+        conn = sqlite3.connect("vitibrasil.db")
         cursor = conn.cursor()
 
         query = "SELECT Year, Country, Quantity_Kg, Value_USD, Product FROM importacao WHERE 1=1" #query inicial
