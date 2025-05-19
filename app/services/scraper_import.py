@@ -96,7 +96,7 @@ def save_data_db(df: pd.DataFrame) -> None:
 
 def scrap_importacao() -> None:
     """
-    Executa o scraping para todos os anos e opções de produto, salvando os dados no banco de dados.
+    Executa o scraping para todos os anos e opções de produto da página importação, salvando os dados no banco de dados.
 
     Parâmetros:
         None
