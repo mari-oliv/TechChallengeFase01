@@ -91,7 +91,7 @@ def save_data_db(df: pd.DataFrame) -> None:
     conn.close()
 
 
-def scrap_comercializacao():
+def scrap_comercializacao() -> None:
     """
     Executa o scraping na aba comercialização, para todos os anos e salva no banco de dados.
 

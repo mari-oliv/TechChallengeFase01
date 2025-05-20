@@ -111,7 +111,7 @@ def save_data_db(df: pd.DataFrame) -> None:
     conn.close()
 
 
-def scrap_processamento():
+def scrap_processamento() -> None:
     """
     Executa o scraping para todos os anos e opções de produto da página processamento, salvando os dados no banco de dados.
 
