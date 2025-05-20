@@ -18,7 +18,7 @@ logging.basicConfig(
     datefmt='%d/%m/%Y %I:%M:%S %p',
     handlers=[
         logging.StreamHandler(),
-        logging.FileHandler(".logs")
+        logging.FileHandler("app/logs/.logs")
     ]
 )
 

@@ -6,15 +6,12 @@ from app.util.auth import cria_token
 from app.util.auth import hash_pass
 from app.util.auth import verifica_pass
 from app.core.database_config import init_db
+from app.core.logging_config import logging_config
 import logging
 from pydantic import BaseModel
 
-# Configuração de logging
-logging.basicConfig(level=logging.INFO)
-
-
 router = APIRouter()
-
+logging_config()
 class UserRequest(BaseModel):
     username: str
     password: str
@@ -73,11 +70,11 @@ async def get_prod_data(
     token_user: str = Depends(verifica_token)
 ):
     try:
-        conn = sqlite3.connect("vitibrasil_prod.db") #pega o banco
+        conn = sqlite3.connect("vitibrasil.db") #pega o banco
         cursor = conn.cursor()
 
         if year:
-            query = "SELECT Year, Product, Quantity_L FROM prod WHERE Year = ? AND Product LIKE ?"
+            query = "SELECT Year, Product, Quantity_L FROM producao WHERE Year = ? AND Product LIKE ?"
             cursor.execute(query, (year,product)) #monta a query e executa
         
         else:
@@ -118,10 +115,10 @@ token_user: str = Depends(verifica_token)):
         quant_min_value = parse_float(quant_min)
         quant_max_value = parse_float(quant_max)
 
-        conn = sqlite3.connect("vitibrasil_proc.db")
+        conn = sqlite3.connect("vitibrasil.db")
         cursor = conn.cursor()
 
-        query = "SELECT Year, GroupName, Cultive, Quantity_Kg FROM proc_viniferas WHERE 1=1" #query inicial
+        query = "SELECT Year, GroupName, Cultive, Quantity_Kg FROM processamento WHERE 1=1" #query inicial
         params = [] #armazena parametros da query
 
         if year is not None:
@@ -171,10 +168,10 @@ token_user: str = Depends(verifica_token)):
         quant_min_value = parse_float(quant_min)
         quant_max_value = parse_float(quant_max)
 
-        conn = sqlite3.connect("vitibrasil_proc.db")
+        conn = sqlite3.connect("vitibrasil.db")
         cursor = conn.cursor()
 
-        query = "SELECT Year, GroupName, Cultive, Quantity_Kg FROM proc_viniferas_ame_hib WHERE 1=1" #query inicial
+        query = "SELECT Year, GroupName, Cultive, Quantity_Kg FROM processamento WHERE 1=1" #query inicial
         params = [] #armazena parametros da query
 
         if year is not None:
@@ -224,10 +221,10 @@ token_user: str = Depends(verifica_token)):
         quant_min_value = parse_float(quant_min)
         quant_max_value = parse_float(quant_max)
 
-        conn = sqlite3.connect("vitibrasil_proc.db")
+        conn = sqlite3.connect("vitibrasil.db")
         cursor = conn.cursor()
 
-        query = "SELECT Year, GroupName, Cultive, Quantity_Kg FROM proc_viniferas_uvas_mesa WHERE 1=1" #query inicial
+        query = "SELECT Year, GroupName, Cultive, Quantity_Kg FROM processamento WHERE 1=1" #query inicial
         params = [] #armazena parametros da query
 
         if year is not None:
@@ -277,10 +274,10 @@ token_user: str = Depends(verifica_token)):
         quant_min_value = parse_float(quant_min)
         quant_max_value = parse_float(quant_max)
 
-        conn = sqlite3.connect("vitibrasil_proc.db")
+        conn = sqlite3.connect("vitibrasil.db")
         cursor = conn.cursor()
 
-        query = "SELECT Year, SemClass, Cultive, Quantity_Kg FROM proc_viniferas_sem_class WHERE 1=1" #query inicial
+        query = "SELECT Year, SemClass, Cultive, Quantity_Kg FROM processamento WHERE 1=1" #query inicial
         params = [] #lista dos filtros
 
         if year is not None:
@@ -330,7 +327,7 @@ token_user: str = Depends(verifica_token)):
         quant_min_value = parse_float(quant_min)
         quant_max_value = parse_float(quant_max)
 
-        conn = sqlite3.connect("vitibrasil_comer.db")
+        conn = sqlite3.connect("vitibrasil.db")
         cursor = conn.cursor()
 
         query = "SELECT Year, GroupName, Cultive, Quantity_L FROM comercializacao WHERE 1=1" #query inicial
@@ -386,10 +383,10 @@ token_user: str = Depends(verifica_token)):
         value_max_quant = parse_float(value_max)
         value_min_quant = parse_float(value_min)
     
-        conn = sqlite3.connect("vitibrasil_import.db")
+        conn = sqlite3.connect("vitibrasil.db")
         cursor = conn.cursor()
 
-        query = "SELECT Year, Country, Quantity_Kg, Value_USD FROM importacao_vinhos WHERE 1=1" #query inicial
+        query = "SELECT Year, Country, Quantity_Kg, Value_USD FROM importacao WHERE 1=1" #query inicial
         params = [] #lista dos filtros
 
         if year is not None:
@@ -509,10 +506,10 @@ token_user: str = Depends(verifica_token)):
         value_max_quant = parse_float(value_max)
         value_min_quant = parse_float(value_min)
     
-        conn = sqlite3.connect("vitibrasil_import.db")
+        conn = sqlite3.connect("vitibrasil.db")
         cursor = conn.cursor()
 
-        query = "SELECT Year, Country, Quantity_Kg, Value_USD FROM importacao_uvas_frescas WHERE 1=1" #query inicial
+        query = "SELECT Year, Country, Quantity_Kg, Value_USD FROM importacao WHERE 1=1" #query inicial
         params = [] #lista dos filtros
 
         if year is not None:
@@ -568,10 +565,10 @@ token_user: str = Depends(verifica_token)):
         value_max_quant = parse_float(value_max)
         value_min_quant = parse_float(value_min)
     
-        conn = sqlite3.connect("vitibrasil_import.db")
+        conn = sqlite3.connect("vitibrasil.db")
         cursor = conn.cursor()
 
-        query = "SELECT Year, Country, Quantity_Kg, Value_USD FROM importacao_uvas_passas WHERE 1=1" #query inicial
+        query = "SELECT Year, Country, Quantity_Kg, Value_USD FROM importacao WHERE 1=1" #query inicial
         params = [] #lista dos filtros
 
         if year is not None:
@@ -628,10 +625,10 @@ token_user: str = Depends(verifica_token)):
         value_max_quant = parse_float(value_max)
         value_min_quant = parse_float(value_min)
     
-        conn = sqlite3.connect("vitibrasil_import.db")
+        conn = sqlite3.connect("vitibrasil.db")
         cursor = conn.cursor()
 
-        query = "SELECT Year, Country, Quantity_Kg, Value_USD FROM importacao_suco_de_uva WHERE 1=1" #query inicial
+        query = "SELECT Year, Country, Quantity_Kg, Value_USD FROM importacao WHERE 1=1" #query inicial
         params = [] #lista dos filtros
 
         if year is not None:
@@ -688,10 +685,10 @@ token_user: str = Depends(verifica_token)):
         value_max_quant = parse_float(value_max)
         value_min_quant = parse_float(value_min)
     
-        conn = sqlite3.connect("vitibrasil_export.db")
+        conn = sqlite3.connect("vitibrasil.db")
         cursor = conn.cursor()
 
-        query = "SELECT Year, Country, Quantity_Kg, Value_USD FROM exportacao_vinhos WHERE 1=1" #query inicial
+        query = "SELECT Year, Country, Quantity_Kg, Value_USD FROM exportacoes WHERE 1=1" #query inicial
         params = [] #lista dos filtros
 
         if year is not None:
@@ -747,10 +744,10 @@ token_user: str = Depends(verifica_token)):
         value_max_quant = parse_float(value_max)
         value_min_quant = parse_float(value_min)
     
-        conn = sqlite3.connect("vitibrasil_export.db")
+        conn = sqlite3.connect("vitibrasil.db")
         cursor = conn.cursor()
 
-        query = "SELECT Year, Country, Quantity_Kg, Value_USD FROM exportacao_espumantes WHERE 1=1" #query inicial
+        query = "SELECT Year, Country, Quantity_Kg, Value_USD FROM exportacoes WHERE 1=1" #query inicial
         params = [] #lista dos filtros
 
         if year is not None:
@@ -807,10 +804,10 @@ token_user: str = Depends(verifica_token)):
         value_max_quant = parse_float(value_max)
         value_min_quant = parse_float(value_min)
     
-        conn = sqlite3.connect("vitibrasil_export.db")
+        conn = sqlite3.connect("vitibrasil.db")
         cursor = conn.cursor()
 
-        query = "SELECT Year, Country, Quantity_Kg, Value_USD FROM exportacao_uvas_frescas WHERE 1=1" #query inicial
+        query = "SELECT Year, Country, Quantity_Kg, Value_USD FROM exportacao WHERE 1=1" #query inicial
         params = [] #lista dos filtros
 
         if year is not None:
@@ -867,10 +864,10 @@ token_user: str = Depends(verifica_token)):
         value_max_quant = parse_float(value_max)
         value_min_quant = parse_float(value_min)
     
-        conn = sqlite3.connect("vitibrasil_export.db")
+        conn = sqlite3.connect("vitibrasil.db")
         cursor = conn.cursor()
 
-        query = "SELECT Year, Country, Quantity_Kg, Value_USD FROM exportacao_suco_de_uva WHERE 1=1" #query inicial
+        query = "SELECT Year, Country, Quantity_Kg, Value_USD FROM exportacoes WHERE 1=1" #query inicial
         params = [] #lista dos filtros
 
         if year is not None:
