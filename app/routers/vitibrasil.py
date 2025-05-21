@@ -9,6 +9,7 @@ from app.core.database_config import init_db
 from app.core.logging_config import logging_config
 import logging
 from pydantic import BaseModel
+from app.services.scraper_producao import get_producao
 
 router = APIRouter()
 logging_config()
@@ -20,7 +21,6 @@ class UserRequest(BaseModel):
 @router.get("/")
 async def root():
     return {"msg": "Vitibrasil API is aliiive"}
-
 
 
 #cria usuario para poder capturar token
@@ -62,6 +62,7 @@ async def login(username: str = Form(...), password: str = Form(...)):
     access_token = cria_token(data={"sub": username})
     return {"access_token": access_token, "token_type": "bearer"}
 
+
 #rota da aba produtos
 @router.get("/producao/{year}") #?year=70-2023
 async def get_prod_data(
@@ -70,27 +71,41 @@ async def get_prod_data(
     token_user: str = Depends(verifica_token)
 ):
     try:
+        #raise Exception("Simulação de site offline")
+        df = get_producao(year)
+        data = df.to_dict(orient="records")
+        logging.info("Dados do site coletados com sucesso")
+        if product:
+            filtered_data = [row for row in data if row.get("Product") and product.lower() in row["Product"].lower()]
+            return {"success": True, "total": len(filtered_data), "data": filtered_data}
+        return {"success": True, "total": len(data), "data": data}
+    except Exception as e:
+        logging.error(f"Erro ao capturar dados do banco: {e}")
+        return {"Success": False, "error": str(e)}
+    except:
+        logging.info("Erro ao capturar dados do site, tentando coletar do banco")
         conn = sqlite3.connect("vitibrasil.db") #pega o banco
         cursor = conn.cursor()
 
-        if year:
+        if year and product:
+            logging.info(f"Capturando dados do banco para o ano {year} e produto {product}")
             query = "SELECT Year, Product, Quantity_L FROM producao WHERE Year = ? AND Product LIKE ?"
             cursor.execute(query, (year,product)) #monta a query e executa
         
         else:
-            query = "SELECT Year, Product, Quantity_L FROM prod"
-            cursor.execute(query)
-        
+            query = "SELECT Year, Product, Quantity_L FROM producao WHERE Year = ?"
+            cursor.execute(query,(year,))
+
         rows = cursor.fetchall() #pega todos os dados da query
 
-        data = [{"Year": row[0], "Product": row[1], "Quantity_L": row[2]} for row in rows]
-        conn.close() #fecha conexao
+        if not rows:
+            logging.warning("Consulta ao banco realizada, mas nenhum dado encontrado.")
+            conn.close()
+            return {"success": True, "total": 0, "data": [], "message": "Nenhum dado encontrado no banco para os filtros informados."}
 
+        data = [{"Year": row[0], "Product": row[1], "Quantity_L": row[2]} for row in rows]
+        conn.close()
         return {"success": True, "total": len(data), "data": data}
-    
-    except Exception as e:
-        return {"success": False, "error": str(e)}
-    
 
 #funtcion for parsing kg values
 def parse_float(value: Optional[str]) -> Optional[float]:

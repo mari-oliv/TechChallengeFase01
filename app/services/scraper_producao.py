@@ -18,6 +18,7 @@ def get_producao(year: int) -> pd.DataFrame: #funcao recebe ano
     """
     URL = f"http://vitibrasil.cnpuv.embrapa.br/index.php?ano={year}&opcao=opt_02" #monta a url dinamica
     try:
+        logging.info("Acessando o site Vitibrasil")
         response = requests.get(URL)
         response.raise_for_status()
         response.encoding = 'utf-8' 

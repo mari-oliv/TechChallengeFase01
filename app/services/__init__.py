@@ -1,0 +1,1 @@
+from app.services.scraper_producao import get_producao
