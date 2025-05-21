@@ -21,11 +21,13 @@ def get_processamento(year: int, option: int) -> pd.DataFrame:
     Retorna:
         pd.DataFrame: Dados coletados do site para o ano e opção informados.
     """
+    logging.info("Iniciando scraping de processamento.")
     URL = f"http://vitibrasil.cnpuv.embrapa.br/index.php?ano={year}&opcao=opt_03&subopcao=subopt_0{option}"
     try:
         response = requests.get(URL,timeout=15)
         response.raise_for_status()
         response.encoding ='utf-8'
+        logging.info("Acesso ao site bem-sucedido.")
     except Exception as e:
         logging.error(f"Erro ao acessar {URL}: {e}")
         return pd.DataFrame()
@@ -48,6 +50,7 @@ def get_processamento(year: int, option: int) -> pd.DataFrame:
     data = []
 
     group = None
+    col_sem_definicao = table.find_all("th",class_="tb_base tb_dados", string="Sem definição ")
 
     for row in rows:
         cols = row.find_all("td")
@@ -66,7 +69,8 @@ def get_processamento(year: int, option: int) -> pd.DataFrame:
         else:
             continue
         
-        if group == 'Sem definição':
+        #logging.info(col_sem_definicao)
+        if col_sem_definicao != []:
             data.append({
                 "Year": year, 
                 "GroupName": group
@@ -124,7 +128,7 @@ def scrap_processamento() -> None:
     now = datetime.now().year
     for year in range(1970, now):
         logging.info(f"Extracting data year: {year}")
-        for option in range(1,4):  
+        for option in range(1,5):  
             df = get_processamento(year,option)
             if not df.empty:
                 save_data_db(df)

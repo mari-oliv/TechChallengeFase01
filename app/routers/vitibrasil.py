@@ -10,6 +10,7 @@ from app.core.logging_config import logging_config
 import logging
 from pydantic import BaseModel
 from app.services.scraper_producao import get_producao
+from app.services.scraper_processamento import get_processamento
 
 router = APIRouter()
 logging_config()
@@ -117,8 +118,9 @@ def parse_float(value: Optional[str]) -> Optional[float]:
         return None
     
 #rota da aba processamento, subseleção viniferas
-@router.get("/processamento/viniferas")
-async def get_proc_viniferas(
+@router.get("/processamento/")
+async def processamento(
+    product: Optional[str] = Query(None),
     year: int = Query(None, ge=1970, le=2023),
     group: str = Query(None),
     cultive: str = Query(None),
@@ -126,7 +128,30 @@ async def get_proc_viniferas(
     quant_max: Optional[str] = Query(None)
 ,
 token_user: str = Depends(verifica_token)):
+    if product == 'Viníferas':
+        option = 1
+    elif product == 'Uvas de mesa':
+        option = 2 
+    elif product == 'Americanas e Híbridas':
+        option = 3
+    elif product == 'Sem Classificação':
+        option = 4
+    elif product == None:
+        for i in range(1, 5):
+            option = i
+    else:
+        pass
+    
     try:
+        df = get_processamento(year,option)
+        data = df.to_dict(orient="records")
+        logging.info("Dados do site coletados com sucesso")
+        return {"success": True, "total": len(data), "data": data}
+    except Exception as e:
+        logging.error(f"Erro ao capturar dados do banco: {e}")
+        return {"Success": False, "error": str(e)}
+    except:
+        logging.error("Erro ao capturar dados do site, tentando coletar do banco")
         quant_min_value = parse_float(quant_min)
         quant_max_value = parse_float(quant_max)
 
@@ -140,19 +165,28 @@ token_user: str = Depends(verifica_token)):
             query += " AND Year = ?"
             params.append(year) #adiciona ano a lista dos parametros criada
 
-        if group:
-            query += " AND GroupName LIKE ?"
-            params.append(f"%{group}%") #adiciona grupo a lista dos parametros criada, utilizando o LIKE para nao precisar ser identico
+        if year and product:
+            query += "AND Year = ? AND Product LIKE ?"
+            params.append(year)
+            params.append(f"%{product}%")
 
-        if cultive:
+        if group is not None:
+            query += " AND GroupName LIKE ?"
+            params.append(f"%{group}%") #adiciona grupo a lista dos parametros criada, utilizando o LIKE ara #nao precisar ser identico
+
+        if cultive is not None:
             query += " AND Cultive LIKE ?"
             params.append(f"%{cultive}%")
 
-        if quant_min_value is not None:
+        if product is not None:
+            query += " AND Product LIKE ?"
+            params.append(f"%{product}%")
+            
+        if quant_min is not None and quant_min != "":
             query += " AND CAST(REPLACE(Quantity_Kg, '.', '') AS REAL) >= ?"
             params.append(quant_min)
 
-        if quant_max_value is not None:
+        if quant_max is not None and quant_max != "":
             query += " AND CAST(REPLACE(Quantity_Kg, '.', '') AS REAL) <= ?"
             params.append(quant_max)
             
@@ -164,9 +198,6 @@ token_user: str = Depends(verifica_token)):
         conn.close() #fecha conexao
         
         return {"success": True, "total": len(data), "data": data}
-    
-    except Exception as e:
-        return {"success": False, "error": str(e)}
 
 
 #rota da aba processamento, subseleção americanas e hibridas

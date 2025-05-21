@@ -1153,3 +1153,3198 @@ AttributeError: module 'bcrypt' has no attribute '__about__'
 05/20/2025 09:52:08 PM - INFO - Dados do site coletados com sucesso
 05/20/2025 09:52:17 PM - INFO - Acessando o site Vitibrasil
 05/20/2025 09:52:22 PM - INFO - Dados do site coletados com sucesso
+05/20/2025 10:02:25 PM - INFO - Extracting data year: 1970
+05/20/2025 10:02:30 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:02:36 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:02:41 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:02:41 PM - INFO - Extracting data year: 1971
+05/20/2025 10:02:46 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:02:51 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:02:56 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:02:56 PM - INFO - Extracting data year: 1972
+05/20/2025 10:03:01 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:03:06 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:03:12 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:03:12 PM - INFO - Extracting data year: 1973
+05/20/2025 10:03:17 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:03:22 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:03:27 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:03:27 PM - INFO - Extracting data year: 1974
+05/20/2025 10:03:32 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:03:37 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:03:43 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:03:43 PM - INFO - Extracting data year: 1975
+05/20/2025 10:03:48 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:03:53 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:03:58 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:03:58 PM - INFO - Extracting data year: 1976
+05/20/2025 10:04:03 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:04:09 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:04:14 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:04:14 PM - INFO - Extracting data year: 1977
+05/20/2025 10:04:19 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:04:24 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:04:29 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:04:29 PM - INFO - Extracting data year: 1978
+05/20/2025 10:04:35 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:04:40 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:04:46 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:04:46 PM - INFO - Extracting data year: 1979
+05/20/2025 10:04:51 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:04:56 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:05:01 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:05:01 PM - INFO - Extracting data year: 1980
+05/20/2025 10:05:06 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:05:11 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:05:16 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:05:16 PM - INFO - Extracting data year: 1981
+05/20/2025 10:05:21 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:05:27 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:05:32 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:05:32 PM - INFO - Extracting data year: 1982
+05/20/2025 10:05:37 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:05:42 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:05:47 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:05:47 PM - INFO - Extracting data year: 1983
+05/20/2025 10:05:52 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:05:57 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:06:02 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:06:02 PM - INFO - Extracting data year: 1984
+05/20/2025 10:06:08 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:06:13 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:06:18 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:06:18 PM - INFO - Extracting data year: 1985
+05/20/2025 10:06:23 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:06:28 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:06:33 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:06:33 PM - INFO - Extracting data year: 1986
+05/20/2025 10:06:38 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:06:44 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:06:49 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:06:49 PM - INFO - Extracting data year: 1987
+05/20/2025 10:06:54 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:06:59 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:07:04 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:07:04 PM - INFO - Extracting data year: 1988
+05/20/2025 10:07:10 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:07:15 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:07:20 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:07:20 PM - INFO - Extracting data year: 1989
+05/20/2025 10:07:25 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:07:30 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:07:35 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:07:35 PM - INFO - Extracting data year: 1990
+05/20/2025 10:07:40 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:07:46 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:07:51 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:07:51 PM - INFO - Extracting data year: 1991
+05/20/2025 10:07:56 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:08:01 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:08:06 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:08:06 PM - INFO - Extracting data year: 1992
+05/20/2025 10:08:11 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:08:17 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:08:22 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:08:22 PM - INFO - Extracting data year: 1993
+05/20/2025 10:08:27 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:08:32 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:08:37 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:08:37 PM - INFO - Extracting data year: 1994
+05/20/2025 10:08:43 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:08:48 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:08:53 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:08:53 PM - INFO - Extracting data year: 1995
+05/20/2025 10:08:58 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:09:03 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:09:09 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:09:09 PM - INFO - Extracting data year: 1996
+05/20/2025 10:09:14 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:09:19 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:09:24 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:09:24 PM - INFO - Extracting data year: 1997
+05/20/2025 10:09:29 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:09:34 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:09:39 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:09:39 PM - INFO - Extracting data year: 1998
+05/20/2025 10:09:45 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:09:50 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:09:55 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:09:55 PM - INFO - Extracting data year: 1999
+05/20/2025 10:10:00 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:10:05 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:10:11 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:10:11 PM - INFO - Extracting data year: 2000
+05/20/2025 10:10:16 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:10:21 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:10:26 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:10:26 PM - INFO - Extracting data year: 2001
+05/20/2025 10:10:31 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:10:37 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:10:40 PM - INFO - Extracting data year: 1970
+05/20/2025 10:10:46 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:10:51 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:10:56 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:10:56 PM - INFO - Extracting data year: 1971
+05/20/2025 10:11:01 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:11:06 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:11:11 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:11:11 PM - INFO - Extracting data year: 1972
+05/20/2025 10:11:16 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:11:21 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:11:26 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:11:26 PM - INFO - Extracting data year: 1973
+05/20/2025 10:11:53 PM - INFO - Extracting data year: 1970
+05/20/2025 10:12:06 PM - INFO - Acessando o site Vitibrasil
+05/20/2025 10:12:11 PM - INFO - Acessando o site Vitibrasil
+05/20/2025 10:12:16 PM - INFO - Acessando o site Vitibrasil
+05/20/2025 10:12:21 PM - INFO - Acessando o site Vitibrasil
+05/20/2025 10:12:27 PM - INFO - Extracting data year: 1970
+05/20/2025 10:12:32 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:12:37 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:12:42 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:12:42 PM - INFO - Extracting data year: 1971
+05/20/2025 10:12:47 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:12:52 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:12:58 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:12:58 PM - INFO - Extracting data year: 1972
+05/20/2025 10:13:03 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:13:08 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:13:13 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:13:13 PM - INFO - Extracting data year: 1973
+05/20/2025 10:13:18 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:13:24 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:13:29 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:13:29 PM - INFO - Extracting data year: 1974
+05/20/2025 10:13:34 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:13:39 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:13:44 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:13:44 PM - INFO - Extracting data year: 1975
+05/20/2025 10:13:49 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:13:55 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:14:00 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:14:00 PM - INFO - Extracting data year: 1976
+05/20/2025 10:14:05 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:14:10 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:14:16 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:14:16 PM - INFO - Extracting data year: 1977
+05/20/2025 10:14:21 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:14:26 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:14:31 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:14:31 PM - INFO - Extracting data year: 1978
+05/20/2025 10:14:36 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:14:41 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:14:46 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:14:46 PM - INFO - Extracting data year: 1979
+05/20/2025 10:14:51 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:14:57 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:15:02 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:15:02 PM - INFO - Extracting data year: 1980
+05/20/2025 10:15:07 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:15:12 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:15:17 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:15:17 PM - INFO - Extracting data year: 1981
+05/20/2025 10:15:22 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:15:27 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:15:33 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:15:33 PM - INFO - Extracting data year: 1982
+05/20/2025 10:15:38 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:15:43 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:15:48 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:15:48 PM - INFO - Extracting data year: 1983
+05/20/2025 10:15:53 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:15:58 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:16:03 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:16:03 PM - INFO - Extracting data year: 1984
+05/20/2025 10:16:08 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:16:14 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:16:19 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:16:19 PM - INFO - Extracting data year: 1985
+05/20/2025 10:16:24 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:16:31 PM - INFO - Extracting data year: 1970
+05/20/2025 10:17:27 PM - INFO - Extracting data year: 1970
+05/20/2025 10:17:32 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:17:37 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:17:43 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:17:43 PM - INFO - Extracting data year: 1971
+05/20/2025 10:17:48 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:17:53 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:17:58 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:17:58 PM - INFO - Extracting data year: 1972
+05/20/2025 10:18:03 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:18:08 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:18:14 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:18:14 PM - INFO - Extracting data year: 1973
+05/20/2025 10:18:19 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:18:24 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:18:29 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:18:29 PM - INFO - Extracting data year: 1974
+05/20/2025 10:18:36 PM - INFO - Extracting data year: 1970
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_item']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_item']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - col []
+05/20/2025 10:18:41 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:41 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:18:46 PM - INFO - col []
+05/20/2025 10:18:46 PM - INFO - col ['tb_item']
+05/20/2025 10:18:46 PM - INFO - col []
+05/20/2025 10:18:46 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:46 PM - INFO - col []
+05/20/2025 10:18:46 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:46 PM - INFO - col []
+05/20/2025 10:18:46 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:46 PM - INFO - col []
+05/20/2025 10:18:46 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:46 PM - INFO - col []
+05/20/2025 10:18:46 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:46 PM - INFO - col []
+05/20/2025 10:18:46 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:46 PM - INFO - col []
+05/20/2025 10:18:46 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:46 PM - INFO - col []
+05/20/2025 10:18:46 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:46 PM - INFO - col []
+05/20/2025 10:18:46 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:46 PM - INFO - col []
+05/20/2025 10:18:46 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:46 PM - INFO - col []
+05/20/2025 10:18:46 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:46 PM - INFO - col []
+05/20/2025 10:18:46 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:46 PM - INFO - col []
+05/20/2025 10:18:46 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:46 PM - INFO - col []
+05/20/2025 10:18:46 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:46 PM - INFO - col []
+05/20/2025 10:18:46 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:46 PM - INFO - col []
+05/20/2025 10:18:46 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:46 PM - INFO - col []
+05/20/2025 10:18:46 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:46 PM - INFO - col []
+05/20/2025 10:18:46 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:46 PM - INFO - col []
+05/20/2025 10:18:46 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:46 PM - INFO - col []
+05/20/2025 10:18:46 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:46 PM - INFO - col []
+05/20/2025 10:18:46 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:46 PM - INFO - col []
+05/20/2025 10:18:46 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:46 PM - INFO - col []
+05/20/2025 10:18:46 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:46 PM - INFO - col []
+05/20/2025 10:18:46 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:46 PM - INFO - col []
+05/20/2025 10:18:46 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:46 PM - INFO - col []
+05/20/2025 10:18:46 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:46 PM - INFO - col []
+05/20/2025 10:18:46 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:46 PM - INFO - col []
+05/20/2025 10:18:46 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:46 PM - INFO - col []
+05/20/2025 10:18:46 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:46 PM - INFO - col []
+05/20/2025 10:18:46 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:46 PM - INFO - col []
+05/20/2025 10:18:46 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:46 PM - INFO - col []
+05/20/2025 10:18:46 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:46 PM - INFO - col []
+05/20/2025 10:18:46 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:46 PM - INFO - col []
+05/20/2025 10:18:46 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:46 PM - INFO - col []
+05/20/2025 10:18:46 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:46 PM - INFO - col []
+05/20/2025 10:18:46 PM - INFO - col ['tb_item']
+05/20/2025 10:18:46 PM - INFO - col []
+05/20/2025 10:18:46 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:46 PM - INFO - col []
+05/20/2025 10:18:46 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:46 PM - INFO - col []
+05/20/2025 10:18:46 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:46 PM - INFO - col []
+05/20/2025 10:18:46 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:46 PM - INFO - col []
+05/20/2025 10:18:46 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:46 PM - INFO - col []
+05/20/2025 10:18:46 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:46 PM - INFO - col []
+05/20/2025 10:18:46 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:46 PM - INFO - col []
+05/20/2025 10:18:46 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:46 PM - INFO - col []
+05/20/2025 10:18:46 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:46 PM - INFO - col []
+05/20/2025 10:18:46 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:46 PM - INFO - col []
+05/20/2025 10:18:46 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:46 PM - INFO - col []
+05/20/2025 10:18:46 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:46 PM - INFO - col []
+05/20/2025 10:18:46 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:46 PM - INFO - col []
+05/20/2025 10:18:46 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:46 PM - INFO - col []
+05/20/2025 10:18:46 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:46 PM - INFO - col []
+05/20/2025 10:18:46 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:46 PM - INFO - col []
+05/20/2025 10:18:46 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:46 PM - INFO - col []
+05/20/2025 10:18:46 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:46 PM - INFO - col []
+05/20/2025 10:18:46 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:46 PM - INFO - col []
+05/20/2025 10:18:46 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:46 PM - INFO - col []
+05/20/2025 10:18:46 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:46 PM - INFO - col []
+05/20/2025 10:18:46 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:46 PM - INFO - col []
+05/20/2025 10:18:46 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:46 PM - INFO - col []
+05/20/2025 10:18:46 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:46 PM - INFO - col []
+05/20/2025 10:18:46 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:46 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:18:51 PM - INFO - col []
+05/20/2025 10:18:51 PM - INFO - col ['tb_item']
+05/20/2025 10:18:51 PM - INFO - col []
+05/20/2025 10:18:51 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:51 PM - INFO - col []
+05/20/2025 10:18:51 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:51 PM - INFO - col []
+05/20/2025 10:18:51 PM - INFO - col ['tb_item']
+05/20/2025 10:18:51 PM - INFO - col []
+05/20/2025 10:18:51 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:51 PM - INFO - col []
+05/20/2025 10:18:51 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:51 PM - INFO - col []
+05/20/2025 10:18:51 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:51 PM - INFO - col []
+05/20/2025 10:18:51 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:51 PM - INFO - col []
+05/20/2025 10:18:51 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:51 PM - INFO - col []
+05/20/2025 10:18:51 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:51 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:18:51 PM - INFO - Extracting data year: 1971
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_item']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_item']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - col []
+05/20/2025 10:18:56 PM - INFO - col ['tb_subitem']
+05/20/2025 10:18:56 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:19:02 PM - INFO - col []
+05/20/2025 10:19:02 PM - INFO - col ['tb_item']
+05/20/2025 10:19:02 PM - INFO - col []
+05/20/2025 10:19:02 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:02 PM - INFO - col []
+05/20/2025 10:19:02 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:02 PM - INFO - col []
+05/20/2025 10:19:02 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:02 PM - INFO - col []
+05/20/2025 10:19:02 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:02 PM - INFO - col []
+05/20/2025 10:19:02 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:02 PM - INFO - col []
+05/20/2025 10:19:02 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:02 PM - INFO - col []
+05/20/2025 10:19:02 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:02 PM - INFO - col []
+05/20/2025 10:19:02 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:02 PM - INFO - col []
+05/20/2025 10:19:02 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:02 PM - INFO - col []
+05/20/2025 10:19:02 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:02 PM - INFO - col []
+05/20/2025 10:19:02 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:02 PM - INFO - col []
+05/20/2025 10:19:02 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:02 PM - INFO - col []
+05/20/2025 10:19:02 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:02 PM - INFO - col []
+05/20/2025 10:19:02 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:02 PM - INFO - col []
+05/20/2025 10:19:02 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:02 PM - INFO - col []
+05/20/2025 10:19:02 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:02 PM - INFO - col []
+05/20/2025 10:19:02 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:02 PM - INFO - col []
+05/20/2025 10:19:02 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:02 PM - INFO - col []
+05/20/2025 10:19:02 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:02 PM - INFO - col []
+05/20/2025 10:19:02 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:02 PM - INFO - col []
+05/20/2025 10:19:02 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:02 PM - INFO - col []
+05/20/2025 10:19:02 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:02 PM - INFO - col []
+05/20/2025 10:19:02 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:02 PM - INFO - col []
+05/20/2025 10:19:02 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:02 PM - INFO - col []
+05/20/2025 10:19:02 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:02 PM - INFO - col []
+05/20/2025 10:19:02 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:02 PM - INFO - col []
+05/20/2025 10:19:02 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:02 PM - INFO - col []
+05/20/2025 10:19:02 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:02 PM - INFO - col []
+05/20/2025 10:19:02 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:02 PM - INFO - col []
+05/20/2025 10:19:02 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:02 PM - INFO - col []
+05/20/2025 10:19:02 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:02 PM - INFO - col []
+05/20/2025 10:19:02 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:02 PM - INFO - col []
+05/20/2025 10:19:02 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:02 PM - INFO - col []
+05/20/2025 10:19:02 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:02 PM - INFO - col []
+05/20/2025 10:19:02 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:02 PM - INFO - col []
+05/20/2025 10:19:02 PM - INFO - col ['tb_item']
+05/20/2025 10:19:02 PM - INFO - col []
+05/20/2025 10:19:02 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:02 PM - INFO - col []
+05/20/2025 10:19:02 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:02 PM - INFO - col []
+05/20/2025 10:19:02 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:02 PM - INFO - col []
+05/20/2025 10:19:02 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:02 PM - INFO - col []
+05/20/2025 10:19:02 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:02 PM - INFO - col []
+05/20/2025 10:19:02 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:02 PM - INFO - col []
+05/20/2025 10:19:02 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:02 PM - INFO - col []
+05/20/2025 10:19:02 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:02 PM - INFO - col []
+05/20/2025 10:19:02 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:02 PM - INFO - col []
+05/20/2025 10:19:02 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:02 PM - INFO - col []
+05/20/2025 10:19:02 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:02 PM - INFO - col []
+05/20/2025 10:19:02 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:02 PM - INFO - col []
+05/20/2025 10:19:02 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:02 PM - INFO - col []
+05/20/2025 10:19:02 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:02 PM - INFO - col []
+05/20/2025 10:19:02 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:02 PM - INFO - col []
+05/20/2025 10:19:02 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:02 PM - INFO - col []
+05/20/2025 10:19:02 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:02 PM - INFO - col []
+05/20/2025 10:19:02 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:02 PM - INFO - col []
+05/20/2025 10:19:02 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:02 PM - INFO - col []
+05/20/2025 10:19:02 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:02 PM - INFO - col []
+05/20/2025 10:19:02 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:02 PM - INFO - col []
+05/20/2025 10:19:02 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:02 PM - INFO - col []
+05/20/2025 10:19:02 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:02 PM - INFO - col []
+05/20/2025 10:19:02 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:02 PM - INFO - col []
+05/20/2025 10:19:02 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:02 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:19:07 PM - INFO - col []
+05/20/2025 10:19:07 PM - INFO - col ['tb_item']
+05/20/2025 10:19:07 PM - INFO - col []
+05/20/2025 10:19:07 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:07 PM - INFO - col []
+05/20/2025 10:19:07 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:07 PM - INFO - col []
+05/20/2025 10:19:07 PM - INFO - col ['tb_item']
+05/20/2025 10:19:07 PM - INFO - col []
+05/20/2025 10:19:07 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:07 PM - INFO - col []
+05/20/2025 10:19:07 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:07 PM - INFO - col []
+05/20/2025 10:19:07 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:07 PM - INFO - col []
+05/20/2025 10:19:07 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:07 PM - INFO - col []
+05/20/2025 10:19:07 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:07 PM - INFO - col []
+05/20/2025 10:19:07 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:07 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:19:07 PM - INFO - Extracting data year: 1972
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_item']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_item']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - col []
+05/20/2025 10:19:12 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:12 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:19:17 PM - INFO - col []
+05/20/2025 10:19:17 PM - INFO - col ['tb_item']
+05/20/2025 10:19:17 PM - INFO - col []
+05/20/2025 10:19:17 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:17 PM - INFO - col []
+05/20/2025 10:19:17 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:17 PM - INFO - col []
+05/20/2025 10:19:17 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:17 PM - INFO - col []
+05/20/2025 10:19:17 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:17 PM - INFO - col []
+05/20/2025 10:19:17 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:17 PM - INFO - col []
+05/20/2025 10:19:17 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:17 PM - INFO - col []
+05/20/2025 10:19:17 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:17 PM - INFO - col []
+05/20/2025 10:19:17 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:17 PM - INFO - col []
+05/20/2025 10:19:17 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:17 PM - INFO - col []
+05/20/2025 10:19:17 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:17 PM - INFO - col []
+05/20/2025 10:19:17 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:17 PM - INFO - col []
+05/20/2025 10:19:17 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:17 PM - INFO - col []
+05/20/2025 10:19:17 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:17 PM - INFO - col []
+05/20/2025 10:19:17 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:17 PM - INFO - col []
+05/20/2025 10:19:17 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:17 PM - INFO - col []
+05/20/2025 10:19:17 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:17 PM - INFO - col []
+05/20/2025 10:19:17 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:17 PM - INFO - col []
+05/20/2025 10:19:17 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:17 PM - INFO - col []
+05/20/2025 10:19:17 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:17 PM - INFO - col []
+05/20/2025 10:19:17 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:17 PM - INFO - col []
+05/20/2025 10:19:17 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:17 PM - INFO - col []
+05/20/2025 10:19:17 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:17 PM - INFO - col []
+05/20/2025 10:19:17 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:17 PM - INFO - col []
+05/20/2025 10:19:17 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:17 PM - INFO - col []
+05/20/2025 10:19:17 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:17 PM - INFO - col []
+05/20/2025 10:19:17 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:17 PM - INFO - col []
+05/20/2025 10:19:17 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:17 PM - INFO - col []
+05/20/2025 10:19:17 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:17 PM - INFO - col []
+05/20/2025 10:19:17 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:17 PM - INFO - col []
+05/20/2025 10:19:17 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:17 PM - INFO - col []
+05/20/2025 10:19:17 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:17 PM - INFO - col []
+05/20/2025 10:19:17 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:17 PM - INFO - col []
+05/20/2025 10:19:17 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:17 PM - INFO - col []
+05/20/2025 10:19:17 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:17 PM - INFO - col []
+05/20/2025 10:19:17 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:17 PM - INFO - col []
+05/20/2025 10:19:17 PM - INFO - col ['tb_item']
+05/20/2025 10:19:17 PM - INFO - col []
+05/20/2025 10:19:17 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:17 PM - INFO - col []
+05/20/2025 10:19:17 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:17 PM - INFO - col []
+05/20/2025 10:19:17 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:17 PM - INFO - col []
+05/20/2025 10:19:17 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:17 PM - INFO - col []
+05/20/2025 10:19:17 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:17 PM - INFO - col []
+05/20/2025 10:19:17 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:17 PM - INFO - col []
+05/20/2025 10:19:17 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:17 PM - INFO - col []
+05/20/2025 10:19:17 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:17 PM - INFO - col []
+05/20/2025 10:19:17 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:17 PM - INFO - col []
+05/20/2025 10:19:17 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:17 PM - INFO - col []
+05/20/2025 10:19:17 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:17 PM - INFO - col []
+05/20/2025 10:19:17 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:17 PM - INFO - col []
+05/20/2025 10:19:17 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:17 PM - INFO - col []
+05/20/2025 10:19:17 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:17 PM - INFO - col []
+05/20/2025 10:19:17 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:17 PM - INFO - col []
+05/20/2025 10:19:17 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:17 PM - INFO - col []
+05/20/2025 10:19:17 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:17 PM - INFO - col []
+05/20/2025 10:19:17 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:17 PM - INFO - col []
+05/20/2025 10:19:17 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:17 PM - INFO - col []
+05/20/2025 10:19:17 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:17 PM - INFO - col []
+05/20/2025 10:19:17 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:17 PM - INFO - col []
+05/20/2025 10:19:17 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:17 PM - INFO - col []
+05/20/2025 10:19:17 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:17 PM - INFO - col []
+05/20/2025 10:19:17 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:17 PM - INFO - col []
+05/20/2025 10:19:17 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:17 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:19:22 PM - INFO - col []
+05/20/2025 10:19:22 PM - INFO - col ['tb_item']
+05/20/2025 10:19:22 PM - INFO - col []
+05/20/2025 10:19:22 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:22 PM - INFO - col []
+05/20/2025 10:19:22 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:22 PM - INFO - col []
+05/20/2025 10:19:22 PM - INFO - col ['tb_item']
+05/20/2025 10:19:22 PM - INFO - col []
+05/20/2025 10:19:22 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:22 PM - INFO - col []
+05/20/2025 10:19:22 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:22 PM - INFO - col []
+05/20/2025 10:19:22 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:22 PM - INFO - col []
+05/20/2025 10:19:22 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:22 PM - INFO - col []
+05/20/2025 10:19:22 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:22 PM - INFO - col []
+05/20/2025 10:19:22 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:22 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:19:22 PM - INFO - Extracting data year: 1973
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_item']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_item']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - col []
+05/20/2025 10:19:27 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:27 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:19:32 PM - INFO - col []
+05/20/2025 10:19:32 PM - INFO - col ['tb_item']
+05/20/2025 10:19:32 PM - INFO - col []
+05/20/2025 10:19:32 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:32 PM - INFO - col []
+05/20/2025 10:19:32 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:32 PM - INFO - col []
+05/20/2025 10:19:32 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:32 PM - INFO - col []
+05/20/2025 10:19:32 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:32 PM - INFO - col []
+05/20/2025 10:19:32 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:32 PM - INFO - col []
+05/20/2025 10:19:32 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:32 PM - INFO - col []
+05/20/2025 10:19:32 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:32 PM - INFO - col []
+05/20/2025 10:19:32 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:32 PM - INFO - col []
+05/20/2025 10:19:32 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:32 PM - INFO - col []
+05/20/2025 10:19:32 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:32 PM - INFO - col []
+05/20/2025 10:19:32 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:32 PM - INFO - col []
+05/20/2025 10:19:32 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:32 PM - INFO - col []
+05/20/2025 10:19:32 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:32 PM - INFO - col []
+05/20/2025 10:19:32 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:32 PM - INFO - col []
+05/20/2025 10:19:32 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:32 PM - INFO - col []
+05/20/2025 10:19:32 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:32 PM - INFO - col []
+05/20/2025 10:19:32 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:32 PM - INFO - col []
+05/20/2025 10:19:32 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:32 PM - INFO - col []
+05/20/2025 10:19:32 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:32 PM - INFO - col []
+05/20/2025 10:19:32 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:32 PM - INFO - col []
+05/20/2025 10:19:32 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:32 PM - INFO - col []
+05/20/2025 10:19:32 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:32 PM - INFO - col []
+05/20/2025 10:19:32 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:32 PM - INFO - col []
+05/20/2025 10:19:32 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:32 PM - INFO - col []
+05/20/2025 10:19:32 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:32 PM - INFO - col []
+05/20/2025 10:19:32 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:32 PM - INFO - col []
+05/20/2025 10:19:32 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:32 PM - INFO - col []
+05/20/2025 10:19:32 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:32 PM - INFO - col []
+05/20/2025 10:19:32 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:32 PM - INFO - col []
+05/20/2025 10:19:32 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:32 PM - INFO - col []
+05/20/2025 10:19:32 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:32 PM - INFO - col []
+05/20/2025 10:19:32 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:32 PM - INFO - col []
+05/20/2025 10:19:32 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:32 PM - INFO - col []
+05/20/2025 10:19:32 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:32 PM - INFO - col []
+05/20/2025 10:19:32 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:32 PM - INFO - col []
+05/20/2025 10:19:32 PM - INFO - col ['tb_item']
+05/20/2025 10:19:32 PM - INFO - col []
+05/20/2025 10:19:32 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:32 PM - INFO - col []
+05/20/2025 10:19:32 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:32 PM - INFO - col []
+05/20/2025 10:19:32 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:32 PM - INFO - col []
+05/20/2025 10:19:32 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:32 PM - INFO - col []
+05/20/2025 10:19:32 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:32 PM - INFO - col []
+05/20/2025 10:19:32 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:32 PM - INFO - col []
+05/20/2025 10:19:32 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:32 PM - INFO - col []
+05/20/2025 10:19:32 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:32 PM - INFO - col []
+05/20/2025 10:19:32 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:32 PM - INFO - col []
+05/20/2025 10:19:32 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:32 PM - INFO - col []
+05/20/2025 10:19:32 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:32 PM - INFO - col []
+05/20/2025 10:19:32 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:32 PM - INFO - col []
+05/20/2025 10:19:32 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:32 PM - INFO - col []
+05/20/2025 10:19:32 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:32 PM - INFO - col []
+05/20/2025 10:19:32 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:32 PM - INFO - col []
+05/20/2025 10:19:32 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:32 PM - INFO - col []
+05/20/2025 10:19:32 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:32 PM - INFO - col []
+05/20/2025 10:19:32 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:32 PM - INFO - col []
+05/20/2025 10:19:32 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:32 PM - INFO - col []
+05/20/2025 10:19:32 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:32 PM - INFO - col []
+05/20/2025 10:19:32 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:32 PM - INFO - col []
+05/20/2025 10:19:32 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:32 PM - INFO - col []
+05/20/2025 10:19:32 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:32 PM - INFO - col []
+05/20/2025 10:19:32 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:32 PM - INFO - col []
+05/20/2025 10:19:32 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:32 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:19:37 PM - INFO - col []
+05/20/2025 10:19:37 PM - INFO - col ['tb_item']
+05/20/2025 10:19:37 PM - INFO - col []
+05/20/2025 10:19:37 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:37 PM - INFO - col []
+05/20/2025 10:19:37 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:37 PM - INFO - col []
+05/20/2025 10:19:37 PM - INFO - col ['tb_item']
+05/20/2025 10:19:37 PM - INFO - col []
+05/20/2025 10:19:37 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:37 PM - INFO - col []
+05/20/2025 10:19:37 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:37 PM - INFO - col []
+05/20/2025 10:19:37 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:37 PM - INFO - col []
+05/20/2025 10:19:37 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:37 PM - INFO - col []
+05/20/2025 10:19:37 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:37 PM - INFO - col []
+05/20/2025 10:19:37 PM - INFO - col ['tb_subitem']
+05/20/2025 10:19:37 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:19:37 PM - INFO - Extracting data year: 1974
+05/20/2025 10:19:42 PM - INFO - Extracting data year: 1970
+05/20/2025 10:19:47 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:19:52 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:19:58 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:19:58 PM - INFO - Extracting data year: 1971
+05/20/2025 10:20:03 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:20:08 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:20:13 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:20:13 PM - INFO - Extracting data year: 1972
+05/20/2025 10:20:18 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:20:23 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:20:29 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:20:29 PM - INFO - Extracting data year: 1973
+05/20/2025 10:20:34 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:20:39 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:20:44 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:20:44 PM - INFO - Extracting data year: 1974
+05/20/2025 10:20:50 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:20:55 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:21:00 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:21:00 PM - INFO - Extracting data year: 1975
+05/20/2025 10:21:05 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:21:10 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:21:15 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:21:15 PM - INFO - Extracting data year: 1976
+05/20/2025 10:21:21 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:21:26 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:21:31 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:21:31 PM - INFO - Extracting data year: 1977
+05/20/2025 10:21:36 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:21:41 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:21:47 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:21:47 PM - INFO - Extracting data year: 1978
+05/20/2025 10:21:52 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:21:57 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:22:02 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:22:02 PM - INFO - Extracting data year: 1979
+05/20/2025 10:22:07 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:22:12 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:22:18 PM - INFO - Extracting data year: 1970
+05/20/2025 10:22:23 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:22:29 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:22:34 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:22:34 PM - INFO - Extracting data year: 1971
+05/20/2025 10:22:39 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:24:07 PM - INFO - Extracting data year: 1970
+05/20/2025 10:24:12 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:24:17 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:24:23 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:24:23 PM - INFO - Extracting data year: 1971
+05/20/2025 10:24:28 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:24:48 PM - INFO - Extracting data year: 1970
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - []
+05/20/2025 10:24:53 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:24:59 PM - INFO - []
+05/20/2025 10:24:59 PM - INFO - []
+05/20/2025 10:24:59 PM - INFO - []
+05/20/2025 10:24:59 PM - INFO - []
+05/20/2025 10:24:59 PM - INFO - []
+05/20/2025 10:24:59 PM - INFO - []
+05/20/2025 10:24:59 PM - INFO - []
+05/20/2025 10:24:59 PM - INFO - []
+05/20/2025 10:24:59 PM - INFO - []
+05/20/2025 10:24:59 PM - INFO - []
+05/20/2025 10:24:59 PM - INFO - []
+05/20/2025 10:24:59 PM - INFO - []
+05/20/2025 10:24:59 PM - INFO - []
+05/20/2025 10:24:59 PM - INFO - []
+05/20/2025 10:24:59 PM - INFO - []
+05/20/2025 10:24:59 PM - INFO - []
+05/20/2025 10:24:59 PM - INFO - []
+05/20/2025 10:24:59 PM - INFO - []
+05/20/2025 10:24:59 PM - INFO - []
+05/20/2025 10:24:59 PM - INFO - []
+05/20/2025 10:24:59 PM - INFO - []
+05/20/2025 10:24:59 PM - INFO - []
+05/20/2025 10:24:59 PM - INFO - []
+05/20/2025 10:24:59 PM - INFO - []
+05/20/2025 10:24:59 PM - INFO - []
+05/20/2025 10:24:59 PM - INFO - []
+05/20/2025 10:24:59 PM - INFO - []
+05/20/2025 10:24:59 PM - INFO - []
+05/20/2025 10:24:59 PM - INFO - []
+05/20/2025 10:24:59 PM - INFO - []
+05/20/2025 10:24:59 PM - INFO - []
+05/20/2025 10:24:59 PM - INFO - []
+05/20/2025 10:24:59 PM - INFO - []
+05/20/2025 10:24:59 PM - INFO - []
+05/20/2025 10:24:59 PM - INFO - []
+05/20/2025 10:24:59 PM - INFO - []
+05/20/2025 10:24:59 PM - INFO - []
+05/20/2025 10:24:59 PM - INFO - []
+05/20/2025 10:24:59 PM - INFO - []
+05/20/2025 10:24:59 PM - INFO - []
+05/20/2025 10:24:59 PM - INFO - []
+05/20/2025 10:24:59 PM - INFO - []
+05/20/2025 10:24:59 PM - INFO - []
+05/20/2025 10:24:59 PM - INFO - []
+05/20/2025 10:24:59 PM - INFO - []
+05/20/2025 10:24:59 PM - INFO - []
+05/20/2025 10:24:59 PM - INFO - []
+05/20/2025 10:24:59 PM - INFO - []
+05/20/2025 10:24:59 PM - INFO - []
+05/20/2025 10:24:59 PM - INFO - []
+05/20/2025 10:24:59 PM - INFO - []
+05/20/2025 10:24:59 PM - INFO - []
+05/20/2025 10:24:59 PM - INFO - []
+05/20/2025 10:24:59 PM - INFO - []
+05/20/2025 10:24:59 PM - INFO - []
+05/20/2025 10:24:59 PM - INFO - []
+05/20/2025 10:24:59 PM - INFO - []
+05/20/2025 10:24:59 PM - INFO - []
+05/20/2025 10:24:59 PM - INFO - []
+05/20/2025 10:24:59 PM - INFO - []
+05/20/2025 10:24:59 PM - INFO - []
+05/20/2025 10:24:59 PM - INFO - []
+05/20/2025 10:24:59 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:25:04 PM - INFO - []
+05/20/2025 10:25:04 PM - INFO - []
+05/20/2025 10:25:04 PM - INFO - []
+05/20/2025 10:25:04 PM - INFO - []
+05/20/2025 10:25:04 PM - INFO - []
+05/20/2025 10:25:04 PM - INFO - []
+05/20/2025 10:25:04 PM - INFO - []
+05/20/2025 10:25:04 PM - INFO - []
+05/20/2025 10:25:04 PM - INFO - []
+05/20/2025 10:25:04 PM - INFO - []
+05/20/2025 10:25:04 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:25:04 PM - INFO - Extracting data year: 1971
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - []
+05/20/2025 10:25:09 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:25:14 PM - INFO - []
+05/20/2025 10:25:14 PM - INFO - []
+05/20/2025 10:25:14 PM - INFO - []
+05/20/2025 10:25:14 PM - INFO - []
+05/20/2025 10:25:14 PM - INFO - []
+05/20/2025 10:25:14 PM - INFO - []
+05/20/2025 10:25:14 PM - INFO - []
+05/20/2025 10:25:14 PM - INFO - []
+05/20/2025 10:25:14 PM - INFO - []
+05/20/2025 10:25:14 PM - INFO - []
+05/20/2025 10:25:14 PM - INFO - []
+05/20/2025 10:25:14 PM - INFO - []
+05/20/2025 10:25:14 PM - INFO - []
+05/20/2025 10:25:14 PM - INFO - []
+05/20/2025 10:25:14 PM - INFO - []
+05/20/2025 10:25:14 PM - INFO - []
+05/20/2025 10:25:14 PM - INFO - []
+05/20/2025 10:25:14 PM - INFO - []
+05/20/2025 10:25:14 PM - INFO - []
+05/20/2025 10:25:14 PM - INFO - []
+05/20/2025 10:25:14 PM - INFO - []
+05/20/2025 10:25:14 PM - INFO - []
+05/20/2025 10:25:14 PM - INFO - []
+05/20/2025 10:25:14 PM - INFO - []
+05/20/2025 10:25:14 PM - INFO - []
+05/20/2025 10:25:14 PM - INFO - []
+05/20/2025 10:25:14 PM - INFO - []
+05/20/2025 10:25:14 PM - INFO - []
+05/20/2025 10:25:14 PM - INFO - []
+05/20/2025 10:25:14 PM - INFO - []
+05/20/2025 10:25:14 PM - INFO - []
+05/20/2025 10:25:14 PM - INFO - []
+05/20/2025 10:25:14 PM - INFO - []
+05/20/2025 10:25:14 PM - INFO - []
+05/20/2025 10:25:14 PM - INFO - []
+05/20/2025 10:25:14 PM - INFO - []
+05/20/2025 10:25:14 PM - INFO - []
+05/20/2025 10:25:14 PM - INFO - []
+05/20/2025 10:25:14 PM - INFO - []
+05/20/2025 10:25:14 PM - INFO - []
+05/20/2025 10:25:14 PM - INFO - []
+05/20/2025 10:25:14 PM - INFO - []
+05/20/2025 10:25:14 PM - INFO - []
+05/20/2025 10:25:14 PM - INFO - []
+05/20/2025 10:25:14 PM - INFO - []
+05/20/2025 10:25:14 PM - INFO - []
+05/20/2025 10:25:14 PM - INFO - []
+05/20/2025 10:25:14 PM - INFO - []
+05/20/2025 10:25:14 PM - INFO - []
+05/20/2025 10:25:14 PM - INFO - []
+05/20/2025 10:25:14 PM - INFO - []
+05/20/2025 10:25:14 PM - INFO - []
+05/20/2025 10:25:14 PM - INFO - []
+05/20/2025 10:25:14 PM - INFO - []
+05/20/2025 10:25:14 PM - INFO - []
+05/20/2025 10:25:14 PM - INFO - []
+05/20/2025 10:25:14 PM - INFO - []
+05/20/2025 10:25:14 PM - INFO - []
+05/20/2025 10:25:14 PM - INFO - []
+05/20/2025 10:25:14 PM - INFO - []
+05/20/2025 10:25:14 PM - INFO - []
+05/20/2025 10:25:14 PM - INFO - []
+05/20/2025 10:25:14 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:25:19 PM - INFO - []
+05/20/2025 10:25:19 PM - INFO - []
+05/20/2025 10:25:19 PM - INFO - []
+05/20/2025 10:25:19 PM - INFO - []
+05/20/2025 10:25:19 PM - INFO - []
+05/20/2025 10:25:19 PM - INFO - []
+05/20/2025 10:25:19 PM - INFO - []
+05/20/2025 10:25:19 PM - INFO - []
+05/20/2025 10:25:19 PM - INFO - []
+05/20/2025 10:25:19 PM - INFO - []
+05/20/2025 10:25:19 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:25:19 PM - INFO - Extracting data year: 1972
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - []
+05/20/2025 10:25:24 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:25:30 PM - INFO - []
+05/20/2025 10:25:30 PM - INFO - []
+05/20/2025 10:25:30 PM - INFO - []
+05/20/2025 10:25:30 PM - INFO - []
+05/20/2025 10:25:30 PM - INFO - []
+05/20/2025 10:25:30 PM - INFO - []
+05/20/2025 10:25:30 PM - INFO - []
+05/20/2025 10:25:30 PM - INFO - []
+05/20/2025 10:25:30 PM - INFO - []
+05/20/2025 10:25:30 PM - INFO - []
+05/20/2025 10:25:30 PM - INFO - []
+05/20/2025 10:25:30 PM - INFO - []
+05/20/2025 10:25:30 PM - INFO - []
+05/20/2025 10:25:30 PM - INFO - []
+05/20/2025 10:25:30 PM - INFO - []
+05/20/2025 10:25:30 PM - INFO - []
+05/20/2025 10:25:30 PM - INFO - []
+05/20/2025 10:25:30 PM - INFO - []
+05/20/2025 10:25:30 PM - INFO - []
+05/20/2025 10:25:30 PM - INFO - []
+05/20/2025 10:25:30 PM - INFO - []
+05/20/2025 10:25:30 PM - INFO - []
+05/20/2025 10:25:30 PM - INFO - []
+05/20/2025 10:25:30 PM - INFO - []
+05/20/2025 10:25:30 PM - INFO - []
+05/20/2025 10:25:30 PM - INFO - []
+05/20/2025 10:25:30 PM - INFO - []
+05/20/2025 10:25:30 PM - INFO - []
+05/20/2025 10:25:30 PM - INFO - []
+05/20/2025 10:25:30 PM - INFO - []
+05/20/2025 10:25:30 PM - INFO - []
+05/20/2025 10:25:30 PM - INFO - []
+05/20/2025 10:25:30 PM - INFO - []
+05/20/2025 10:25:30 PM - INFO - []
+05/20/2025 10:25:30 PM - INFO - []
+05/20/2025 10:25:30 PM - INFO - []
+05/20/2025 10:25:30 PM - INFO - []
+05/20/2025 10:25:30 PM - INFO - []
+05/20/2025 10:25:30 PM - INFO - []
+05/20/2025 10:25:30 PM - INFO - []
+05/20/2025 10:25:30 PM - INFO - []
+05/20/2025 10:25:30 PM - INFO - []
+05/20/2025 10:25:30 PM - INFO - []
+05/20/2025 10:25:30 PM - INFO - []
+05/20/2025 10:25:30 PM - INFO - []
+05/20/2025 10:25:30 PM - INFO - []
+05/20/2025 10:25:30 PM - INFO - []
+05/20/2025 10:25:30 PM - INFO - []
+05/20/2025 10:25:30 PM - INFO - []
+05/20/2025 10:25:30 PM - INFO - []
+05/20/2025 10:25:30 PM - INFO - []
+05/20/2025 10:25:30 PM - INFO - []
+05/20/2025 10:25:30 PM - INFO - []
+05/20/2025 10:25:30 PM - INFO - []
+05/20/2025 10:25:30 PM - INFO - []
+05/20/2025 10:25:30 PM - INFO - []
+05/20/2025 10:25:30 PM - INFO - []
+05/20/2025 10:25:30 PM - INFO - []
+05/20/2025 10:25:30 PM - INFO - []
+05/20/2025 10:25:30 PM - INFO - []
+05/20/2025 10:25:30 PM - INFO - []
+05/20/2025 10:25:30 PM - INFO - []
+05/20/2025 10:25:30 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:25:35 PM - INFO - []
+05/20/2025 10:25:35 PM - INFO - []
+05/20/2025 10:25:35 PM - INFO - []
+05/20/2025 10:25:35 PM - INFO - []
+05/20/2025 10:25:35 PM - INFO - []
+05/20/2025 10:25:35 PM - INFO - []
+05/20/2025 10:25:35 PM - INFO - []
+05/20/2025 10:25:35 PM - INFO - []
+05/20/2025 10:25:35 PM - INFO - []
+05/20/2025 10:25:35 PM - INFO - []
+05/20/2025 10:25:35 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:25:35 PM - INFO - Extracting data year: 1973
+05/20/2025 10:25:43 PM - INFO - Extracting data year: 1970
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - []
+05/20/2025 10:25:48 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:25:53 PM - INFO - []
+05/20/2025 10:25:53 PM - INFO - []
+05/20/2025 10:25:53 PM - INFO - []
+05/20/2025 10:25:53 PM - INFO - []
+05/20/2025 10:25:53 PM - INFO - []
+05/20/2025 10:25:53 PM - INFO - []
+05/20/2025 10:25:53 PM - INFO - []
+05/20/2025 10:25:53 PM - INFO - []
+05/20/2025 10:25:53 PM - INFO - []
+05/20/2025 10:25:53 PM - INFO - []
+05/20/2025 10:25:53 PM - INFO - []
+05/20/2025 10:25:53 PM - INFO - []
+05/20/2025 10:25:53 PM - INFO - []
+05/20/2025 10:25:53 PM - INFO - []
+05/20/2025 10:25:53 PM - INFO - []
+05/20/2025 10:25:53 PM - INFO - []
+05/20/2025 10:25:53 PM - INFO - []
+05/20/2025 10:25:53 PM - INFO - []
+05/20/2025 10:25:53 PM - INFO - []
+05/20/2025 10:25:53 PM - INFO - []
+05/20/2025 10:25:53 PM - INFO - []
+05/20/2025 10:25:53 PM - INFO - []
+05/20/2025 10:25:53 PM - INFO - []
+05/20/2025 10:25:53 PM - INFO - []
+05/20/2025 10:25:53 PM - INFO - []
+05/20/2025 10:25:53 PM - INFO - []
+05/20/2025 10:25:53 PM - INFO - []
+05/20/2025 10:25:53 PM - INFO - []
+05/20/2025 10:25:53 PM - INFO - []
+05/20/2025 10:25:53 PM - INFO - []
+05/20/2025 10:25:53 PM - INFO - []
+05/20/2025 10:25:53 PM - INFO - []
+05/20/2025 10:25:53 PM - INFO - []
+05/20/2025 10:25:53 PM - INFO - []
+05/20/2025 10:25:53 PM - INFO - []
+05/20/2025 10:25:53 PM - INFO - []
+05/20/2025 10:25:53 PM - INFO - []
+05/20/2025 10:25:53 PM - INFO - []
+05/20/2025 10:25:53 PM - INFO - []
+05/20/2025 10:25:53 PM - INFO - []
+05/20/2025 10:25:53 PM - INFO - []
+05/20/2025 10:25:53 PM - INFO - []
+05/20/2025 10:25:53 PM - INFO - []
+05/20/2025 10:25:53 PM - INFO - []
+05/20/2025 10:25:53 PM - INFO - []
+05/20/2025 10:25:53 PM - INFO - []
+05/20/2025 10:25:53 PM - INFO - []
+05/20/2025 10:25:53 PM - INFO - []
+05/20/2025 10:25:53 PM - INFO - []
+05/20/2025 10:25:53 PM - INFO - []
+05/20/2025 10:25:53 PM - INFO - []
+05/20/2025 10:25:53 PM - INFO - []
+05/20/2025 10:25:53 PM - INFO - []
+05/20/2025 10:25:53 PM - INFO - []
+05/20/2025 10:25:53 PM - INFO - []
+05/20/2025 10:25:53 PM - INFO - []
+05/20/2025 10:25:53 PM - INFO - []
+05/20/2025 10:25:53 PM - INFO - []
+05/20/2025 10:25:53 PM - INFO - []
+05/20/2025 10:25:53 PM - INFO - []
+05/20/2025 10:25:53 PM - INFO - []
+05/20/2025 10:25:53 PM - INFO - []
+05/20/2025 10:25:53 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:25:58 PM - INFO - []
+05/20/2025 10:25:58 PM - INFO - []
+05/20/2025 10:25:58 PM - INFO - []
+05/20/2025 10:25:58 PM - INFO - []
+05/20/2025 10:25:58 PM - INFO - []
+05/20/2025 10:25:58 PM - INFO - []
+05/20/2025 10:25:58 PM - INFO - []
+05/20/2025 10:25:58 PM - INFO - []
+05/20/2025 10:25:58 PM - INFO - []
+05/20/2025 10:25:58 PM - INFO - []
+05/20/2025 10:25:58 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:25:58 PM - INFO - Extracting data year: 1971
+05/20/2025 10:26:05 PM - INFO - Extracting data year: 1970
+05/20/2025 10:26:10 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:26:16 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:26:21 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:26:21 PM - INFO - Extracting data year: 1971
+05/20/2025 10:26:26 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:26:31 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:27:03 PM - INFO - Extracting data year: 1970
+05/20/2025 10:27:22 PM - INFO - Extracting data year: 1970
+05/20/2025 10:27:27 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:27:32 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:27:37 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:27:37 PM - INFO - Extracting data year: 1971
+05/20/2025 10:27:42 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:27:47 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:27:53 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:27:53 PM - INFO - Extracting data year: 1972
+05/20/2025 10:27:58 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:28:03 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:28:16 PM - INFO - Extracting data year: 1970
+05/20/2025 10:28:22 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:28:27 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:28:32 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:28:37 PM - INFO - 1 dados de Sem classificação salvos em 'processamento'.
+05/20/2025 10:28:37 PM - INFO - Extracting data year: 1971
+05/20/2025 10:28:42 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:28:47 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:28:53 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:28:58 PM - INFO - 1 dados de Sem classificação salvos em 'processamento'.
+05/20/2025 10:28:58 PM - INFO - Extracting data year: 1972
+05/20/2025 10:29:03 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:29:08 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:29:13 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:29:18 PM - INFO - 1 dados de Sem classificação salvos em 'processamento'.
+05/20/2025 10:29:18 PM - INFO - Extracting data year: 1973
+05/20/2025 10:29:23 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:29:29 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:29:34 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:29:40 PM - INFO - 1 dados de Sem classificação salvos em 'processamento'.
+05/20/2025 10:29:40 PM - INFO - Extracting data year: 1974
+05/20/2025 10:29:45 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:29:50 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:29:55 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:30:00 PM - INFO - 1 dados de Sem classificação salvos em 'processamento'.
+05/20/2025 10:30:00 PM - INFO - Extracting data year: 1975
+05/20/2025 10:30:06 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:30:11 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:30:16 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:30:21 PM - INFO - 1 dados de Sem classificação salvos em 'processamento'.
+05/20/2025 10:30:21 PM - INFO - Extracting data year: 1976
+05/20/2025 10:30:26 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:30:31 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:30:36 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:30:42 PM - INFO - 1 dados de Sem classificação salvos em 'processamento'.
+05/20/2025 10:30:42 PM - INFO - Extracting data year: 1977
+05/20/2025 10:30:47 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:30:52 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:30:57 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:31:02 PM - INFO - 1 dados de Sem classificação salvos em 'processamento'.
+05/20/2025 10:31:02 PM - INFO - Extracting data year: 1978
+05/20/2025 10:31:07 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:31:13 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:31:18 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:31:23 PM - INFO - 1 dados de Sem classificação salvos em 'processamento'.
+05/20/2025 10:31:23 PM - INFO - Extracting data year: 1979
+05/20/2025 10:31:28 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:31:33 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:31:38 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:31:44 PM - INFO - 1 dados de Sem classificação salvos em 'processamento'.
+05/20/2025 10:31:44 PM - INFO - Extracting data year: 1980
+05/20/2025 10:31:49 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:31:54 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:31:59 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:32:04 PM - INFO - 1 dados de Sem classificação salvos em 'processamento'.
+05/20/2025 10:32:04 PM - INFO - Extracting data year: 1981
+05/20/2025 10:32:10 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:32:15 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:32:20 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:32:25 PM - INFO - 1 dados de Sem classificação salvos em 'processamento'.
+05/20/2025 10:32:25 PM - INFO - Extracting data year: 1982
+05/20/2025 10:32:30 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:32:35 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:32:40 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:32:45 PM - INFO - 1 dados de Sem classificação salvos em 'processamento'.
+05/20/2025 10:32:45 PM - INFO - Extracting data year: 1983
+05/20/2025 10:32:51 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:32:56 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:33:01 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:33:06 PM - INFO - 1 dados de Sem classificação salvos em 'processamento'.
+05/20/2025 10:33:06 PM - INFO - Extracting data year: 1984
+05/20/2025 10:33:11 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:33:17 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:33:22 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:33:27 PM - INFO - 1 dados de Sem classificação salvos em 'processamento'.
+05/20/2025 10:33:27 PM - INFO - Extracting data year: 1985
+05/20/2025 10:33:32 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:33:37 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:33:42 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:33:48 PM - INFO - 1 dados de Sem classificação salvos em 'processamento'.
+05/20/2025 10:33:48 PM - INFO - Extracting data year: 1986
+05/20/2025 10:33:53 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:33:58 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:34:03 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:34:08 PM - INFO - 1 dados de Sem classificação salvos em 'processamento'.
+05/20/2025 10:34:08 PM - INFO - Extracting data year: 1987
+05/20/2025 10:34:13 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:34:18 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:34:23 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:34:29 PM - INFO - 1 dados de Sem classificação salvos em 'processamento'.
+05/20/2025 10:34:29 PM - INFO - Extracting data year: 1988
+05/20/2025 10:34:34 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:34:39 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:34:44 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:34:49 PM - INFO - 1 dados de Sem classificação salvos em 'processamento'.
+05/20/2025 10:34:49 PM - INFO - Extracting data year: 1989
+05/20/2025 10:34:55 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:35:00 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:35:05 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:35:10 PM - INFO - 1 dados de Sem classificação salvos em 'processamento'.
+05/20/2025 10:35:10 PM - INFO - Extracting data year: 1990
+05/20/2025 10:35:15 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:35:20 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:35:25 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:35:31 PM - INFO - 1 dados de Sem classificação salvos em 'processamento'.
+05/20/2025 10:35:31 PM - INFO - Extracting data year: 1991
+05/20/2025 10:35:36 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:35:41 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:35:46 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:35:52 PM - INFO - 1 dados de Sem classificação salvos em 'processamento'.
+05/20/2025 10:35:52 PM - INFO - Extracting data year: 1992
+05/20/2025 10:35:57 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:36:02 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:36:07 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:36:13 PM - INFO - 1 dados de Sem classificação salvos em 'processamento'.
+05/20/2025 10:36:13 PM - INFO - Extracting data year: 1993
+05/20/2025 10:36:18 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:36:23 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:36:28 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:36:33 PM - INFO - 1 dados de Sem classificação salvos em 'processamento'.
+05/20/2025 10:36:33 PM - INFO - Extracting data year: 1994
+05/20/2025 10:36:38 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:36:43 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:36:49 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:36:54 PM - INFO - 1 dados de Sem classificação salvos em 'processamento'.
+05/20/2025 10:36:54 PM - INFO - Extracting data year: 1995
+05/20/2025 10:36:59 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:37:04 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:37:09 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:37:15 PM - INFO - 1 dados de Sem classificação salvos em 'processamento'.
+05/20/2025 10:37:15 PM - INFO - Extracting data year: 1996
+05/20/2025 10:37:20 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:37:25 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:37:30 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:37:35 PM - INFO - 1 dados de Sem classificação salvos em 'processamento'.
+05/20/2025 10:37:35 PM - INFO - Extracting data year: 1997
+05/20/2025 10:37:40 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:37:46 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:37:51 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:37:56 PM - INFO - 1 dados de Sem classificação salvos em 'processamento'.
+05/20/2025 10:37:56 PM - INFO - Extracting data year: 1998
+05/20/2025 10:38:01 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:38:06 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:38:11 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:38:17 PM - INFO - 1 dados de Sem classificação salvos em 'processamento'.
+05/20/2025 10:38:17 PM - INFO - Extracting data year: 1999
+05/20/2025 10:38:22 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:38:27 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:38:32 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:38:37 PM - INFO - 1 dados de Sem classificação salvos em 'processamento'.
+05/20/2025 10:38:37 PM - INFO - Extracting data year: 2000
+05/20/2025 10:38:42 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:38:48 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:38:53 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:38:58 PM - INFO - 1 dados de Sem classificação salvos em 'processamento'.
+05/20/2025 10:38:58 PM - INFO - Extracting data year: 2001
+05/20/2025 10:39:03 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:39:08 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:39:14 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:39:19 PM - INFO - 1 dados de Sem classificação salvos em 'processamento'.
+05/20/2025 10:39:19 PM - INFO - Extracting data year: 2002
+05/20/2025 10:39:22 PM - ERROR - Erro ao capturar dados do site, tentando coletar do banco
+05/20/2025 10:39:24 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:39:29 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:39:34 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:39:39 PM - INFO - 1 dados de Sem classificação salvos em 'processamento'.
+05/20/2025 10:39:39 PM - INFO - Extracting data year: 2003
+05/20/2025 10:39:45 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:39:50 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:39:55 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:40:00 PM - INFO - 1 dados de Sem classificação salvos em 'processamento'.
+05/20/2025 10:40:00 PM - INFO - Extracting data year: 2004
+05/20/2025 10:40:05 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:40:10 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:40:15 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:40:20 PM - INFO - 1 dados de Sem classificação salvos em 'processamento'.
+05/20/2025 10:40:20 PM - INFO - Extracting data year: 2005
+05/20/2025 10:40:25 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:40:29 PM - ERROR - Erro ao capturar dados do site, tentando coletar do banco
+05/20/2025 10:40:31 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:40:36 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:40:41 PM - INFO - 1 dados de Sem classificação salvos em 'processamento'.
+05/20/2025 10:40:41 PM - INFO - Extracting data year: 2006
+05/20/2025 10:40:46 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:40:51 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:40:56 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:41:02 PM - INFO - 1 dados de Sem classificação salvos em 'processamento'.
+05/20/2025 10:41:02 PM - INFO - Extracting data year: 2007
+05/20/2025 10:41:07 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:41:12 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:41:15 PM - ERROR - Erro ao capturar dados do site, tentando coletar do banco
+05/20/2025 10:41:17 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:41:22 PM - INFO - 1 dados de Sem classificação salvos em 'processamento'.
+05/20/2025 10:41:22 PM - INFO - Extracting data year: 2008
+05/20/2025 10:41:23 PM - ERROR - Erro ao capturar dados do site, tentando coletar do banco
+05/20/2025 10:41:27 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:41:32 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:41:37 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:41:43 PM - INFO - 1 dados de Sem classificação salvos em 'processamento'.
+05/20/2025 10:41:43 PM - INFO - Extracting data year: 2009
+05/20/2025 10:41:48 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:41:53 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:41:58 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:42:03 PM - INFO - 1 dados de Sem classificação salvos em 'processamento'.
+05/20/2025 10:42:03 PM - INFO - Extracting data year: 2010
+05/20/2025 10:42:04 PM - ERROR - Erro ao capturar dados do site, tentando coletar do banco
+05/20/2025 10:42:08 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:42:13 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:42:18 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:42:24 PM - INFO - 1 dados de Sem classificação salvos em 'processamento'.
+05/20/2025 10:42:24 PM - INFO - Extracting data year: 2011
+05/20/2025 10:42:29 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:42:30 PM - ERROR - Erro ao capturar dados do site, tentando coletar do banco
+05/20/2025 10:42:34 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:42:39 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:42:44 PM - INFO - 1 dados de Sem classificação salvos em 'processamento'.
+05/20/2025 10:42:44 PM - INFO - Extracting data year: 2012
+05/20/2025 10:42:49 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:42:54 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:42:59 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:43:05 PM - INFO - 1 dados de Sem classificação salvos em 'processamento'.
+05/20/2025 10:43:05 PM - INFO - Extracting data year: 2013
+05/20/2025 10:43:10 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:43:15 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:43:20 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:43:25 PM - INFO - 1 dados de Sem classificação salvos em 'processamento'.
+05/20/2025 10:43:25 PM - INFO - Extracting data year: 2014
+05/20/2025 10:43:27 PM - ERROR - Erro ao capturar dados do site, tentando coletar do banco
+05/20/2025 10:43:31 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:43:36 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:43:41 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:43:41 PM - ERROR - Erro ao capturar dados do site, tentando coletar do banco
+05/20/2025 10:43:46 PM - INFO - 1 dados de Sem classificação salvos em 'processamento'.
+05/20/2025 10:43:46 PM - INFO - Extracting data year: 2015
+05/20/2025 10:43:51 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:43:52 PM - ERROR - Erro ao capturar dados do site, tentando coletar do banco
+05/20/2025 10:43:56 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:44:01 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:44:06 PM - INFO - 1 dados de Sem classificação salvos em 'processamento'.
+05/20/2025 10:44:06 PM - INFO - Extracting data year: 2016
+05/20/2025 10:44:12 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:44:17 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:44:22 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:44:27 PM - INFO - 1 dados de Sem classificação salvos em 'processamento'.
+05/20/2025 10:44:27 PM - INFO - Extracting data year: 2017
+05/20/2025 10:44:32 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:44:38 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:44:43 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:44:48 PM - INFO - 1 dados de Sem classificação salvos em 'processamento'.
+05/20/2025 10:44:48 PM - INFO - Extracting data year: 2018
+05/20/2025 10:44:50 PM - ERROR - Erro ao capturar dados do site, tentando coletar do banco
+05/20/2025 10:44:53 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:44:58 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:45:03 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:45:09 PM - INFO - 1 dados de Sem classificação salvos em 'processamento'.
+05/20/2025 10:45:09 PM - INFO - Extracting data year: 2019
+05/20/2025 10:45:14 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:45:19 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:45:24 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:45:29 PM - INFO - 1 dados de Sem classificação salvos em 'processamento'.
+05/20/2025 10:45:29 PM - INFO - Extracting data year: 2020
+05/20/2025 10:45:31 PM - ERROR - Erro ao capturar dados do site, tentando coletar do banco
+05/20/2025 10:45:34 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:45:39 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:45:44 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:45:50 PM - INFO - 1 dados de Sem classificação salvos em 'processamento'.
+05/20/2025 10:45:50 PM - INFO - Extracting data year: 2021
+05/20/2025 10:45:55 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:46:00 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:46:05 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:46:10 PM - INFO - 1 dados de Sem classificação salvos em 'processamento'.
+05/20/2025 10:46:10 PM - INFO - Extracting data year: 2022
+05/20/2025 10:46:15 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:46:20 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:46:23 PM - ERROR - Erro ao capturar dados do banco: cannot access local variable 'option' where it is not associated with a value
+05/20/2025 10:46:25 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:46:31 PM - INFO - 1 dados de Sem classificação salvos em 'processamento'.
+05/20/2025 10:46:31 PM - INFO - Extracting data year: 2023
+05/20/2025 10:46:36 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:46:41 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:46:46 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:46:51 PM - INFO - 1 dados de Sem classificação salvos em 'processamento'.
+05/20/2025 10:46:51 PM - INFO - Extracting data year: 2024
+05/20/2025 10:46:52 PM - INFO - Iniciando scraping de processamento.
+05/20/2025 10:46:56 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/20/2025 10:46:58 PM - INFO - Acesso ao site bem-sucedido.
+05/20/2025 10:46:58 PM - INFO - Dados do site coletados com sucesso
+05/20/2025 10:47:02 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/20/2025 10:47:07 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/20/2025 10:47:12 PM - INFO - 1 dados de Sem classificação salvos em 'processamento'.
+05/20/2025 10:47:27 PM - INFO - Iniciando scraping de processamento.
+05/20/2025 10:47:33 PM - INFO - Acesso ao site bem-sucedido.
+05/20/2025 10:47:33 PM - INFO - Dados do site coletados com sucesso
+05/20/2025 10:48:18 PM - ERROR - Erro ao capturar dados do banco: cannot access local variable 'option' where it is not associated with a value
+05/20/2025 10:49:09 PM - ERROR - Erro ao capturar dados do banco: cannot access local variable 'option' where it is not associated with a value
+05/20/2025 10:49:47 PM - ERROR - Erro ao capturar dados do banco: cannot access local variable 'option' where it is not associated with a value
+05/20/2025 10:51:34 PM - ERROR - Erro ao capturar dados do banco: cannot access local variable 'option' where it is not associated with a value
+05/20/2025 10:52:10 PM - ERROR - Erro ao capturar dados do banco: cannot access local variable 'option' where it is not associated with a value
+05/20/2025 10:52:17 PM - INFO - Iniciando scraping de processamento.
+05/20/2025 10:52:23 PM - INFO - Acesso ao site bem-sucedido.
+05/20/2025 10:52:23 PM - INFO - Dados do site coletados com sucesso
+05/20/2025 10:52:59 PM - INFO - Iniciando scraping de processamento.
+05/20/2025 10:53:05 PM - INFO - Acesso ao site bem-sucedido.
+05/20/2025 10:53:05 PM - INFO - Dados do site coletados com sucesso
+05/20/2025 10:53:10 PM - ERROR - Erro ao capturar dados do banco: cannot access local variable 'option' where it is not associated with a value
+05/20/2025 10:53:48 PM - ERROR - Erro ao capturar dados do banco: cannot access local variable 'option' where it is not associated with a value
+05/20/2025 10:54:35 PM - INFO - Iniciando scraping de processamento.
+05/20/2025 10:54:40 PM - INFO - Acesso ao site bem-sucedido.
+05/20/2025 10:54:40 PM - INFO - Dados do site coletados com sucesso
+05/20/2025 10:54:50 PM - INFO - Iniciando scraping de processamento.
+05/20/2025 10:54:55 PM - INFO - Acesso ao site bem-sucedido.
+05/20/2025 10:54:55 PM - INFO - Dados do site coletados com sucesso
+05/20/2025 10:54:58 PM - INFO - Iniciando scraping de processamento.
+05/20/2025 10:55:03 PM - INFO - Acesso ao site bem-sucedido.
+05/20/2025 10:55:03 PM - INFO - Dados do site coletados com sucesso
+05/20/2025 10:55:48 PM - INFO - Iniciando scraping de processamento.
+05/20/2025 10:55:53 PM - INFO - Acesso ao site bem-sucedido.
+05/20/2025 10:55:53 PM - INFO - Dados do site coletados com sucesso
+05/20/2025 10:56:16 PM - INFO - Iniciando scraping de processamento.
+05/20/2025 10:56:22 PM - INFO - Acesso ao site bem-sucedido.
+05/20/2025 10:56:22 PM - INFO - Dados do site coletados com sucesso
+05/20/2025 10:58:06 PM - INFO - Iniciando scraping de processamento.
+05/20/2025 10:58:11 PM - INFO - Acesso ao site bem-sucedido.
+05/20/2025 10:58:11 PM - INFO - Dados do site coletados com sucesso
+05/20/2025 10:58:25 PM - INFO - Iniciando scraping de processamento.
+05/20/2025 10:58:30 PM - INFO - Acesso ao site bem-sucedido.
+05/20/2025 10:58:30 PM - INFO - Dados do site coletados com sucesso
+05/20/2025 10:59:22 PM - INFO - Iniciando scraping de processamento.
+05/20/2025 10:59:28 PM - INFO - Acesso ao site bem-sucedido.
+05/20/2025 10:59:28 PM - INFO - Dados do site coletados com sucesso
+05/20/2025 11:01:00 PM - INFO - Iniciando scraping de processamento.
+05/20/2025 11:01:06 PM - INFO - Acesso ao site bem-sucedido.
+05/20/2025 11:01:06 PM - INFO - Dados do site coletados com sucesso
