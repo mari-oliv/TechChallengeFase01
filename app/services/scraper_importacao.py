@@ -7,7 +7,7 @@ import requests
 import sqlite3
 
 
-def get_import(year: int, option: int) -> pd.DataFrame:
+def get_importacao(year: int, option: int) -> pd.DataFrame:
     """
     Coleta dados da página de importação do Vitibrasil usando scraping.
 

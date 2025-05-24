@@ -11,6 +11,8 @@ import logging
 from pydantic import BaseModel
 from app.services.scraper_producao import get_producao
 from app.services.scraper_processamento import get_processamento
+from app.services.scraper_comercializacao import get_comercializacao
+from app.services.scraper_importacao import get_importacao
 
 router = APIRouter()
 logging_config()
@@ -63,10 +65,9 @@ async def login(username: str = Form(...), password: str = Form(...)):
     access_token = cria_token(data={"sub": username})
     return {"access_token": access_token, "token_type": "bearer"}
 
-
 #rota da aba produtos
-@router.get("/producao/") #?year=70-2023
-async def get_prod_data(
+@router.get("/producao") #?year=70-2023
+async def producao(
     year: int = Query(None, ge=1970, le=2023),
     product: Optional[str] = Query(None),  # pode ser query param
     category: Optional[str] = Query(None),
@@ -122,7 +123,7 @@ def parse_float(value: Optional[str]) -> Optional[float]:
         return None
     
 #rota da aba processamento, subseleção viniferas
-@router.get("/processamento/")
+@router.get("/processamento")
 async def processamento(
     product: str = Query(None),
     year: int = Query(None, ge=1970, le=2023),
@@ -246,7 +247,7 @@ token_user: str = Depends(verifica_token)):
         
         if cultive:
             query += " AND Cultive LIKE ?"
-            params.append(group)
+            params.append(cultive)
         
         if quant_min_value is not None:
             query += " AND CAST(REPLACE(Quantity_L, '.', '') AS REAL) >= ?"
@@ -269,70 +270,10 @@ token_user: str = Depends(verifica_token)):
         return {"success": False, "error": str(e)}
     
 
-#rota para aba de importacao de vinhos de mesa
-@router.get("/importacao/vinhos_mesa")
-async def get_import_vinhos_mesa(
-    year: int = Query(None, ge= 1970, le= 2024),
-    country: str = Query(None),
-    quant_min: Optional[str] = Query(None),
-    quant_max: Optional[str] = Query(None),
-    value_min: Optional[str] = Query(None),
-    value_max: Optional[str] = Query(None)
-,
-token_user: str = Depends(verifica_token)):
-    try:
-        quant_min_value = parse_float(quant_min)
-        quant_max_value = parse_float(quant_max)
-        value_max_quant = parse_float(value_max)
-        value_min_quant = parse_float(value_min)
-    
-        conn = sqlite3.connect("vitibrasil.db")
-        cursor = conn.cursor()
-
-        query = "SELECT Year, Country, Quantity_Kg, Value_USD FROM importacao WHERE 1=1" #query inicial
-        params = [] #lista dos filtros
-
-        if year is not None:
-            query += " AND Year = ?"
-            params.append(year)
-        
-        if country:
-            query += " AND Country LIKE ?"
-            params.append(country)
-        
-        if quant_min_value is not None:
-            query += " AND CAST(REPLACE(Quantity_Kg, '.', '') AS REAL) >= ?"
-            params.append(quant_min)
-
-        if quant_max_value is not None:
-            query += " AND CAST(REPLACE(Quantity_Kg, '.', '') AS REAL) <= ?"
-            params.append(quant_max)
-        
-        if value_min_quant is not None:
-            query += " AND CAST(REPLACE(Value_USD, '.', '') AS REAL) >= ?"
-            params.append(value_min)
-        
-        if value_max_quant is not None:
-            query += " AND CAST(REPLACE(Value_USD, '.', '') AS REAL) <= ?"
-            params.append(value_max)
-
-        cursor.execute(query, params)
-        rows = cursor.fetchall()
-
-        data = [{"Year": row[0], "Country": row[1], "Quantity_Kg": row[2], "Value_USD": row[3]} for row in rows]
-        conn.close()
-
-        return {"Success": True, "total": len(data), "data": data}
-    
-    except Exception as e:
-        return {"Success": False, "error": str(e)}
-
-#product: Optional[str] = Query(None),  
-#rota para aba de importacao de espumantes
 @router.get("/importacao")
-async def get_import_espumantes(
+async def importacao(
     year: int = Query(None, ge= 1970, le= 2024),
-    country: str = Query(None),
+    country: Optional[str] = Query(None),
     product: str = Query(None),
     quant_min: Optional[str] = Query(None),
     quant_max: Optional[str] = Query(None),
@@ -340,7 +281,38 @@ async def get_import_espumantes(
     value_max: Optional[str] = Query(None)
 ,
 token_user: str = Depends(verifica_token)):
+    if product is None:
+        return {"Necessário informar o produto": "Vinhos de mesa, Espumantes, Uvas frescas, Uvas passas ou Suco de uva"}
+
+
+    if product == 'Vinhos de mesa':
+        option = 1
+    elif product == 'Espumantes':
+        option = 2
+    elif product == 'Uvas frescas':
+        option = 3
+    elif product == 'Uvas passas':
+        option = 4
+    elif product == 'Suco de uva':
+        option = 5
+    else:
+        pass
+
     try:
+        df = get_importacao(year, option)
+        data = df.to_dict(orient="records")
+        logging.info("Dados do site coletados com sucesso")
+        # Aplica filtros se product e/ou category forem informados
+        filtered_data = data
+        if product:
+            filtered_data = [row for row in filtered_data if row.get("Product") and product.lower() in row["Product"].lower()]
+        if country:
+            filtered_data = [row for row in filtered_data if row.get("Country") and country.lower() in row["Country"].lower()]
+        return {"success": True, "total": len(filtered_data), "data": filtered_data}
+    except Exception as e:
+        logging.error(f"Erro ao capturar dados do banco: {e}")
+        return {"Success": False, "error": str(e)}  
+    except:
         quant_min_value = parse_float(quant_min)
         quant_max_value = parse_float(quant_max)
         value_max_quant = parse_float(value_max)
@@ -388,126 +360,7 @@ token_user: str = Depends(verifica_token)):
 
         return {"Success": True, "total": len(data), "data": data}
     
-    except Exception as e:
-        return {"Success": False, "error": str(e)}
-    
 
-#rota para aba de importacao de uvas frescas
-@router.get("/importacao/uvas_frescas")
-async def get_import_uvas_frescas(
-    year: int = Query(None, ge= 1970, le= 2024),
-    country: str = Query(None),
-    quant_min: Optional[str] = Query(None),
-    quant_max: Optional[str] = Query(None),
-    value_min: Optional[str] = Query(None),
-    value_max: Optional[str] = Query(None)
-,
-token_user: str = Depends(verifica_token)):
-    try:
-        quant_min_value = parse_float(quant_min)
-        quant_max_value = parse_float(quant_max)
-        value_max_quant = parse_float(value_max)
-        value_min_quant = parse_float(value_min)
-    
-        conn = sqlite3.connect("vitibrasil.db")
-        cursor = conn.cursor()
-
-        query = "SELECT Year, Country, Quantity_Kg, Value_USD FROM importacao WHERE 1=1" #query inicial
-        params = [] #lista dos filtros
-
-        if year is not None:
-            query += " AND Year = ?"
-            params.append(year)
-        
-        if country:
-            query += " AND Country LIKE ?"
-            params.append(country)
-        
-        if quant_min_value is not None:
-            query += " AND CAST(REPLACE(Quantity_Kg, '.', '') AS REAL) >= ?"
-            params.append(quant_min)
-
-        if quant_max_value is not None:
-            query += " AND CAST(REPLACE(Quantity_Kg, '.', '') AS REAL) <= ?"
-            params.append(quant_max)
-        
-        if value_min_quant is not None:
-            query += " AND CAST(REPLACE(Value_USD, '.', '') AS REAL) >= ?"
-            params.append(value_min)
-        
-        if value_max_quant is not None:
-            query += " AND CAST(REPLACE(Value_USD, '.', '') AS REAL) <= ?"
-            params.append(value_max)
-
-        cursor.execute(query, params)
-        rows = cursor.fetchall()
-
-        data = [{"Year": row[0], "Country": row[1], "Quantity_Kg": row[2], "Value_USD": row[3]} for row in rows]
-        conn.close()
-
-        return {"Success": True, "total": len(data), "data": data}
-    
-    except Exception as e:
-        return {"Success": False, "error": str(e)}
-    
-
-#rota para aba de importacao de uvas passas
-@router.get("/importacao/uvas_passas")
-async def get_import_uvas_passas(
-    year: int = Query(None, ge= 1970, le= 2024),
-    country: str = Query(None),
-    quant_min: Optional[str] = Query(None),
-    quant_max: Optional[str] = Query(None),
-    value_min: Optional[str] = Query(None),
-    value_max: Optional[str] = Query(None)
-,
-token_user: str = Depends(verifica_token)):
-    try:
-        quant_min_value = parse_float(quant_min)
-        quant_max_value = parse_float(quant_max)
-        value_max_quant = parse_float(value_max)
-        value_min_quant = parse_float(value_min)
-    
-        conn = sqlite3.connect("vitibrasil.db")
-        cursor = conn.cursor()
-
-        query = "SELECT Year, Country, Quantity_Kg, Value_USD FROM importacao WHERE 1=1" #query inicial
-        params = [] #lista dos filtros
-
-        if year is not None:
-            query += " AND Year = ?"
-            params.append(year)
-        
-        if country:
-            query += " AND Country LIKE ?"
-            params.append(country)
-        
-        if quant_min_value is not None:
-            query += " AND CAST(REPLACE(Quantity_Kg, '.', '') AS REAL) >= ?"
-            params.append(quant_min)
-
-        if quant_max_value is not None:
-            query += " AND CAST(REPLACE(Quantity_Kg, '.', '') AS REAL) <= ?"
-            params.append(quant_max)
-        
-        if value_min_quant is not None:
-            query += " AND CAST(REPLACE(Value_USD, '.', '') AS REAL) >= ?"
-            params.append(value_min)
-        
-        if value_max_quant is not None:
-            query += " AND CAST(REPLACE(Value_USD, '.', '') AS REAL) <= ?"
-            params.append(value_max)
-
-        cursor.execute(query, params)
-        rows = cursor.fetchall()
-
-        data = [{"Year": row[0], "Country": row[1], "Quantity_Kg": row[2], "Value_USD": row[3]} for row in rows]
-        conn.close()
-
-        return {"Success": True, "total": len(data), "data": data}
-    
-    except Exception as e:
-        return {"Success": False, "error": str(e)}
 
         
  #rota para aba de exportacao vinhos de mesa

@@ -5996,3 +5996,16 @@ AttributeError: module 'bcrypt' has no attribute '__about__'
 05/24/2025 03:25:16 PM - ERROR - Erro ao capturar dados do banco: '>=' not supported between instances of 'NoneType' and 'NoneType'
 05/24/2025 03:27:12 PM - INFO - Acessando o site Vitibrasil
 05/24/2025 03:27:17 PM - INFO - Dados do site coletados com sucesso
+05/24/2025 04:18:53 PM - INFO - Acessando o site Vitibrasil
+05/24/2025 04:18:58 PM - INFO - Dados do site coletados com sucesso
+05/24/2025 04:19:29 PM - ERROR - Erro ao capturar dados do banco: get_importacao() missing 1 required positional argument: 'option'
+05/24/2025 04:19:58 PM - ERROR - Erro ao capturar dados do banco: get_importacao() missing 1 required positional argument: 'option'
+05/24/2025 04:20:25 PM - INFO - Dados do site coletados com sucesso
+05/24/2025 04:20:32 PM - INFO - Dados do site coletados com sucesso
+05/24/2025 04:21:27 PM - INFO - Dados do site coletados com sucesso
+05/24/2025 04:23:05 PM - INFO - Dados do site coletados com sucesso
+05/24/2025 04:24:49 PM - ERROR - Erro ao capturar dados do banco: cannot access local variable 'option' where it is not associated with a value
+05/24/2025 04:25:05 PM - INFO - Dados do site coletados com sucesso
+05/24/2025 04:25:42 PM - INFO - Dados do site coletados com sucesso
+05/24/2025 04:25:54 PM - INFO - Dados do site coletados com sucesso
+05/24/2025 04:26:17 PM - INFO - Dados do site coletados com sucesso
