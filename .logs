@@ -5971,3 +5971,28 @@ AttributeError: module 'bcrypt' has no attribute '__about__'
 05/24/2025 03:09:18 PM - INFO - Iniciando scraping de processamento.
 05/24/2025 03:09:23 PM - INFO - Acesso ao site bem-sucedido.
 05/24/2025 03:09:23 PM - INFO - Dados do site coletados com sucesso
+05/24/2025 03:15:30 PM - INFO - Acessando o site Vitibrasil
+05/24/2025 03:15:35 PM - INFO - Dados do site coletados com sucesso
+05/24/2025 03:17:37 PM - INFO - Acessando o site Vitibrasil
+05/24/2025 03:17:42 PM - INFO - Dados do site coletados com sucesso
+05/24/2025 03:19:00 PM - INFO - Acessando o site Vitibrasil
+05/24/2025 03:19:05 PM - INFO - Dados do site coletados com sucesso
+05/24/2025 03:19:14 PM - INFO - Acessando o site Vitibrasil
+05/24/2025 03:19:19 PM - INFO - Dados do site coletados com sucesso
+05/24/2025 03:19:34 PM - INFO - Acessando o site Vitibrasil
+05/24/2025 03:19:39 PM - INFO - Dados do site coletados com sucesso
+05/24/2025 03:20:31 PM - INFO - Acessando o site Vitibrasil
+05/24/2025 03:20:36 PM - INFO - Dados do site coletados com sucesso
+05/24/2025 03:22:25 PM - INFO - Acessando o site Vitibrasil
+05/24/2025 03:22:30 PM - INFO - Dados do site coletados com sucesso
+05/24/2025 03:22:50 PM - INFO - Acessando o site Vitibrasil
+05/24/2025 03:22:56 PM - INFO - Dados do site coletados com sucesso
+05/24/2025 03:23:02 PM - INFO - Acessando o site Vitibrasil
+05/24/2025 03:23:07 PM - INFO - Dados do site coletados com sucesso
+05/24/2025 03:24:46 PM - INFO - Acessando o site Vitibrasil
+05/24/2025 03:24:51 PM - INFO - Dados do site coletados com sucesso
+05/24/2025 03:25:11 PM - INFO - Acessando o site Vitibrasil
+05/24/2025 03:25:16 PM - INFO - Dados do site coletados com sucesso
+05/24/2025 03:25:16 PM - ERROR - Erro ao capturar dados do banco: '>=' not supported between instances of 'NoneType' and 'NoneType'
+05/24/2025 03:27:12 PM - INFO - Acessando o site Vitibrasil
+05/24/2025 03:27:17 PM - INFO - Dados do site coletados com sucesso

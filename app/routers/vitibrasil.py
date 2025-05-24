@@ -65,10 +65,11 @@ async def login(username: str = Form(...), password: str = Form(...)):
 
 
 #rota da aba produtos
-@router.get("/producao/{year}") #?year=70-2023
+@router.get("/producao/") #?year=70-2023
 async def get_prod_data(
-    year: int,  # agora é path param
+    year: int = Query(None, ge=1970, le=2023),
     product: Optional[str] = Query(None),  # pode ser query param
+    category: Optional[str] = Query(None),
     token_user: str = Depends(verifica_token)
 ):
     try:
@@ -76,10 +77,13 @@ async def get_prod_data(
         df = get_producao(year)
         data = df.to_dict(orient="records")
         logging.info("Dados do site coletados com sucesso")
+        # Aplica filtros se product e/ou category forem informados
+        filtered_data = data
         if product:
-            filtered_data = [row for row in data if row.get("Product") and product.lower() in row["Product"].lower()]
-            return {"success": True, "total": len(filtered_data), "data": filtered_data}
-        return {"success": True, "total": len(data), "data": data}
+            filtered_data = [row for row in filtered_data if row.get("Product") and product.lower() in row["Product"].lower()]
+        if category:
+            filtered_data = [row for row in filtered_data if row.get("Category") and category.lower() in row["Category"].lower()]
+        return {"success": True, "total": len(filtered_data), "data": filtered_data}
     except Exception as e:
         logging.error(f"Erro ao capturar dados do banco: {e}")
         return {"Success": False, "error": str(e)}
@@ -213,7 +217,7 @@ token_user: str = Depends(verifica_token)):
     
 
 #rota da aba comercializacao
-@router.get("/comercializacao")
+@router.get("/comercializacao/")
 async def get_comercializacao(
     year: int = Query(None, ge=1970, le=2023),
     group: str = Query(None),
