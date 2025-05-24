@@ -4348,3 +4348,1626 @@ AttributeError: module 'bcrypt' has no attribute '__about__'
 05/20/2025 11:01:00 PM - INFO - Iniciando scraping de processamento.
 05/20/2025 11:01:06 PM - INFO - Acesso ao site bem-sucedido.
 05/20/2025 11:01:06 PM - INFO - Dados do site coletados com sucesso
+05/24/2025 02:15:03 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:15:09 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:15:09 PM - INFO - Dados do site coletados com sucesso
+05/24/2025 02:15:50 PM - INFO - Extracting data year: 1970
+05/24/2025 02:15:56 PM - INFO - 62 dados de salvos em 'comercializacao'.
+05/24/2025 02:15:56 PM - INFO - Extracting data year: 1971
+05/24/2025 02:16:01 PM - INFO - 62 dados de salvos em 'comercializacao'.
+05/24/2025 02:16:01 PM - INFO - Extracting data year: 1972
+05/24/2025 02:16:06 PM - INFO - 62 dados de salvos em 'comercializacao'.
+05/24/2025 02:16:06 PM - INFO - Extracting data year: 1973
+05/24/2025 02:16:11 PM - INFO - 62 dados de salvos em 'comercializacao'.
+05/24/2025 02:16:11 PM - INFO - Extracting data year: 1974
+05/24/2025 02:16:17 PM - INFO - 62 dados de salvos em 'comercializacao'.
+05/24/2025 02:16:17 PM - INFO - Extracting data year: 1975
+05/24/2025 02:16:22 PM - INFO - 62 dados de salvos em 'comercializacao'.
+05/24/2025 02:16:22 PM - INFO - Extracting data year: 1976
+05/24/2025 02:16:24 PM - INFO - Extracting data year: 1970
+05/24/2025 02:16:27 PM - INFO - 62 dados de salvos em 'comercializacao'.
+05/24/2025 02:16:27 PM - INFO - Extracting data year: 1977
+05/24/2025 02:16:29 PM - INFO - 142 dados de Vinhos de mesa salvos em 'exportacao'.
+05/24/2025 02:16:32 PM - INFO - 62 dados de salvos em 'comercializacao'.
+05/24/2025 02:16:32 PM - INFO - Extracting data year: 1978
+05/24/2025 02:16:34 PM - INFO - 108 dados de Espumantes salvos em 'exportacao'.
+05/24/2025 02:16:36 PM - INFO - Extracting data year: 1970
+05/24/2025 02:16:37 PM - INFO - 62 dados de salvos em 'comercializacao'.
+05/24/2025 02:16:37 PM - INFO - Extracting data year: 1979
+05/24/2025 02:16:39 PM - INFO - 141 dados de Uvas frescas salvos em 'exportacao'.
+05/24/2025 02:16:41 PM - INFO - 70 dados de Vinhos de mesa salvos em 'importacao'.
+05/24/2025 02:16:43 PM - INFO - 62 dados de salvos em 'comercializacao'.
+05/24/2025 02:16:43 PM - INFO - Extracting data year: 1980
+05/24/2025 02:16:45 PM - INFO - 126 dados de Suco de uva salvos em 'exportacao'.
+05/24/2025 02:16:45 PM - INFO - Extracting data year: 1971
+05/24/2025 02:16:46 PM - INFO - Extracting data year: 1970
+05/24/2025 02:16:46 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:16:47 PM - INFO - 47 dados de Espumantes salvos em 'importacao'.
+05/24/2025 02:16:48 PM - INFO - 62 dados de salvos em 'comercializacao'.
+05/24/2025 02:16:48 PM - INFO - Extracting data year: 1981
+05/24/2025 02:16:50 PM - INFO - 142 dados de Vinhos de mesa salvos em 'exportacao'.
+05/24/2025 02:16:51 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:16:51 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/24/2025 02:16:51 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:16:52 PM - INFO - 21 dados de Uvas frescas salvos em 'importacao'.
+05/24/2025 02:16:53 PM - INFO - 62 dados de salvos em 'comercializacao'.
+05/24/2025 02:16:53 PM - INFO - Extracting data year: 1982
+05/24/2025 02:16:55 PM - INFO - 108 dados de Espumantes salvos em 'exportacao'.
+05/24/2025 02:16:57 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:16:57 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/24/2025 02:16:57 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:16:57 PM - INFO - 37 dados de Uvas passas salvos em 'importacao'.
+05/24/2025 02:16:57 PM - INFO - Extracting data year: 1971
+05/24/2025 02:16:57 PM - INFO - Extracting data year: 1970
+05/24/2025 02:16:58 PM - INFO - 62 dados de salvos em 'comercializacao'.
+05/24/2025 02:16:58 PM - INFO - Extracting data year: 1983
+05/24/2025 02:17:00 PM - INFO - 141 dados de Uvas frescas salvos em 'exportacao'.
+05/24/2025 02:17:02 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:17:02 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/24/2025 02:17:02 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:17:02 PM - INFO - 70 dados de Vinhos de mesa salvos em 'importacao'.
+05/24/2025 02:17:04 PM - INFO - 62 dados de salvos em 'comercializacao'.
+05/24/2025 02:17:04 PM - INFO - Extracting data year: 1984
+05/24/2025 02:17:06 PM - INFO - 126 dados de Suco de uva salvos em 'exportacao'.
+05/24/2025 02:17:06 PM - INFO - Extracting data year: 1972
+05/24/2025 02:17:07 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:17:07 PM - INFO - 1 dados de Sem classificação salvos em 'processamento'.
+05/24/2025 02:17:07 PM - INFO - Extracting data year: 1971
+05/24/2025 02:17:07 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:17:07 PM - INFO - 47 dados de Espumantes salvos em 'importacao'.
+05/24/2025 02:17:09 PM - INFO - 62 dados de salvos em 'comercializacao'.
+05/24/2025 02:17:09 PM - INFO - Extracting data year: 1985
+05/24/2025 02:17:10 PM - INFO - Acessando o site Vitibrasil
+05/24/2025 02:17:11 PM - INFO - 142 dados de Vinhos de mesa salvos em 'exportacao'.
+05/24/2025 02:17:13 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:17:13 PM - INFO - 21 dados de Uvas frescas salvos em 'importacao'.
+05/24/2025 02:17:13 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/24/2025 02:17:13 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:17:14 PM - INFO - 62 dados de salvos em 'comercializacao'.
+05/24/2025 02:17:14 PM - INFO - Extracting data year: 1986
+05/24/2025 02:17:15 PM - INFO - Acessando o site Vitibrasil
+05/24/2025 02:17:16 PM - INFO - 108 dados de Espumantes salvos em 'exportacao'.
+05/24/2025 02:17:18 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:17:18 PM - INFO - 37 dados de Uvas passas salvos em 'importacao'.
+05/24/2025 02:17:18 PM - INFO - Extracting data year: 1972
+05/24/2025 02:17:18 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/24/2025 02:17:18 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:17:19 PM - INFO - 62 dados de salvos em 'comercializacao'.
+05/24/2025 02:17:19 PM - INFO - Extracting data year: 1987
+05/24/2025 02:17:21 PM - INFO - Acessando o site Vitibrasil
+05/24/2025 02:17:21 PM - INFO - 141 dados de Uvas frescas salvos em 'exportacao'.
+05/24/2025 02:17:23 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:17:23 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/24/2025 02:17:23 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:17:23 PM - INFO - 70 dados de Vinhos de mesa salvos em 'importacao'.
+05/24/2025 02:17:25 PM - INFO - 62 dados de salvos em 'comercializacao'.
+05/24/2025 02:17:25 PM - INFO - Extracting data year: 1988
+05/24/2025 02:17:26 PM - INFO - Acessando o site Vitibrasil
+05/24/2025 02:17:26 PM - INFO - 126 dados de Suco de uva salvos em 'exportacao'.
+05/24/2025 02:17:26 PM - INFO - Extracting data year: 1973
+05/24/2025 02:17:28 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:17:28 PM - INFO - 1 dados de Sem classificação salvos em 'processamento'.
+05/24/2025 02:17:28 PM - INFO - Extracting data year: 1972
+05/24/2025 02:17:28 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:17:28 PM - INFO - 47 dados de Espumantes salvos em 'importacao'.
+05/24/2025 02:17:30 PM - INFO - 62 dados de salvos em 'comercializacao'.
+05/24/2025 02:17:30 PM - INFO - Extracting data year: 1989
+05/24/2025 02:17:31 PM - INFO - Acessando o site Vitibrasil
+05/24/2025 02:17:32 PM - INFO - 142 dados de Vinhos de mesa salvos em 'exportacao'.
+05/24/2025 02:17:33 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:17:33 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/24/2025 02:17:33 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:17:33 PM - INFO - 21 dados de Uvas frescas salvos em 'importacao'.
+05/24/2025 02:17:35 PM - INFO - 62 dados de salvos em 'comercializacao'.
+05/24/2025 02:17:35 PM - INFO - Extracting data year: 1990
+05/24/2025 02:17:36 PM - INFO - Acessando o site Vitibrasil
+05/24/2025 02:17:37 PM - INFO - 108 dados de Espumantes salvos em 'exportacao'.
+05/24/2025 02:17:39 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:17:39 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/24/2025 02:17:39 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:17:39 PM - INFO - 37 dados de Uvas passas salvos em 'importacao'.
+05/24/2025 02:17:39 PM - INFO - Extracting data year: 1973
+05/24/2025 02:17:40 PM - INFO - 62 dados de salvos em 'comercializacao'.
+05/24/2025 02:17:40 PM - INFO - Extracting data year: 1991
+05/24/2025 02:17:41 PM - INFO - Acessando o site Vitibrasil
+05/24/2025 02:17:42 PM - INFO - 141 dados de Uvas frescas salvos em 'exportacao'.
+05/24/2025 02:17:44 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:17:44 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/24/2025 02:17:44 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:17:44 PM - INFO - 70 dados de Vinhos de mesa salvos em 'importacao'.
+05/24/2025 02:17:46 PM - INFO - 62 dados de salvos em 'comercializacao'.
+05/24/2025 02:17:46 PM - INFO - Extracting data year: 1992
+05/24/2025 02:17:47 PM - INFO - Acessando o site Vitibrasil
+05/24/2025 02:17:47 PM - INFO - 126 dados de Suco de uva salvos em 'exportacao'.
+05/24/2025 02:17:47 PM - INFO - Extracting data year: 1974
+05/24/2025 02:17:49 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:17:49 PM - INFO - 1 dados de Sem classificação salvos em 'processamento'.
+05/24/2025 02:17:49 PM - INFO - Extracting data year: 1973
+05/24/2025 02:17:49 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:17:49 PM - INFO - 47 dados de Espumantes salvos em 'importacao'.
+05/24/2025 02:17:51 PM - INFO - 62 dados de salvos em 'comercializacao'.
+05/24/2025 02:17:51 PM - INFO - Extracting data year: 1993
+05/24/2025 02:17:52 PM - INFO - Acessando o site Vitibrasil
+05/24/2025 02:17:52 PM - INFO - 142 dados de Vinhos de mesa salvos em 'exportacao'.
+05/24/2025 02:17:54 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:17:54 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/24/2025 02:17:54 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:17:55 PM - INFO - 21 dados de Uvas frescas salvos em 'importacao'.
+05/24/2025 02:17:56 PM - INFO - 62 dados de salvos em 'comercializacao'.
+05/24/2025 02:17:56 PM - INFO - Extracting data year: 1994
+05/24/2025 02:17:57 PM - INFO - Acessando o site Vitibrasil
+05/24/2025 02:17:58 PM - INFO - 108 dados de Espumantes salvos em 'exportacao'.
+05/24/2025 02:18:00 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:18:00 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/24/2025 02:18:00 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:18:00 PM - INFO - 37 dados de Uvas passas salvos em 'importacao'.
+05/24/2025 02:18:00 PM - INFO - Extracting data year: 1974
+05/24/2025 02:18:02 PM - INFO - 62 dados de salvos em 'comercializacao'.
+05/24/2025 02:18:02 PM - INFO - Extracting data year: 1995
+05/24/2025 02:18:02 PM - INFO - Acessando o site Vitibrasil
+05/24/2025 02:18:03 PM - INFO - 141 dados de Uvas frescas salvos em 'exportacao'.
+05/24/2025 02:18:05 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:18:05 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/24/2025 02:18:05 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:18:05 PM - INFO - 70 dados de Vinhos de mesa salvos em 'importacao'.
+05/24/2025 02:18:07 PM - INFO - 62 dados de salvos em 'comercializacao'.
+05/24/2025 02:18:07 PM - INFO - Extracting data year: 1996
+05/24/2025 02:18:07 PM - INFO - Acessando o site Vitibrasil
+05/24/2025 02:18:08 PM - INFO - 126 dados de Suco de uva salvos em 'exportacao'.
+05/24/2025 02:18:08 PM - INFO - Extracting data year: 1975
+05/24/2025 02:18:10 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:18:10 PM - INFO - 1 dados de Sem classificação salvos em 'processamento'.
+05/24/2025 02:18:10 PM - INFO - Extracting data year: 1974
+05/24/2025 02:18:10 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:18:10 PM - INFO - 47 dados de Espumantes salvos em 'importacao'.
+05/24/2025 02:18:12 PM - INFO - Acessando o site Vitibrasil
+05/24/2025 02:18:12 PM - INFO - 62 dados de salvos em 'comercializacao'.
+05/24/2025 02:18:12 PM - INFO - Extracting data year: 1997
+05/24/2025 02:18:13 PM - INFO - 142 dados de Vinhos de mesa salvos em 'exportacao'.
+05/24/2025 02:18:15 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:18:15 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/24/2025 02:18:15 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:18:15 PM - INFO - 21 dados de Uvas frescas salvos em 'importacao'.
+05/24/2025 02:18:18 PM - INFO - Acessando o site Vitibrasil
+05/24/2025 02:18:18 PM - INFO - 62 dados de salvos em 'comercializacao'.
+05/24/2025 02:18:18 PM - INFO - Extracting data year: 1998
+05/24/2025 02:18:18 PM - INFO - 108 dados de Espumantes salvos em 'exportacao'.
+05/24/2025 02:18:20 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:18:20 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/24/2025 02:18:20 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:18:20 PM - INFO - 37 dados de Uvas passas salvos em 'importacao'.
+05/24/2025 02:18:20 PM - INFO - Extracting data year: 1975
+05/24/2025 02:18:23 PM - INFO - Acessando o site Vitibrasil
+05/24/2025 02:18:23 PM - INFO - 62 dados de salvos em 'comercializacao'.
+05/24/2025 02:18:23 PM - INFO - Extracting data year: 1999
+05/24/2025 02:18:23 PM - INFO - 141 dados de Uvas frescas salvos em 'exportacao'.
+05/24/2025 02:18:25 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:18:25 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/24/2025 02:18:25 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:18:26 PM - INFO - 70 dados de Vinhos de mesa salvos em 'importacao'.
+05/24/2025 02:18:28 PM - INFO - Acessando o site Vitibrasil
+05/24/2025 02:18:28 PM - INFO - 62 dados de salvos em 'comercializacao'.
+05/24/2025 02:18:28 PM - INFO - Extracting data year: 2000
+05/24/2025 02:18:29 PM - INFO - 126 dados de Suco de uva salvos em 'exportacao'.
+05/24/2025 02:18:29 PM - INFO - Extracting data year: 1976
+05/24/2025 02:18:31 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:18:31 PM - INFO - 1 dados de Sem classificação salvos em 'processamento'.
+05/24/2025 02:18:31 PM - INFO - Extracting data year: 1975
+05/24/2025 02:18:31 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:18:31 PM - INFO - 47 dados de Espumantes salvos em 'importacao'.
+05/24/2025 02:18:34 PM - INFO - Acessando o site Vitibrasil
+05/24/2025 02:18:34 PM - INFO - 62 dados de salvos em 'comercializacao'.
+05/24/2025 02:18:34 PM - INFO - Extracting data year: 2001
+05/24/2025 02:18:34 PM - INFO - 142 dados de Vinhos de mesa salvos em 'exportacao'.
+05/24/2025 02:18:36 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:18:36 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/24/2025 02:18:36 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:18:36 PM - INFO - 21 dados de Uvas frescas salvos em 'importacao'.
+05/24/2025 02:18:39 PM - INFO - Acessando o site Vitibrasil
+05/24/2025 02:18:39 PM - INFO - 62 dados de salvos em 'comercializacao'.
+05/24/2025 02:18:39 PM - INFO - Extracting data year: 2002
+05/24/2025 02:18:39 PM - INFO - 108 dados de Espumantes salvos em 'exportacao'.
+05/24/2025 02:18:41 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:18:41 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/24/2025 02:18:41 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:18:41 PM - INFO - 37 dados de Uvas passas salvos em 'importacao'.
+05/24/2025 02:18:41 PM - INFO - Extracting data year: 1976
+05/24/2025 02:18:44 PM - INFO - Acessando o site Vitibrasil
+05/24/2025 02:18:44 PM - INFO - 62 dados de salvos em 'comercializacao'.
+05/24/2025 02:18:44 PM - INFO - Extracting data year: 2003
+05/24/2025 02:18:44 PM - INFO - 141 dados de Uvas frescas salvos em 'exportacao'.
+05/24/2025 02:18:46 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:18:46 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/24/2025 02:18:46 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:18:46 PM - INFO - 70 dados de Vinhos de mesa salvos em 'importacao'.
+05/24/2025 02:18:49 PM - INFO - Acessando o site Vitibrasil
+05/24/2025 02:18:49 PM - INFO - 62 dados de salvos em 'comercializacao'.
+05/24/2025 02:18:49 PM - INFO - Extracting data year: 2004
+05/24/2025 02:18:49 PM - INFO - 126 dados de Suco de uva salvos em 'exportacao'.
+05/24/2025 02:18:49 PM - INFO - Extracting data year: 1977
+05/24/2025 02:18:51 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:18:51 PM - INFO - 1 dados de Sem classificação salvos em 'processamento'.
+05/24/2025 02:18:51 PM - INFO - Extracting data year: 1976
+05/24/2025 02:18:51 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:18:51 PM - INFO - 47 dados de Espumantes salvos em 'importacao'.
+05/24/2025 02:18:54 PM - INFO - Acessando o site Vitibrasil
+05/24/2025 02:18:54 PM - INFO - 62 dados de salvos em 'comercializacao'.
+05/24/2025 02:18:54 PM - INFO - Extracting data year: 2005
+05/24/2025 02:18:54 PM - INFO - 142 dados de Vinhos de mesa salvos em 'exportacao'.
+05/24/2025 02:18:57 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:18:57 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/24/2025 02:18:57 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:18:57 PM - INFO - 21 dados de Uvas frescas salvos em 'importacao'.
+05/24/2025 02:18:59 PM - INFO - Acessando o site Vitibrasil
+05/24/2025 02:19:00 PM - INFO - 62 dados de salvos em 'comercializacao'.
+05/24/2025 02:19:00 PM - INFO - Extracting data year: 2006
+05/24/2025 02:19:00 PM - INFO - 108 dados de Espumantes salvos em 'exportacao'.
+05/24/2025 02:19:02 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:19:02 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/24/2025 02:19:02 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:19:02 PM - INFO - 37 dados de Uvas passas salvos em 'importacao'.
+05/24/2025 02:19:02 PM - INFO - Extracting data year: 1977
+05/24/2025 02:19:05 PM - INFO - Acessando o site Vitibrasil
+05/24/2025 02:19:05 PM - INFO - 62 dados de salvos em 'comercializacao'.
+05/24/2025 02:19:05 PM - INFO - Extracting data year: 2007
+05/24/2025 02:19:05 PM - INFO - 141 dados de Uvas frescas salvos em 'exportacao'.
+05/24/2025 02:19:07 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:19:07 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/24/2025 02:19:07 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:19:07 PM - INFO - 70 dados de Vinhos de mesa salvos em 'importacao'.
+05/24/2025 02:19:10 PM - INFO - Acessando o site Vitibrasil
+05/24/2025 02:19:10 PM - INFO - 62 dados de salvos em 'comercializacao'.
+05/24/2025 02:19:10 PM - INFO - Extracting data year: 2008
+05/24/2025 02:19:10 PM - INFO - 126 dados de Suco de uva salvos em 'exportacao'.
+05/24/2025 02:19:10 PM - INFO - Extracting data year: 1978
+05/24/2025 02:19:12 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:19:12 PM - INFO - 1 dados de Sem classificação salvos em 'processamento'.
+05/24/2025 02:19:12 PM - INFO - Extracting data year: 1977
+05/24/2025 02:19:12 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:19:12 PM - INFO - 47 dados de Espumantes salvos em 'importacao'.
+05/24/2025 02:19:15 PM - INFO - Acessando o site Vitibrasil
+05/24/2025 02:19:15 PM - INFO - 142 dados de Vinhos de mesa salvos em 'exportacao'.
+05/24/2025 02:19:15 PM - INFO - 62 dados de salvos em 'comercializacao'.
+05/24/2025 02:19:15 PM - INFO - Extracting data year: 2009
+05/24/2025 02:19:18 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:19:18 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/24/2025 02:19:18 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:19:18 PM - INFO - 21 dados de Uvas frescas salvos em 'importacao'.
+05/24/2025 02:19:20 PM - INFO - Acessando o site Vitibrasil
+05/24/2025 02:19:20 PM - INFO - 62 dados de salvos em 'comercializacao'.
+05/24/2025 02:19:20 PM - INFO - Extracting data year: 2010
+05/24/2025 02:19:20 PM - INFO - 108 dados de Espumantes salvos em 'exportacao'.
+05/24/2025 02:19:23 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:19:23 PM - INFO - 37 dados de Uvas passas salvos em 'importacao'.
+05/24/2025 02:19:23 PM - INFO - Extracting data year: 1978
+05/24/2025 02:19:23 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/24/2025 02:19:23 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:19:25 PM - INFO - Acessando o site Vitibrasil
+05/24/2025 02:19:26 PM - INFO - 62 dados de salvos em 'comercializacao'.
+05/24/2025 02:19:26 PM - INFO - Extracting data year: 2011
+05/24/2025 02:19:26 PM - INFO - 141 dados de Uvas frescas salvos em 'exportacao'.
+05/24/2025 02:19:28 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:19:28 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/24/2025 02:19:28 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:19:28 PM - INFO - 70 dados de Vinhos de mesa salvos em 'importacao'.
+05/24/2025 02:19:31 PM - INFO - Acessando o site Vitibrasil
+05/24/2025 02:19:31 PM - INFO - 62 dados de salvos em 'comercializacao'.
+05/24/2025 02:19:31 PM - INFO - Extracting data year: 2012
+05/24/2025 02:19:31 PM - INFO - 126 dados de Suco de uva salvos em 'exportacao'.
+05/24/2025 02:19:31 PM - INFO - Extracting data year: 1979
+05/24/2025 02:19:34 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:19:34 PM - INFO - 1 dados de Sem classificação salvos em 'processamento'.
+05/24/2025 02:19:34 PM - INFO - Extracting data year: 1978
+05/24/2025 02:19:34 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:19:34 PM - INFO - 47 dados de Espumantes salvos em 'importacao'.
+05/24/2025 02:19:36 PM - INFO - Acessando o site Vitibrasil
+05/24/2025 02:19:36 PM - INFO - 62 dados de salvos em 'comercializacao'.
+05/24/2025 02:19:36 PM - INFO - Extracting data year: 2013
+05/24/2025 02:19:36 PM - INFO - 142 dados de Vinhos de mesa salvos em 'exportacao'.
+05/24/2025 02:19:39 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:19:39 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/24/2025 02:19:39 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:19:39 PM - INFO - 21 dados de Uvas frescas salvos em 'importacao'.
+05/24/2025 02:19:41 PM - INFO - Acessando o site Vitibrasil
+05/24/2025 02:19:41 PM - INFO - 62 dados de salvos em 'comercializacao'.
+05/24/2025 02:19:41 PM - INFO - Extracting data year: 2014
+05/24/2025 02:19:41 PM - INFO - 108 dados de Espumantes salvos em 'exportacao'.
+05/24/2025 02:19:44 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:19:44 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/24/2025 02:19:44 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:19:44 PM - INFO - 37 dados de Uvas passas salvos em 'importacao'.
+05/24/2025 02:19:44 PM - INFO - Extracting data year: 1979
+05/24/2025 02:19:46 PM - INFO - Acessando o site Vitibrasil
+05/24/2025 02:19:46 PM - INFO - 62 dados de salvos em 'comercializacao'.
+05/24/2025 02:19:46 PM - INFO - Extracting data year: 2015
+05/24/2025 02:19:46 PM - INFO - 141 dados de Uvas frescas salvos em 'exportacao'.
+05/24/2025 02:19:49 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:19:49 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/24/2025 02:19:49 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:19:49 PM - INFO - 70 dados de Vinhos de mesa salvos em 'importacao'.
+05/24/2025 02:19:51 PM - INFO - Acessando o site Vitibrasil
+05/24/2025 02:19:51 PM - INFO - 62 dados de salvos em 'comercializacao'.
+05/24/2025 02:19:51 PM - INFO - Extracting data year: 2016
+05/24/2025 02:19:51 PM - INFO - 126 dados de Suco de uva salvos em 'exportacao'.
+05/24/2025 02:19:51 PM - INFO - Extracting data year: 1980
+05/24/2025 02:19:54 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:19:54 PM - INFO - 1 dados de Sem classificação salvos em 'processamento'.
+05/24/2025 02:19:54 PM - INFO - Extracting data year: 1979
+05/24/2025 02:19:54 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:19:54 PM - INFO - 47 dados de Espumantes salvos em 'importacao'.
+05/24/2025 02:19:56 PM - INFO - Acessando o site Vitibrasil
+05/24/2025 02:19:57 PM - INFO - 62 dados de salvos em 'comercializacao'.
+05/24/2025 02:19:57 PM - INFO - Extracting data year: 2017
+05/24/2025 02:19:57 PM - INFO - 142 dados de Vinhos de mesa salvos em 'exportacao'.
+05/24/2025 02:20:00 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:20:00 PM - INFO - 21 dados de Uvas frescas salvos em 'importacao'.
+05/24/2025 02:20:00 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/24/2025 02:20:00 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:20:02 PM - INFO - Acessando o site Vitibrasil
+05/24/2025 02:20:02 PM - INFO - 62 dados de salvos em 'comercializacao'.
+05/24/2025 02:20:02 PM - INFO - Extracting data year: 2018
+05/24/2025 02:20:02 PM - INFO - 108 dados de Espumantes salvos em 'exportacao'.
+05/24/2025 02:20:05 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:20:05 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/24/2025 02:20:05 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:20:05 PM - INFO - 37 dados de Uvas passas salvos em 'importacao'.
+05/24/2025 02:20:05 PM - INFO - Extracting data year: 1980
+05/24/2025 02:20:07 PM - INFO - Acessando o site Vitibrasil
+05/24/2025 02:20:07 PM - INFO - 62 dados de salvos em 'comercializacao'.
+05/24/2025 02:20:07 PM - INFO - Extracting data year: 2019
+05/24/2025 02:20:07 PM - INFO - 141 dados de Uvas frescas salvos em 'exportacao'.
+05/24/2025 02:20:10 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:20:10 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/24/2025 02:20:10 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:20:10 PM - INFO - 70 dados de Vinhos de mesa salvos em 'importacao'.
+05/24/2025 02:20:12 PM - INFO - Acessando o site Vitibrasil
+05/24/2025 02:20:12 PM - INFO - 62 dados de salvos em 'comercializacao'.
+05/24/2025 02:20:12 PM - INFO - Extracting data year: 2020
+05/24/2025 02:20:12 PM - INFO - 126 dados de Suco de uva salvos em 'exportacao'.
+05/24/2025 02:20:12 PM - INFO - Extracting data year: 1981
+05/24/2025 02:20:15 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:20:15 PM - INFO - 1 dados de Sem classificação salvos em 'processamento'.
+05/24/2025 02:20:15 PM - INFO - Extracting data year: 1980
+05/24/2025 02:20:15 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:20:16 PM - INFO - 47 dados de Espumantes salvos em 'importacao'.
+05/24/2025 02:20:17 PM - INFO - Acessando o site Vitibrasil
+05/24/2025 02:20:17 PM - INFO - 62 dados de salvos em 'comercializacao'.
+05/24/2025 02:20:17 PM - INFO - Extracting data year: 2021
+05/24/2025 02:20:17 PM - INFO - 142 dados de Vinhos de mesa salvos em 'exportacao'.
+05/24/2025 02:20:21 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:20:21 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/24/2025 02:20:21 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:20:21 PM - INFO - 21 dados de Uvas frescas salvos em 'importacao'.
+05/24/2025 02:20:22 PM - INFO - Acessando o site Vitibrasil
+05/24/2025 02:20:22 PM - INFO - 108 dados de Espumantes salvos em 'exportacao'.
+05/24/2025 02:20:23 PM - INFO - 62 dados de salvos em 'comercializacao'.
+05/24/2025 02:20:23 PM - INFO - Extracting data year: 2022
+05/24/2025 02:20:26 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:20:26 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/24/2025 02:20:26 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:20:26 PM - INFO - 37 dados de Uvas passas salvos em 'importacao'.
+05/24/2025 02:20:26 PM - INFO - Extracting data year: 1981
+05/24/2025 02:20:28 PM - INFO - 62 dados de salvos em 'comercializacao'.
+05/24/2025 02:20:28 PM - INFO - Extracting data year: 2023
+05/24/2025 02:20:28 PM - INFO - Acessando o site Vitibrasil
+05/24/2025 02:20:28 PM - INFO - 141 dados de Uvas frescas salvos em 'exportacao'.
+05/24/2025 02:20:31 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:20:31 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/24/2025 02:20:31 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:20:31 PM - INFO - 70 dados de Vinhos de mesa salvos em 'importacao'.
+05/24/2025 02:20:33 PM - INFO - Acessando o site Vitibrasil
+05/24/2025 02:20:33 PM - INFO - 62 dados de salvos em 'comercializacao'.
+05/24/2025 02:20:33 PM - INFO - Extracting data year: 2024
+05/24/2025 02:20:33 PM - INFO - 126 dados de Suco de uva salvos em 'exportacao'.
+05/24/2025 02:20:33 PM - INFO - Extracting data year: 1982
+05/24/2025 02:20:36 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:20:36 PM - INFO - 1 dados de Sem classificação salvos em 'processamento'.
+05/24/2025 02:20:36 PM - INFO - Extracting data year: 1981
+05/24/2025 02:20:36 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:20:37 PM - INFO - 47 dados de Espumantes salvos em 'importacao'.
+05/24/2025 02:20:38 PM - INFO - Acessando o site Vitibrasil
+05/24/2025 02:20:38 PM - INFO - 62 dados de salvos em 'comercializacao'.
+05/24/2025 02:20:38 PM - INFO - 142 dados de Vinhos de mesa salvos em 'exportacao'.
+05/24/2025 02:20:42 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:20:42 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/24/2025 02:20:42 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:20:42 PM - INFO - 21 dados de Uvas frescas salvos em 'importacao'.
+05/24/2025 02:20:43 PM - INFO - Acessando o site Vitibrasil
+05/24/2025 02:20:44 PM - INFO - 108 dados de Espumantes salvos em 'exportacao'.
+05/24/2025 02:20:47 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:20:47 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/24/2025 02:20:47 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:20:47 PM - INFO - 37 dados de Uvas passas salvos em 'importacao'.
+05/24/2025 02:20:47 PM - INFO - Extracting data year: 1982
+05/24/2025 02:20:49 PM - INFO - Acessando o site Vitibrasil
+05/24/2025 02:20:49 PM - INFO - 141 dados de Uvas frescas salvos em 'exportacao'.
+05/24/2025 02:20:52 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:20:52 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/24/2025 02:20:52 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:20:52 PM - INFO - 70 dados de Vinhos de mesa salvos em 'importacao'.
+05/24/2025 02:20:54 PM - INFO - Acessando o site Vitibrasil
+05/24/2025 02:20:54 PM - INFO - 126 dados de Suco de uva salvos em 'exportacao'.
+05/24/2025 02:20:54 PM - INFO - Extracting data year: 1983
+05/24/2025 02:20:57 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:20:57 PM - INFO - 1 dados de Sem classificação salvos em 'processamento'.
+05/24/2025 02:20:57 PM - INFO - Extracting data year: 1982
+05/24/2025 02:20:57 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:20:57 PM - INFO - 47 dados de Espumantes salvos em 'importacao'.
+05/24/2025 02:20:59 PM - INFO - Acessando o site Vitibrasil
+05/24/2025 02:20:59 PM - INFO - 142 dados de Vinhos de mesa salvos em 'exportacao'.
+05/24/2025 02:21:02 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:21:02 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/24/2025 02:21:02 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:21:02 PM - INFO - 21 dados de Uvas frescas salvos em 'importacao'.
+05/24/2025 02:21:04 PM - INFO - Acessando o site Vitibrasil
+05/24/2025 02:21:04 PM - INFO - 108 dados de Espumantes salvos em 'exportacao'.
+05/24/2025 02:21:07 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:21:07 PM - INFO - 37 dados de Uvas passas salvos em 'importacao'.
+05/24/2025 02:21:07 PM - INFO - Extracting data year: 1983
+05/24/2025 02:21:07 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/24/2025 02:21:07 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:21:09 PM - INFO - Acessando o site Vitibrasil
+05/24/2025 02:21:09 PM - INFO - 141 dados de Uvas frescas salvos em 'exportacao'.
+05/24/2025 02:21:13 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:21:13 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/24/2025 02:21:13 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:21:13 PM - INFO - 70 dados de Vinhos de mesa salvos em 'importacao'.
+05/24/2025 02:21:15 PM - INFO - Acessando o site Vitibrasil
+05/24/2025 02:21:15 PM - INFO - 126 dados de Suco de uva salvos em 'exportacao'.
+05/24/2025 02:21:15 PM - INFO - Extracting data year: 1984
+05/24/2025 02:21:18 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:21:18 PM - INFO - 1 dados de Sem classificação salvos em 'processamento'.
+05/24/2025 02:21:18 PM - INFO - Extracting data year: 1983
+05/24/2025 02:21:18 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:21:18 PM - INFO - 47 dados de Espumantes salvos em 'importacao'.
+05/24/2025 02:21:20 PM - INFO - Acessando o site Vitibrasil
+05/24/2025 02:21:20 PM - INFO - 142 dados de Vinhos de mesa salvos em 'exportacao'.
+05/24/2025 02:21:23 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:21:23 PM - INFO - 21 dados de Uvas frescas salvos em 'importacao'.
+05/24/2025 02:21:23 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/24/2025 02:21:23 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:21:25 PM - INFO - Acessando o site Vitibrasil
+05/24/2025 02:21:25 PM - INFO - 108 dados de Espumantes salvos em 'exportacao'.
+05/24/2025 02:21:28 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:21:28 PM - INFO - 37 dados de Uvas passas salvos em 'importacao'.
+05/24/2025 02:21:28 PM - INFO - Extracting data year: 1984
+05/24/2025 02:21:28 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/24/2025 02:21:28 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:21:30 PM - INFO - Acessando o site Vitibrasil
+05/24/2025 02:21:30 PM - INFO - 141 dados de Uvas frescas salvos em 'exportacao'.
+05/24/2025 02:21:33 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:21:33 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/24/2025 02:21:33 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:21:33 PM - INFO - 70 dados de Vinhos de mesa salvos em 'importacao'.
+05/24/2025 02:21:35 PM - INFO - Acessando o site Vitibrasil
+05/24/2025 02:21:35 PM - INFO - 126 dados de Suco de uva salvos em 'exportacao'.
+05/24/2025 02:21:35 PM - INFO - Extracting data year: 1985
+05/24/2025 02:21:38 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:21:38 PM - INFO - 1 dados de Sem classificação salvos em 'processamento'.
+05/24/2025 02:21:38 PM - INFO - Extracting data year: 1984
+05/24/2025 02:21:38 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:21:38 PM - INFO - 47 dados de Espumantes salvos em 'importacao'.
+05/24/2025 02:21:40 PM - INFO - Acessando o site Vitibrasil
+05/24/2025 02:21:40 PM - INFO - 142 dados de Vinhos de mesa salvos em 'exportacao'.
+05/24/2025 02:21:44 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:21:44 PM - INFO - 21 dados de Uvas frescas salvos em 'importacao'.
+05/24/2025 02:21:44 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/24/2025 02:21:44 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:21:46 PM - INFO - Acessando o site Vitibrasil
+05/24/2025 02:21:46 PM - INFO - 108 dados de Espumantes salvos em 'exportacao'.
+05/24/2025 02:21:49 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:21:49 PM - INFO - 37 dados de Uvas passas salvos em 'importacao'.
+05/24/2025 02:21:49 PM - INFO - Extracting data year: 1985
+05/24/2025 02:21:49 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/24/2025 02:21:49 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:21:51 PM - INFO - Acessando o site Vitibrasil
+05/24/2025 02:21:51 PM - INFO - 141 dados de Uvas frescas salvos em 'exportacao'.
+05/24/2025 02:21:54 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:21:54 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/24/2025 02:21:54 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:21:54 PM - INFO - 70 dados de Vinhos de mesa salvos em 'importacao'.
+05/24/2025 02:21:56 PM - INFO - 126 dados de Suco de uva salvos em 'exportacao'.
+05/24/2025 02:21:56 PM - INFO - Extracting data year: 1986
+05/24/2025 02:21:59 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:21:59 PM - INFO - 1 dados de Sem classificação salvos em 'processamento'.
+05/24/2025 02:21:59 PM - INFO - Extracting data year: 1985
+05/24/2025 02:21:59 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:21:59 PM - INFO - 47 dados de Espumantes salvos em 'importacao'.
+05/24/2025 02:22:01 PM - INFO - 142 dados de Vinhos de mesa salvos em 'exportacao'.
+05/24/2025 02:22:04 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:22:04 PM - INFO - 21 dados de Uvas frescas salvos em 'importacao'.
+05/24/2025 02:22:04 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/24/2025 02:22:04 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:22:06 PM - INFO - 108 dados de Espumantes salvos em 'exportacao'.
+05/24/2025 02:22:09 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:22:09 PM - INFO - 37 dados de Uvas passas salvos em 'importacao'.
+05/24/2025 02:22:09 PM - INFO - Extracting data year: 1986
+05/24/2025 02:22:09 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/24/2025 02:22:09 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:22:11 PM - INFO - 141 dados de Uvas frescas salvos em 'exportacao'.
+05/24/2025 02:22:15 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:22:15 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/24/2025 02:22:15 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:22:15 PM - INFO - 70 dados de Vinhos de mesa salvos em 'importacao'.
+05/24/2025 02:22:17 PM - INFO - 126 dados de Suco de uva salvos em 'exportacao'.
+05/24/2025 02:22:17 PM - INFO - Extracting data year: 1987
+05/24/2025 02:22:20 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:22:20 PM - INFO - 1 dados de Sem classificação salvos em 'processamento'.
+05/24/2025 02:22:20 PM - INFO - Extracting data year: 1986
+05/24/2025 02:22:20 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:22:20 PM - INFO - 47 dados de Espumantes salvos em 'importacao'.
+05/24/2025 02:22:22 PM - INFO - 142 dados de Vinhos de mesa salvos em 'exportacao'.
+05/24/2025 02:22:25 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:22:25 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/24/2025 02:22:25 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:22:25 PM - INFO - 21 dados de Uvas frescas salvos em 'importacao'.
+05/24/2025 02:22:27 PM - INFO - 108 dados de Espumantes salvos em 'exportacao'.
+05/24/2025 02:22:30 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:22:30 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:22:30 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/24/2025 02:22:30 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:22:30 PM - INFO - 37 dados de Uvas passas salvos em 'importacao'.
+05/24/2025 02:22:30 PM - INFO - Extracting data year: 1987
+05/24/2025 02:22:32 PM - INFO - 141 dados de Uvas frescas salvos em 'exportacao'.
+05/24/2025 02:22:35 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:22:35 PM - INFO - Dados do site coletados com sucesso
+05/24/2025 02:22:35 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:22:35 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/24/2025 02:22:35 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:22:35 PM - INFO - 70 dados de Vinhos de mesa salvos em 'importacao'.
+05/24/2025 02:22:38 PM - INFO - 126 dados de Suco de uva salvos em 'exportacao'.
+05/24/2025 02:22:38 PM - INFO - Extracting data year: 1988
+05/24/2025 02:22:41 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:22:41 PM - INFO - 1 dados de Sem classificação salvos em 'processamento'.
+05/24/2025 02:22:41 PM - INFO - Extracting data year: 1987
+05/24/2025 02:22:41 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:22:41 PM - INFO - 47 dados de Espumantes salvos em 'importacao'.
+05/24/2025 02:22:43 PM - INFO - 142 dados de Vinhos de mesa salvos em 'exportacao'.
+05/24/2025 02:22:46 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:22:46 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/24/2025 02:22:46 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:22:46 PM - INFO - 21 dados de Uvas frescas salvos em 'importacao'.
+05/24/2025 02:22:47 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:22:48 PM - INFO - 108 dados de Espumantes salvos em 'exportacao'.
+05/24/2025 02:22:51 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:22:51 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/24/2025 02:22:51 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:22:51 PM - INFO - 37 dados de Uvas passas salvos em 'importacao'.
+05/24/2025 02:22:51 PM - INFO - Extracting data year: 1988
+05/24/2025 02:22:52 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:22:52 PM - INFO - Dados do site coletados com sucesso
+05/24/2025 02:22:53 PM - INFO - 141 dados de Uvas frescas salvos em 'exportacao'.
+05/24/2025 02:22:56 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:22:56 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/24/2025 02:22:56 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:22:56 PM - INFO - 70 dados de Vinhos de mesa salvos em 'importacao'.
+05/24/2025 02:22:58 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:22:58 PM - INFO - 126 dados de Suco de uva salvos em 'exportacao'.
+05/24/2025 02:22:58 PM - INFO - Extracting data year: 1989
+05/24/2025 02:23:01 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:23:01 PM - INFO - 1 dados de Sem classificação salvos em 'processamento'.
+05/24/2025 02:23:01 PM - INFO - Extracting data year: 1988
+05/24/2025 02:23:01 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:23:01 PM - INFO - 47 dados de Espumantes salvos em 'importacao'.
+05/24/2025 02:23:03 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:23:03 PM - INFO - Dados do site coletados com sucesso
+05/24/2025 02:23:03 PM - INFO - 142 dados de Vinhos de mesa salvos em 'exportacao'.
+05/24/2025 02:23:06 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:23:06 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/24/2025 02:23:06 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:23:06 PM - INFO - 21 dados de Uvas frescas salvos em 'importacao'.
+05/24/2025 02:23:08 PM - INFO - 108 dados de Espumantes salvos em 'exportacao'.
+05/24/2025 02:23:11 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:23:11 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/24/2025 02:23:11 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:23:12 PM - INFO - 37 dados de Uvas passas salvos em 'importacao'.
+05/24/2025 02:23:12 PM - INFO - Extracting data year: 1989
+05/24/2025 02:23:14 PM - INFO - 141 dados de Uvas frescas salvos em 'exportacao'.
+05/24/2025 02:23:17 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:23:17 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/24/2025 02:23:17 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:23:17 PM - INFO - 70 dados de Vinhos de mesa salvos em 'importacao'.
+05/24/2025 02:23:19 PM - INFO - 126 dados de Suco de uva salvos em 'exportacao'.
+05/24/2025 02:23:19 PM - INFO - Extracting data year: 1990
+05/24/2025 02:23:22 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:23:22 PM - INFO - 1 dados de Sem classificação salvos em 'processamento'.
+05/24/2025 02:23:22 PM - INFO - Extracting data year: 1989
+05/24/2025 02:23:22 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:23:22 PM - INFO - 47 dados de Espumantes salvos em 'importacao'.
+05/24/2025 02:23:24 PM - INFO - 142 dados de Vinhos de mesa salvos em 'exportacao'.
+05/24/2025 02:23:27 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:23:27 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/24/2025 02:23:27 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:23:27 PM - INFO - 21 dados de Uvas frescas salvos em 'importacao'.
+05/24/2025 02:23:29 PM - INFO - 108 dados de Espumantes salvos em 'exportacao'.
+05/24/2025 02:23:32 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:23:32 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/24/2025 02:23:32 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:23:32 PM - INFO - 37 dados de Uvas passas salvos em 'importacao'.
+05/24/2025 02:23:32 PM - INFO - Extracting data year: 1990
+05/24/2025 02:23:35 PM - INFO - 141 dados de Uvas frescas salvos em 'exportacao'.
+05/24/2025 02:23:37 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:23:37 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/24/2025 02:23:37 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:23:37 PM - INFO - 70 dados de Vinhos de mesa salvos em 'importacao'.
+05/24/2025 02:23:40 PM - INFO - 126 dados de Suco de uva salvos em 'exportacao'.
+05/24/2025 02:23:40 PM - INFO - Extracting data year: 1991
+05/24/2025 02:23:42 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:23:43 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:23:43 PM - INFO - 1 dados de Sem classificação salvos em 'processamento'.
+05/24/2025 02:23:43 PM - INFO - Extracting data year: 1990
+05/24/2025 02:23:43 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:23:43 PM - INFO - 47 dados de Espumantes salvos em 'importacao'.
+05/24/2025 02:23:45 PM - INFO - 142 dados de Vinhos de mesa salvos em 'exportacao'.
+05/24/2025 02:23:48 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:23:48 PM - INFO - Dados do site coletados com sucesso
+05/24/2025 02:23:48 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:23:48 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/24/2025 02:23:48 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:23:48 PM - INFO - 21 dados de Uvas frescas salvos em 'importacao'.
+05/24/2025 02:23:50 PM - INFO - 108 dados de Espumantes salvos em 'exportacao'.
+05/24/2025 02:23:53 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:23:53 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/24/2025 02:23:53 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:23:53 PM - INFO - 37 dados de Uvas passas salvos em 'importacao'.
+05/24/2025 02:23:53 PM - INFO - Extracting data year: 1991
+05/24/2025 02:23:55 PM - INFO - 141 dados de Uvas frescas salvos em 'exportacao'.
+05/24/2025 02:23:58 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:23:58 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/24/2025 02:23:58 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:23:58 PM - INFO - 70 dados de Vinhos de mesa salvos em 'importacao'.
+05/24/2025 02:24:01 PM - INFO - 126 dados de Suco de uva salvos em 'exportacao'.
+05/24/2025 02:24:01 PM - INFO - Extracting data year: 1992
+05/24/2025 02:24:03 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:24:03 PM - INFO - 1 dados de Sem classificação salvos em 'processamento'.
+05/24/2025 02:24:03 PM - INFO - Extracting data year: 1991
+05/24/2025 02:24:03 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:24:03 PM - INFO - 47 dados de Espumantes salvos em 'importacao'.
+05/24/2025 02:24:06 PM - INFO - 142 dados de Vinhos de mesa salvos em 'exportacao'.
+05/24/2025 02:24:08 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:24:09 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/24/2025 02:24:09 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:24:09 PM - INFO - 21 dados de Uvas frescas salvos em 'importacao'.
+05/24/2025 02:24:10 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:24:11 PM - INFO - 108 dados de Espumantes salvos em 'exportacao'.
+05/24/2025 02:24:14 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:24:14 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/24/2025 02:24:14 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:24:14 PM - INFO - 37 dados de Uvas passas salvos em 'importacao'.
+05/24/2025 02:24:14 PM - INFO - Extracting data year: 1992
+05/24/2025 02:24:15 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:24:15 PM - INFO - Dados do site coletados com sucesso
+05/24/2025 02:24:16 PM - INFO - 141 dados de Uvas frescas salvos em 'exportacao'.
+05/24/2025 02:24:19 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:24:19 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/24/2025 02:24:19 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:24:19 PM - INFO - 70 dados de Vinhos de mesa salvos em 'importacao'.
+05/24/2025 02:24:21 PM - INFO - 126 dados de Suco de uva salvos em 'exportacao'.
+05/24/2025 02:24:21 PM - INFO - Extracting data year: 1993
+05/24/2025 02:24:24 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:24:24 PM - INFO - 1 dados de Sem classificação salvos em 'processamento'.
+05/24/2025 02:24:24 PM - INFO - Extracting data year: 1992
+05/24/2025 02:24:24 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:24:24 PM - INFO - 47 dados de Espumantes salvos em 'importacao'.
+05/24/2025 02:24:27 PM - INFO - 142 dados de Vinhos de mesa salvos em 'exportacao'.
+05/24/2025 02:24:29 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:24:29 PM - INFO - 21 dados de Uvas frescas salvos em 'importacao'.
+05/24/2025 02:24:29 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/24/2025 02:24:29 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:24:32 PM - INFO - 108 dados de Espumantes salvos em 'exportacao'.
+05/24/2025 02:24:34 PM - INFO - 37 dados de Uvas passas salvos em 'importacao'.
+05/24/2025 02:24:34 PM - INFO - Extracting data year: 1993
+05/24/2025 02:24:35 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:24:35 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/24/2025 02:24:35 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:24:37 PM - INFO - 141 dados de Uvas frescas salvos em 'exportacao'.
+05/24/2025 02:24:40 PM - INFO - 70 dados de Vinhos de mesa salvos em 'importacao'.
+05/24/2025 02:24:40 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:24:40 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/24/2025 02:24:40 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:24:42 PM - INFO - 126 dados de Suco de uva salvos em 'exportacao'.
+05/24/2025 02:24:42 PM - INFO - Extracting data year: 1994
+05/24/2025 02:24:45 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:24:45 PM - INFO - 1 dados de Sem classificação salvos em 'processamento'.
+05/24/2025 02:24:45 PM - INFO - Extracting data year: 1993
+05/24/2025 02:24:45 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:24:45 PM - INFO - 47 dados de Espumantes salvos em 'importacao'.
+05/24/2025 02:24:47 PM - INFO - 142 dados de Vinhos de mesa salvos em 'exportacao'.
+05/24/2025 02:24:50 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:24:50 PM - INFO - 21 dados de Uvas frescas salvos em 'importacao'.
+05/24/2025 02:24:50 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/24/2025 02:24:50 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:24:52 PM - INFO - 108 dados de Espumantes salvos em 'exportacao'.
+05/24/2025 02:24:55 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:24:55 PM - INFO - 37 dados de Uvas passas salvos em 'importacao'.
+05/24/2025 02:24:55 PM - INFO - Extracting data year: 1994
+05/24/2025 02:24:55 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/24/2025 02:24:55 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:24:58 PM - INFO - 141 dados de Uvas frescas salvos em 'exportacao'.
+05/24/2025 02:25:00 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:25:00 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/24/2025 02:25:00 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:25:00 PM - INFO - 70 dados de Vinhos de mesa salvos em 'importacao'.
+05/24/2025 02:25:03 PM - INFO - 126 dados de Suco de uva salvos em 'exportacao'.
+05/24/2025 02:25:03 PM - INFO - Extracting data year: 1995
+05/24/2025 02:25:05 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:25:05 PM - INFO - 1 dados de Sem classificação salvos em 'processamento'.
+05/24/2025 02:25:05 PM - INFO - Extracting data year: 1994
+05/24/2025 02:25:05 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:25:06 PM - INFO - 47 dados de Espumantes salvos em 'importacao'.
+05/24/2025 02:25:08 PM - INFO - 142 dados de Vinhos de mesa salvos em 'exportacao'.
+05/24/2025 02:25:11 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:25:11 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/24/2025 02:25:11 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:25:11 PM - INFO - 21 dados de Uvas frescas salvos em 'importacao'.
+05/24/2025 02:25:13 PM - INFO - 108 dados de Espumantes salvos em 'exportacao'.
+05/24/2025 02:25:16 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:25:16 PM - INFO - 37 dados de Uvas passas salvos em 'importacao'.
+05/24/2025 02:25:16 PM - INFO - Extracting data year: 1995
+05/24/2025 02:25:16 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/24/2025 02:25:16 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:25:18 PM - INFO - 141 dados de Uvas frescas salvos em 'exportacao'.
+05/24/2025 02:25:21 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:25:21 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/24/2025 02:25:21 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:25:21 PM - INFO - 70 dados de Vinhos de mesa salvos em 'importacao'.
+05/24/2025 02:25:23 PM - INFO - 126 dados de Suco de uva salvos em 'exportacao'.
+05/24/2025 02:25:23 PM - INFO - Extracting data year: 1996
+05/24/2025 02:25:26 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:25:26 PM - INFO - 1 dados de Sem classificação salvos em 'processamento'.
+05/24/2025 02:25:26 PM - INFO - Extracting data year: 1995
+05/24/2025 02:25:26 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:25:26 PM - INFO - 47 dados de Espumantes salvos em 'importacao'.
+05/24/2025 02:25:28 PM - INFO - 142 dados de Vinhos de mesa salvos em 'exportacao'.
+05/24/2025 02:25:32 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:25:32 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/24/2025 02:25:32 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:25:32 PM - INFO - 21 dados de Uvas frescas salvos em 'importacao'.
+05/24/2025 02:25:34 PM - INFO - 108 dados de Espumantes salvos em 'exportacao'.
+05/24/2025 02:25:37 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:25:37 PM - INFO - 37 dados de Uvas passas salvos em 'importacao'.
+05/24/2025 02:25:37 PM - INFO - Extracting data year: 1996
+05/24/2025 02:25:37 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/24/2025 02:25:37 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:25:39 PM - INFO - 141 dados de Uvas frescas salvos em 'exportacao'.
+05/24/2025 02:25:42 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:25:42 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/24/2025 02:25:42 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:25:42 PM - INFO - 70 dados de Vinhos de mesa salvos em 'importacao'.
+05/24/2025 02:25:44 PM - INFO - 126 dados de Suco de uva salvos em 'exportacao'.
+05/24/2025 02:25:44 PM - INFO - Extracting data year: 1997
+05/24/2025 02:25:47 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:25:47 PM - INFO - 1 dados de Sem classificação salvos em 'processamento'.
+05/24/2025 02:25:47 PM - INFO - Extracting data year: 1996
+05/24/2025 02:25:47 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:25:47 PM - INFO - 47 dados de Espumantes salvos em 'importacao'.
+05/24/2025 02:25:49 PM - INFO - 142 dados de Vinhos de mesa salvos em 'exportacao'.
+05/24/2025 02:25:52 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:25:52 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/24/2025 02:25:52 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:25:52 PM - INFO - 21 dados de Uvas frescas salvos em 'importacao'.
+05/24/2025 02:25:54 PM - INFO - 108 dados de Espumantes salvos em 'exportacao'.
+05/24/2025 02:25:57 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:25:57 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/24/2025 02:25:57 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:25:58 PM - INFO - 37 dados de Uvas passas salvos em 'importacao'.
+05/24/2025 02:25:58 PM - INFO - Extracting data year: 1997
+05/24/2025 02:26:00 PM - INFO - 141 dados de Uvas frescas salvos em 'exportacao'.
+05/24/2025 02:26:02 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:26:02 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/24/2025 02:26:02 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:26:03 PM - INFO - 70 dados de Vinhos de mesa salvos em 'importacao'.
+05/24/2025 02:26:05 PM - INFO - 126 dados de Suco de uva salvos em 'exportacao'.
+05/24/2025 02:26:05 PM - INFO - Extracting data year: 1998
+05/24/2025 02:26:08 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:26:08 PM - INFO - 1 dados de Sem classificação salvos em 'processamento'.
+05/24/2025 02:26:08 PM - INFO - Extracting data year: 1997
+05/24/2025 02:26:08 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:26:08 PM - INFO - 47 dados de Espumantes salvos em 'importacao'.
+05/24/2025 02:26:10 PM - INFO - 142 dados de Vinhos de mesa salvos em 'exportacao'.
+05/24/2025 02:26:13 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:26:13 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/24/2025 02:26:13 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:26:13 PM - INFO - 21 dados de Uvas frescas salvos em 'importacao'.
+05/24/2025 02:26:15 PM - INFO - 108 dados de Espumantes salvos em 'exportacao'.
+05/24/2025 02:26:18 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:26:18 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/24/2025 02:26:18 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:26:18 PM - INFO - 37 dados de Uvas passas salvos em 'importacao'.
+05/24/2025 02:26:18 PM - INFO - Extracting data year: 1998
+05/24/2025 02:26:20 PM - INFO - 141 dados de Uvas frescas salvos em 'exportacao'.
+05/24/2025 02:26:23 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:26:23 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/24/2025 02:26:23 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:26:23 PM - INFO - 70 dados de Vinhos de mesa salvos em 'importacao'.
+05/24/2025 02:26:25 PM - INFO - 126 dados de Suco de uva salvos em 'exportacao'.
+05/24/2025 02:26:25 PM - INFO - Extracting data year: 1999
+05/24/2025 02:26:28 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:26:28 PM - INFO - 1 dados de Sem classificação salvos em 'processamento'.
+05/24/2025 02:26:28 PM - INFO - Extracting data year: 1998
+05/24/2025 02:26:28 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:26:28 PM - INFO - 47 dados de Espumantes salvos em 'importacao'.
+05/24/2025 02:26:31 PM - INFO - 142 dados de Vinhos de mesa salvos em 'exportacao'.
+05/24/2025 02:26:31 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:26:33 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:26:33 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/24/2025 02:26:33 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:26:34 PM - INFO - 21 dados de Uvas frescas salvos em 'importacao'.
+05/24/2025 02:26:36 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:26:36 PM - INFO - Dados do site coletados com sucesso
+05/24/2025 02:26:36 PM - INFO - 108 dados de Espumantes salvos em 'exportacao'.
+05/24/2025 02:26:39 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:26:39 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/24/2025 02:26:39 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:26:39 PM - INFO - 37 dados de Uvas passas salvos em 'importacao'.
+05/24/2025 02:26:39 PM - INFO - Extracting data year: 1999
+05/24/2025 02:26:41 PM - INFO - 141 dados de Uvas frescas salvos em 'exportacao'.
+05/24/2025 02:26:42 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:26:44 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:26:44 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/24/2025 02:26:44 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:26:44 PM - INFO - 70 dados de Vinhos de mesa salvos em 'importacao'.
+05/24/2025 02:26:46 PM - INFO - 126 dados de Suco de uva salvos em 'exportacao'.
+05/24/2025 02:26:46 PM - INFO - Extracting data year: 2000
+05/24/2025 02:26:47 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:26:47 PM - INFO - Dados do site coletados com sucesso
+05/24/2025 02:26:49 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:26:49 PM - INFO - 1 dados de Sem classificação salvos em 'processamento'.
+05/24/2025 02:26:49 PM - INFO - Extracting data year: 1999
+05/24/2025 02:26:49 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:26:49 PM - INFO - 47 dados de Espumantes salvos em 'importacao'.
+05/24/2025 02:26:52 PM - INFO - 142 dados de Vinhos de mesa salvos em 'exportacao'.
+05/24/2025 02:26:54 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:26:54 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/24/2025 02:26:54 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:26:54 PM - INFO - 21 dados de Uvas frescas salvos em 'importacao'.
+05/24/2025 02:26:57 PM - INFO - 108 dados de Espumantes salvos em 'exportacao'.
+05/24/2025 02:26:59 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:26:59 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/24/2025 02:26:59 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:26:59 PM - INFO - 37 dados de Uvas passas salvos em 'importacao'.
+05/24/2025 02:26:59 PM - INFO - Extracting data year: 2000
+05/24/2025 02:27:02 PM - INFO - 141 dados de Uvas frescas salvos em 'exportacao'.
+05/24/2025 02:27:04 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:27:04 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/24/2025 02:27:04 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:27:05 PM - INFO - 70 dados de Vinhos de mesa salvos em 'importacao'.
+05/24/2025 02:27:07 PM - INFO - 126 dados de Suco de uva salvos em 'exportacao'.
+05/24/2025 02:27:07 PM - INFO - Extracting data year: 2001
+05/24/2025 02:27:10 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:27:10 PM - INFO - 1 dados de Sem classificação salvos em 'processamento'.
+05/24/2025 02:27:10 PM - INFO - Extracting data year: 2000
+05/24/2025 02:27:10 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:27:10 PM - INFO - 47 dados de Espumantes salvos em 'importacao'.
+05/24/2025 02:27:12 PM - INFO - 142 dados de Vinhos de mesa salvos em 'exportacao'.
+05/24/2025 02:27:15 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:27:15 PM - INFO - 21 dados de Uvas frescas salvos em 'importacao'.
+05/24/2025 02:27:15 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/24/2025 02:27:15 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:27:18 PM - INFO - 108 dados de Espumantes salvos em 'exportacao'.
+05/24/2025 02:27:20 PM - INFO - 37 dados de Uvas passas salvos em 'importacao'.
+05/24/2025 02:27:20 PM - INFO - Extracting data year: 2001
+05/24/2025 02:27:20 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:27:20 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/24/2025 02:27:20 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:27:21 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:27:23 PM - INFO - 141 dados de Uvas frescas salvos em 'exportacao'.
+05/24/2025 02:27:26 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:27:26 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/24/2025 02:27:26 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:27:26 PM - INFO - 70 dados de Vinhos de mesa salvos em 'importacao'.
+05/24/2025 02:27:26 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:27:26 PM - INFO - Dados do site coletados com sucesso
+05/24/2025 02:27:28 PM - INFO - 126 dados de Suco de uva salvos em 'exportacao'.
+05/24/2025 02:27:28 PM - INFO - Extracting data year: 2002
+05/24/2025 02:27:31 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:27:31 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:27:31 PM - INFO - 1 dados de Sem classificação salvos em 'processamento'.
+05/24/2025 02:27:31 PM - INFO - Extracting data year: 2001
+05/24/2025 02:27:31 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:27:31 PM - INFO - 47 dados de Espumantes salvos em 'importacao'.
+05/24/2025 02:27:34 PM - INFO - 142 dados de Vinhos de mesa salvos em 'exportacao'.
+05/24/2025 02:27:36 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:27:36 PM - INFO - Dados do site coletados com sucesso
+05/24/2025 02:27:36 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:27:36 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/24/2025 02:27:36 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:27:36 PM - INFO - 21 dados de Uvas frescas salvos em 'importacao'.
+05/24/2025 02:27:39 PM - INFO - 108 dados de Espumantes salvos em 'exportacao'.
+05/24/2025 02:27:41 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:27:41 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/24/2025 02:27:41 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:27:41 PM - INFO - 37 dados de Uvas passas salvos em 'importacao'.
+05/24/2025 02:27:41 PM - INFO - Extracting data year: 2002
+05/24/2025 02:27:44 PM - INFO - 141 dados de Uvas frescas salvos em 'exportacao'.
+05/24/2025 02:27:46 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:27:46 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/24/2025 02:27:46 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:27:46 PM - INFO - 70 dados de Vinhos de mesa salvos em 'importacao'.
+05/24/2025 02:27:49 PM - INFO - 126 dados de Suco de uva salvos em 'exportacao'.
+05/24/2025 02:27:49 PM - INFO - Extracting data year: 2003
+05/24/2025 02:27:52 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:27:52 PM - INFO - 1 dados de Sem classificação salvos em 'processamento'.
+05/24/2025 02:27:52 PM - INFO - Extracting data year: 2002
+05/24/2025 02:27:52 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:27:52 PM - INFO - 47 dados de Espumantes salvos em 'importacao'.
+05/24/2025 02:27:54 PM - INFO - 142 dados de Vinhos de mesa salvos em 'exportacao'.
+05/24/2025 02:27:57 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:27:57 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/24/2025 02:27:57 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:27:57 PM - INFO - 21 dados de Uvas frescas salvos em 'importacao'.
+05/24/2025 02:27:59 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:28:00 PM - INFO - 108 dados de Espumantes salvos em 'exportacao'.
+05/24/2025 02:28:02 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:28:02 PM - INFO - 37 dados de Uvas passas salvos em 'importacao'.
+05/24/2025 02:28:02 PM - INFO - Extracting data year: 2003
+05/24/2025 02:28:02 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/24/2025 02:28:02 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:28:04 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:28:04 PM - INFO - Dados do site coletados com sucesso
+05/24/2025 02:28:05 PM - INFO - 141 dados de Uvas frescas salvos em 'exportacao'.
+05/24/2025 02:28:08 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:28:08 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/24/2025 02:28:08 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:28:08 PM - INFO - 70 dados de Vinhos de mesa salvos em 'importacao'.
+05/24/2025 02:28:10 PM - INFO - 126 dados de Suco de uva salvos em 'exportacao'.
+05/24/2025 02:28:10 PM - INFO - Extracting data year: 2004
+05/24/2025 02:28:13 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:28:13 PM - INFO - 1 dados de Sem classificação salvos em 'processamento'.
+05/24/2025 02:28:13 PM - INFO - Extracting data year: 2003
+05/24/2025 02:28:13 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:28:13 PM - INFO - 47 dados de Espumantes salvos em 'importacao'.
+05/24/2025 02:28:13 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:28:15 PM - INFO - 142 dados de Vinhos de mesa salvos em 'exportacao'.
+05/24/2025 02:28:18 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:28:18 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/24/2025 02:28:18 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:28:18 PM - INFO - 21 dados de Uvas frescas salvos em 'importacao'.
+05/24/2025 02:28:18 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:28:18 PM - INFO - Dados do site coletados com sucesso
+05/24/2025 02:28:21 PM - INFO - 108 dados de Espumantes salvos em 'exportacao'.
+05/24/2025 02:28:23 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:28:23 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/24/2025 02:28:23 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:28:23 PM - INFO - 37 dados de Uvas passas salvos em 'importacao'.
+05/24/2025 02:28:23 PM - INFO - Extracting data year: 2004
+05/24/2025 02:28:26 PM - INFO - 141 dados de Uvas frescas salvos em 'exportacao'.
+05/24/2025 02:28:28 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:28:28 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/24/2025 02:28:28 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:28:28 PM - INFO - 70 dados de Vinhos de mesa salvos em 'importacao'.
+05/24/2025 02:28:31 PM - INFO - 126 dados de Suco de uva salvos em 'exportacao'.
+05/24/2025 02:28:31 PM - INFO - Extracting data year: 2005
+05/24/2025 02:28:33 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:28:33 PM - INFO - 1 dados de Sem classificação salvos em 'processamento'.
+05/24/2025 02:28:33 PM - INFO - Extracting data year: 2004
+05/24/2025 02:28:33 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:28:33 PM - INFO - 47 dados de Espumantes salvos em 'importacao'.
+05/24/2025 02:28:36 PM - INFO - 142 dados de Vinhos de mesa salvos em 'exportacao'.
+05/24/2025 02:28:39 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:28:39 PM - INFO - 21 dados de Uvas frescas salvos em 'importacao'.
+05/24/2025 02:28:39 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/24/2025 02:28:39 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:28:41 PM - INFO - 108 dados de Espumantes salvos em 'exportacao'.
+05/24/2025 02:28:44 PM - INFO - 37 dados de Uvas passas salvos em 'importacao'.
+05/24/2025 02:28:44 PM - INFO - Extracting data year: 2005
+05/24/2025 02:28:44 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:28:44 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/24/2025 02:28:44 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:28:46 PM - INFO - 141 dados de Uvas frescas salvos em 'exportacao'.
+05/24/2025 02:28:49 PM - INFO - 70 dados de Vinhos de mesa salvos em 'importacao'.
+05/24/2025 02:28:49 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:28:49 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/24/2025 02:28:49 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:28:51 PM - INFO - 126 dados de Suco de uva salvos em 'exportacao'.
+05/24/2025 02:28:51 PM - INFO - Extracting data year: 2006
+05/24/2025 02:28:54 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:28:54 PM - INFO - 1 dados de Sem classificação salvos em 'processamento'.
+05/24/2025 02:28:54 PM - INFO - Extracting data year: 2005
+05/24/2025 02:28:54 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:28:54 PM - INFO - 47 dados de Espumantes salvos em 'importacao'.
+05/24/2025 02:28:57 PM - INFO - 142 dados de Vinhos de mesa salvos em 'exportacao'.
+05/24/2025 02:29:00 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:29:00 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/24/2025 02:29:00 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:29:00 PM - INFO - 21 dados de Uvas frescas salvos em 'importacao'.
+05/24/2025 02:29:02 PM - INFO - 108 dados de Espumantes salvos em 'exportacao'.
+05/24/2025 02:29:05 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:29:05 PM - INFO - 37 dados de Uvas passas salvos em 'importacao'.
+05/24/2025 02:29:05 PM - INFO - Extracting data year: 2006
+05/24/2025 02:29:05 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/24/2025 02:29:05 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:29:07 PM - INFO - 141 dados de Uvas frescas salvos em 'exportacao'.
+05/24/2025 02:29:10 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:29:10 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/24/2025 02:29:10 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:29:10 PM - INFO - 70 dados de Vinhos de mesa salvos em 'importacao'.
+05/24/2025 02:29:12 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:29:12 PM - INFO - 126 dados de Suco de uva salvos em 'exportacao'.
+05/24/2025 02:29:12 PM - INFO - Extracting data year: 2007
+05/24/2025 02:29:15 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:29:15 PM - INFO - 1 dados de Sem classificação salvos em 'processamento'.
+05/24/2025 02:29:15 PM - INFO - Extracting data year: 2006
+05/24/2025 02:29:15 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:29:16 PM - INFO - 47 dados de Espumantes salvos em 'importacao'.
+05/24/2025 02:29:17 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:29:17 PM - INFO - Dados do site coletados com sucesso
+05/24/2025 02:29:17 PM - INFO - 142 dados de Vinhos de mesa salvos em 'exportacao'.
+05/24/2025 02:29:21 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:29:21 PM - INFO - 21 dados de Uvas frescas salvos em 'importacao'.
+05/24/2025 02:29:21 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/24/2025 02:29:21 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:29:22 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:29:22 PM - INFO - 108 dados de Espumantes salvos em 'exportacao'.
+05/24/2025 02:29:26 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:29:26 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/24/2025 02:29:26 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:29:26 PM - INFO - 37 dados de Uvas passas salvos em 'importacao'.
+05/24/2025 02:29:26 PM - INFO - Extracting data year: 2007
+05/24/2025 02:29:28 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:29:28 PM - INFO - Dados do site coletados com sucesso
+05/24/2025 02:29:28 PM - INFO - 141 dados de Uvas frescas salvos em 'exportacao'.
+05/24/2025 02:29:31 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:29:31 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/24/2025 02:29:31 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:29:31 PM - INFO - 70 dados de Vinhos de mesa salvos em 'importacao'.
+05/24/2025 02:29:33 PM - INFO - 126 dados de Suco de uva salvos em 'exportacao'.
+05/24/2025 02:29:33 PM - INFO - Extracting data year: 2008
+05/24/2025 02:29:36 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:29:36 PM - INFO - 1 dados de Sem classificação salvos em 'processamento'.
+05/24/2025 02:29:36 PM - INFO - Extracting data year: 2007
+05/24/2025 02:29:36 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:29:36 PM - INFO - 47 dados de Espumantes salvos em 'importacao'.
+05/24/2025 02:29:37 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:29:38 PM - INFO - 142 dados de Vinhos de mesa salvos em 'exportacao'.
+05/24/2025 02:29:41 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:29:41 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/24/2025 02:29:41 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:29:42 PM - INFO - 21 dados de Uvas frescas salvos em 'importacao'.
+05/24/2025 02:29:42 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:29:42 PM - INFO - Dados do site coletados com sucesso
+05/24/2025 02:29:43 PM - INFO - 108 dados de Espumantes salvos em 'exportacao'.
+05/24/2025 02:29:47 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:29:47 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/24/2025 02:29:47 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:29:47 PM - INFO - 37 dados de Uvas passas salvos em 'importacao'.
+05/24/2025 02:29:47 PM - INFO - Extracting data year: 2008
+05/24/2025 02:29:48 PM - INFO - 141 dados de Uvas frescas salvos em 'exportacao'.
+05/24/2025 02:29:52 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:29:52 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/24/2025 02:29:52 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:29:52 PM - INFO - 70 dados de Vinhos de mesa salvos em 'importacao'.
+05/24/2025 02:29:53 PM - INFO - 126 dados de Suco de uva salvos em 'exportacao'.
+05/24/2025 02:29:53 PM - INFO - Extracting data year: 2009
+05/24/2025 02:29:57 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:29:57 PM - INFO - 1 dados de Sem classificação salvos em 'processamento'.
+05/24/2025 02:29:57 PM - INFO - Extracting data year: 2008
+05/24/2025 02:29:57 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:29:57 PM - INFO - 47 dados de Espumantes salvos em 'importacao'.
+05/24/2025 02:29:59 PM - INFO - 142 dados de Vinhos de mesa salvos em 'exportacao'.
+05/24/2025 02:30:02 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:30:02 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/24/2025 02:30:02 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:30:02 PM - INFO - 21 dados de Uvas frescas salvos em 'importacao'.
+05/24/2025 02:30:04 PM - INFO - 108 dados de Espumantes salvos em 'exportacao'.
+05/24/2025 02:30:07 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:30:07 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/24/2025 02:30:07 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:30:07 PM - INFO - 37 dados de Uvas passas salvos em 'importacao'.
+05/24/2025 02:30:07 PM - INFO - Extracting data year: 2009
+05/24/2025 02:30:09 PM - INFO - 141 dados de Uvas frescas salvos em 'exportacao'.
+05/24/2025 02:30:12 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:30:12 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/24/2025 02:30:12 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:30:13 PM - INFO - 70 dados de Vinhos de mesa salvos em 'importacao'.
+05/24/2025 02:30:15 PM - INFO - 126 dados de Suco de uva salvos em 'exportacao'.
+05/24/2025 02:30:15 PM - INFO - Extracting data year: 2010
+05/24/2025 02:30:18 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:30:18 PM - INFO - 1 dados de Sem classificação salvos em 'processamento'.
+05/24/2025 02:30:18 PM - INFO - Extracting data year: 2009
+05/24/2025 02:30:18 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:30:18 PM - INFO - 47 dados de Espumantes salvos em 'importacao'.
+05/24/2025 02:30:20 PM - INFO - 142 dados de Vinhos de mesa salvos em 'exportacao'.
+05/24/2025 02:30:23 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:30:23 PM - INFO - 21 dados de Uvas frescas salvos em 'importacao'.
+05/24/2025 02:30:23 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/24/2025 02:30:23 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:30:25 PM - INFO - 108 dados de Espumantes salvos em 'exportacao'.
+05/24/2025 02:30:29 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:30:29 PM - INFO - 37 dados de Uvas passas salvos em 'importacao'.
+05/24/2025 02:30:29 PM - INFO - Extracting data year: 2010
+05/24/2025 02:30:29 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/24/2025 02:30:29 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:30:30 PM - INFO - 141 dados de Uvas frescas salvos em 'exportacao'.
+05/24/2025 02:30:34 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:30:34 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/24/2025 02:30:34 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:30:34 PM - INFO - 70 dados de Vinhos de mesa salvos em 'importacao'.
+05/24/2025 02:30:36 PM - INFO - 126 dados de Suco de uva salvos em 'exportacao'.
+05/24/2025 02:30:36 PM - INFO - Extracting data year: 2011
+05/24/2025 02:30:39 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:30:39 PM - INFO - 1 dados de Sem classificação salvos em 'processamento'.
+05/24/2025 02:30:39 PM - INFO - Extracting data year: 2010
+05/24/2025 02:30:39 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:30:39 PM - INFO - 47 dados de Espumantes salvos em 'importacao'.
+05/24/2025 02:30:41 PM - INFO - 142 dados de Vinhos de mesa salvos em 'exportacao'.
+05/24/2025 02:30:44 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:30:44 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/24/2025 02:30:44 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:30:44 PM - INFO - 21 dados de Uvas frescas salvos em 'importacao'.
+05/24/2025 02:30:46 PM - INFO - 108 dados de Espumantes salvos em 'exportacao'.
+05/24/2025 02:30:50 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:30:50 PM - INFO - 37 dados de Uvas passas salvos em 'importacao'.
+05/24/2025 02:30:50 PM - INFO - Extracting data year: 2011
+05/24/2025 02:30:50 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/24/2025 02:30:50 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:30:51 PM - INFO - 141 dados de Uvas frescas salvos em 'exportacao'.
+05/24/2025 02:30:55 PM - INFO - 70 dados de Vinhos de mesa salvos em 'importacao'.
+05/24/2025 02:30:55 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:30:55 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/24/2025 02:30:55 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:30:57 PM - INFO - 126 dados de Suco de uva salvos em 'exportacao'.
+05/24/2025 02:30:57 PM - INFO - Extracting data year: 2012
+05/24/2025 02:31:00 PM - INFO - 47 dados de Espumantes salvos em 'importacao'.
+05/24/2025 02:31:00 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:31:00 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:31:00 PM - INFO - 1 dados de Sem classificação salvos em 'processamento'.
+05/24/2025 02:31:00 PM - INFO - Extracting data year: 2011
+05/24/2025 02:31:00 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:31:02 PM - INFO - 142 dados de Vinhos de mesa salvos em 'exportacao'.
+05/24/2025 02:31:05 PM - INFO - 21 dados de Uvas frescas salvos em 'importacao'.
+05/24/2025 02:31:05 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:31:05 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:31:05 PM - INFO - Dados do site coletados com sucesso
+05/24/2025 02:31:05 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/24/2025 02:31:05 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:31:07 PM - INFO - 108 dados de Espumantes salvos em 'exportacao'.
+05/24/2025 02:31:10 PM - INFO - 37 dados de Uvas passas salvos em 'importacao'.
+05/24/2025 02:31:10 PM - INFO - Extracting data year: 2012
+05/24/2025 02:31:10 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:31:10 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/24/2025 02:31:10 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:31:12 PM - INFO - 141 dados de Uvas frescas salvos em 'exportacao'.
+05/24/2025 02:31:15 PM - INFO - 70 dados de Vinhos de mesa salvos em 'importacao'.
+05/24/2025 02:31:16 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:31:16 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/24/2025 02:31:16 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:31:17 PM - INFO - 126 dados de Suco de uva salvos em 'exportacao'.
+05/24/2025 02:31:17 PM - INFO - Extracting data year: 2013
+05/24/2025 02:31:21 PM - INFO - 47 dados de Espumantes salvos em 'importacao'.
+05/24/2025 02:31:21 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:31:21 PM - INFO - 1 dados de Sem classificação salvos em 'processamento'.
+05/24/2025 02:31:21 PM - INFO - Extracting data year: 2012
+05/24/2025 02:31:21 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:31:23 PM - INFO - 142 dados de Vinhos de mesa salvos em 'exportacao'.
+05/24/2025 02:31:26 PM - INFO - 21 dados de Uvas frescas salvos em 'importacao'.
+05/24/2025 02:31:26 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:31:26 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/24/2025 02:31:26 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:31:28 PM - INFO - 108 dados de Espumantes salvos em 'exportacao'.
+05/24/2025 02:31:31 PM - INFO - 37 dados de Uvas passas salvos em 'importacao'.
+05/24/2025 02:31:31 PM - INFO - Extracting data year: 2013
+05/24/2025 02:31:31 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:31:31 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/24/2025 02:31:31 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:31:33 PM - INFO - 141 dados de Uvas frescas salvos em 'exportacao'.
+05/24/2025 02:31:36 PM - INFO - 70 dados de Vinhos de mesa salvos em 'importacao'.
+05/24/2025 02:31:36 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:31:36 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/24/2025 02:31:36 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:31:38 PM - INFO - 126 dados de Suco de uva salvos em 'exportacao'.
+05/24/2025 02:31:38 PM - INFO - Extracting data year: 2014
+05/24/2025 02:31:41 PM - INFO - 47 dados de Espumantes salvos em 'importacao'.
+05/24/2025 02:31:41 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:31:41 PM - INFO - 1 dados de Sem classificação salvos em 'processamento'.
+05/24/2025 02:31:41 PM - INFO - Extracting data year: 2013
+05/24/2025 02:31:41 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:31:43 PM - INFO - 142 dados de Vinhos de mesa salvos em 'exportacao'.
+05/24/2025 02:31:46 PM - INFO - 21 dados de Uvas frescas salvos em 'importacao'.
+05/24/2025 02:31:46 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:31:46 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/24/2025 02:31:46 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:31:48 PM - INFO - 108 dados de Espumantes salvos em 'exportacao'.
+05/24/2025 02:31:51 PM - INFO - 37 dados de Uvas passas salvos em 'importacao'.
+05/24/2025 02:31:51 PM - INFO - Extracting data year: 2014
+05/24/2025 02:31:51 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:31:51 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/24/2025 02:31:51 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:31:54 PM - INFO - 141 dados de Uvas frescas salvos em 'exportacao'.
+05/24/2025 02:31:57 PM - INFO - 70 dados de Vinhos de mesa salvos em 'importacao'.
+05/24/2025 02:31:57 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:31:57 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/24/2025 02:31:57 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:31:59 PM - INFO - 126 dados de Suco de uva salvos em 'exportacao'.
+05/24/2025 02:31:59 PM - INFO - Extracting data year: 2015
+05/24/2025 02:32:02 PM - INFO - 47 dados de Espumantes salvos em 'importacao'.
+05/24/2025 02:32:02 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:32:02 PM - INFO - 1 dados de Sem classificação salvos em 'processamento'.
+05/24/2025 02:32:02 PM - INFO - Extracting data year: 2014
+05/24/2025 02:32:02 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:32:04 PM - INFO - 142 dados de Vinhos de mesa salvos em 'exportacao'.
+05/24/2025 02:32:07 PM - INFO - 21 dados de Uvas frescas salvos em 'importacao'.
+05/24/2025 02:32:07 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:32:07 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/24/2025 02:32:07 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:32:09 PM - INFO - 108 dados de Espumantes salvos em 'exportacao'.
+05/24/2025 02:32:12 PM - INFO - 37 dados de Uvas passas salvos em 'importacao'.
+05/24/2025 02:32:12 PM - INFO - Extracting data year: 2015
+05/24/2025 02:32:12 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:32:12 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/24/2025 02:32:12 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:32:14 PM - INFO - 141 dados de Uvas frescas salvos em 'exportacao'.
+05/24/2025 02:32:17 PM - INFO - 70 dados de Vinhos de mesa salvos em 'importacao'.
+05/24/2025 02:32:17 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:32:17 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/24/2025 02:32:17 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:32:19 PM - INFO - 126 dados de Suco de uva salvos em 'exportacao'.
+05/24/2025 02:32:19 PM - INFO - Extracting data year: 2016
+05/24/2025 02:32:22 PM - INFO - 47 dados de Espumantes salvos em 'importacao'.
+05/24/2025 02:32:22 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:32:22 PM - INFO - 1 dados de Sem classificação salvos em 'processamento'.
+05/24/2025 02:32:22 PM - INFO - Extracting data year: 2015
+05/24/2025 02:32:22 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:32:25 PM - INFO - 142 dados de Vinhos de mesa salvos em 'exportacao'.
+05/24/2025 02:32:27 PM - INFO - 21 dados de Uvas frescas salvos em 'importacao'.
+05/24/2025 02:32:28 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:32:28 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/24/2025 02:32:28 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:32:30 PM - INFO - 108 dados de Espumantes salvos em 'exportacao'.
+05/24/2025 02:32:33 PM - INFO - 37 dados de Uvas passas salvos em 'importacao'.
+05/24/2025 02:32:33 PM - INFO - Extracting data year: 2016
+05/24/2025 02:32:33 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:32:33 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/24/2025 02:32:33 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:32:35 PM - INFO - 141 dados de Uvas frescas salvos em 'exportacao'.
+05/24/2025 02:32:38 PM - INFO - 70 dados de Vinhos de mesa salvos em 'importacao'.
+05/24/2025 02:32:38 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:32:38 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/24/2025 02:32:38 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:32:38 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:32:40 PM - INFO - 126 dados de Suco de uva salvos em 'exportacao'.
+05/24/2025 02:32:40 PM - INFO - Extracting data year: 2017
+05/24/2025 02:32:43 PM - INFO - 47 dados de Espumantes salvos em 'importacao'.
+05/24/2025 02:32:43 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:32:43 PM - INFO - 1 dados de Sem classificação salvos em 'processamento'.
+05/24/2025 02:32:43 PM - INFO - Extracting data year: 2016
+05/24/2025 02:32:43 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:32:43 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:32:43 PM - INFO - Dados do site coletados com sucesso
+05/24/2025 02:32:46 PM - INFO - 142 dados de Vinhos de mesa salvos em 'exportacao'.
+05/24/2025 02:32:48 PM - INFO - 21 dados de Uvas frescas salvos em 'importacao'.
+05/24/2025 02:32:48 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:32:48 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/24/2025 02:32:48 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:32:51 PM - INFO - 108 dados de Espumantes salvos em 'exportacao'.
+05/24/2025 02:32:53 PM - INFO - 37 dados de Uvas passas salvos em 'importacao'.
+05/24/2025 02:32:53 PM - INFO - Extracting data year: 2017
+05/24/2025 02:32:54 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:32:54 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/24/2025 02:32:54 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:32:56 PM - INFO - 141 dados de Uvas frescas salvos em 'exportacao'.
+05/24/2025 02:32:59 PM - INFO - 70 dados de Vinhos de mesa salvos em 'importacao'.
+05/24/2025 02:32:59 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:32:59 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/24/2025 02:32:59 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:33:01 PM - INFO - 126 dados de Suco de uva salvos em 'exportacao'.
+05/24/2025 02:33:01 PM - INFO - Extracting data year: 2018
+05/24/2025 02:33:04 PM - INFO - 47 dados de Espumantes salvos em 'importacao'.
+05/24/2025 02:33:04 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:33:04 PM - INFO - 1 dados de Sem classificação salvos em 'processamento'.
+05/24/2025 02:33:04 PM - INFO - Extracting data year: 2017
+05/24/2025 02:33:04 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:33:06 PM - INFO - 142 dados de Vinhos de mesa salvos em 'exportacao'.
+05/24/2025 02:33:09 PM - INFO - 21 dados de Uvas frescas salvos em 'importacao'.
+05/24/2025 02:33:09 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:33:09 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/24/2025 02:33:09 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:33:10 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:33:12 PM - INFO - 108 dados de Espumantes salvos em 'exportacao'.
+05/24/2025 02:33:14 PM - INFO - 37 dados de Uvas passas salvos em 'importacao'.
+05/24/2025 02:33:14 PM - INFO - Extracting data year: 2018
+05/24/2025 02:33:14 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:33:14 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/24/2025 02:33:14 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:33:16 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:33:16 PM - INFO - Dados do site coletados com sucesso
+05/24/2025 02:33:17 PM - INFO - 141 dados de Uvas frescas salvos em 'exportacao'.
+05/24/2025 02:33:19 PM - INFO - 70 dados de Vinhos de mesa salvos em 'importacao'.
+05/24/2025 02:33:19 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:33:19 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/24/2025 02:33:19 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:33:20 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:33:22 PM - INFO - 126 dados de Suco de uva salvos em 'exportacao'.
+05/24/2025 02:33:22 PM - INFO - Extracting data year: 2019
+05/24/2025 02:33:24 PM - INFO - 47 dados de Espumantes salvos em 'importacao'.
+05/24/2025 02:33:25 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:33:25 PM - INFO - 1 dados de Sem classificação salvos em 'processamento'.
+05/24/2025 02:33:25 PM - INFO - Extracting data year: 2018
+05/24/2025 02:33:25 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:33:25 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:33:25 PM - INFO - Dados do site coletados com sucesso
+05/24/2025 02:33:27 PM - INFO - 142 dados de Vinhos de mesa salvos em 'exportacao'.
+05/24/2025 02:33:30 PM - INFO - 21 dados de Uvas frescas salvos em 'importacao'.
+05/24/2025 02:33:30 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:33:30 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/24/2025 02:33:30 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:33:32 PM - INFO - 108 dados de Espumantes salvos em 'exportacao'.
+05/24/2025 02:33:35 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:33:35 PM - INFO - 37 dados de Uvas passas salvos em 'importacao'.
+05/24/2025 02:33:35 PM - INFO - Extracting data year: 2019
+05/24/2025 02:33:35 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/24/2025 02:33:35 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:33:38 PM - INFO - 141 dados de Uvas frescas salvos em 'exportacao'.
+05/24/2025 02:33:40 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:33:40 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/24/2025 02:33:40 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:33:40 PM - INFO - 70 dados de Vinhos de mesa salvos em 'importacao'.
+05/24/2025 02:33:42 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:33:43 PM - INFO - 126 dados de Suco de uva salvos em 'exportacao'.
+05/24/2025 02:33:43 PM - INFO - Extracting data year: 2020
+05/24/2025 02:33:46 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:33:46 PM - INFO - 1 dados de Sem classificação salvos em 'processamento'.
+05/24/2025 02:33:46 PM - INFO - Extracting data year: 2019
+05/24/2025 02:33:46 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:33:46 PM - INFO - 47 dados de Espumantes salvos em 'importacao'.
+05/24/2025 02:33:47 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:33:47 PM - INFO - Dados do site coletados com sucesso
+05/24/2025 02:33:48 PM - INFO - 142 dados de Vinhos de mesa salvos em 'exportacao'.
+05/24/2025 02:33:51 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:33:51 PM - INFO - 21 dados de Uvas frescas salvos em 'importacao'.
+05/24/2025 02:33:51 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/24/2025 02:33:51 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:33:53 PM - INFO - 108 dados de Espumantes salvos em 'exportacao'.
+05/24/2025 02:33:56 PM - INFO - 37 dados de Uvas passas salvos em 'importacao'.
+05/24/2025 02:33:56 PM - INFO - Extracting data year: 2020
+05/24/2025 02:33:56 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:33:56 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/24/2025 02:33:56 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:33:58 PM - INFO - 141 dados de Uvas frescas salvos em 'exportacao'.
+05/24/2025 02:34:01 PM - INFO - 70 dados de Vinhos de mesa salvos em 'importacao'.
+05/24/2025 02:34:01 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:34:01 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/24/2025 02:34:01 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:34:03 PM - INFO - 126 dados de Suco de uva salvos em 'exportacao'.
+05/24/2025 02:34:03 PM - INFO - Extracting data year: 2021
+05/24/2025 02:34:05 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:34:06 PM - INFO - 47 dados de Espumantes salvos em 'importacao'.
+05/24/2025 02:34:06 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:34:06 PM - INFO - 1 dados de Sem classificação salvos em 'processamento'.
+05/24/2025 02:34:06 PM - INFO - Extracting data year: 2020
+05/24/2025 02:34:06 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:34:09 PM - INFO - 142 dados de Vinhos de mesa salvos em 'exportacao'.
+05/24/2025 02:34:10 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:34:10 PM - INFO - Dados do site coletados com sucesso
+05/24/2025 02:34:11 PM - INFO - 21 dados de Uvas frescas salvos em 'importacao'.
+05/24/2025 02:34:11 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:34:11 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/24/2025 02:34:11 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:34:14 PM - INFO - 108 dados de Espumantes salvos em 'exportacao'.
+05/24/2025 02:34:17 PM - INFO - 37 dados de Uvas passas salvos em 'importacao'.
+05/24/2025 02:34:17 PM - INFO - Extracting data year: 2021
+05/24/2025 02:34:17 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:34:17 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/24/2025 02:34:17 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:34:19 PM - INFO - 141 dados de Uvas frescas salvos em 'exportacao'.
+05/24/2025 02:34:22 PM - INFO - 70 dados de Vinhos de mesa salvos em 'importacao'.
+05/24/2025 02:34:22 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:34:22 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/24/2025 02:34:22 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:34:24 PM - INFO - 126 dados de Suco de uva salvos em 'exportacao'.
+05/24/2025 02:34:24 PM - INFO - Extracting data year: 2022
+05/24/2025 02:34:25 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:34:27 PM - INFO - 47 dados de Espumantes salvos em 'importacao'.
+05/24/2025 02:34:27 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:34:27 PM - INFO - 1 dados de Sem classificação salvos em 'processamento'.
+05/24/2025 02:34:27 PM - INFO - Extracting data year: 2021
+05/24/2025 02:34:27 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:34:29 PM - INFO - 142 dados de Vinhos de mesa salvos em 'exportacao'.
+05/24/2025 02:34:30 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:34:30 PM - INFO - Dados do site coletados com sucesso
+05/24/2025 02:34:32 PM - INFO - 21 dados de Uvas frescas salvos em 'importacao'.
+05/24/2025 02:34:32 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:34:32 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/24/2025 02:34:32 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:34:35 PM - INFO - 108 dados de Espumantes salvos em 'exportacao'.
+05/24/2025 02:34:38 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:34:38 PM - INFO - 37 dados de Uvas passas salvos em 'importacao'.
+05/24/2025 02:34:38 PM - INFO - Extracting data year: 2022
+05/24/2025 02:34:38 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/24/2025 02:34:38 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:34:38 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:34:40 PM - INFO - 141 dados de Uvas frescas salvos em 'exportacao'.
+05/24/2025 02:34:43 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:34:43 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/24/2025 02:34:43 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:34:43 PM - INFO - 70 dados de Vinhos de mesa salvos em 'importacao'.
+05/24/2025 02:34:44 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:34:44 PM - INFO - Dados do site coletados com sucesso
+05/24/2025 02:34:45 PM - INFO - 126 dados de Suco de uva salvos em 'exportacao'.
+05/24/2025 02:34:45 PM - INFO - Extracting data year: 2023
+05/24/2025 02:34:48 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:34:48 PM - INFO - 1 dados de Sem classificação salvos em 'processamento'.
+05/24/2025 02:34:48 PM - INFO - Extracting data year: 2022
+05/24/2025 02:34:48 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:34:48 PM - INFO - 47 dados de Espumantes salvos em 'importacao'.
+05/24/2025 02:34:50 PM - INFO - 142 dados de Vinhos de mesa salvos em 'exportacao'.
+05/24/2025 02:34:53 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:34:53 PM - INFO - 21 dados de Uvas frescas salvos em 'importacao'.
+05/24/2025 02:34:53 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/24/2025 02:34:53 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:34:55 PM - INFO - 108 dados de Espumantes salvos em 'exportacao'.
+05/24/2025 02:34:59 PM - INFO - 37 dados de Uvas passas salvos em 'importacao'.
+05/24/2025 02:34:59 PM - INFO - Extracting data year: 2023
+05/24/2025 02:34:59 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:34:59 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/24/2025 02:34:59 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:34:59 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:35:01 PM - INFO - 141 dados de Uvas frescas salvos em 'exportacao'.
+05/24/2025 02:35:04 PM - INFO - 70 dados de Vinhos de mesa salvos em 'importacao'.
+05/24/2025 02:35:04 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:35:04 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:35:04 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/24/2025 02:35:04 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:35:04 PM - INFO - Dados do site coletados com sucesso
+05/24/2025 02:35:06 PM - INFO - 126 dados de Suco de uva salvos em 'exportacao'.
+05/24/2025 02:35:06 PM - INFO - Extracting data year: 2024
+05/24/2025 02:35:09 PM - INFO - 47 dados de Espumantes salvos em 'importacao'.
+05/24/2025 02:35:09 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:35:09 PM - INFO - 1 dados de Sem classificação salvos em 'processamento'.
+05/24/2025 02:35:09 PM - INFO - Extracting data year: 2023
+05/24/2025 02:35:09 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:35:11 PM - INFO - 142 dados de Vinhos de mesa salvos em 'exportacao'.
+05/24/2025 02:35:14 PM - INFO - 21 dados de Uvas frescas salvos em 'importacao'.
+05/24/2025 02:35:14 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:35:14 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/24/2025 02:35:14 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:35:16 PM - INFO - 108 dados de Espumantes salvos em 'exportacao'.
+05/24/2025 02:35:17 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:35:19 PM - INFO - 37 dados de Uvas passas salvos em 'importacao'.
+05/24/2025 02:35:19 PM - INFO - Extracting data year: 2024
+05/24/2025 02:35:19 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:35:19 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/24/2025 02:35:19 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:35:21 PM - INFO - 141 dados de Uvas frescas salvos em 'exportacao'.
+05/24/2025 02:35:22 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:35:22 PM - INFO - Dados do site coletados com sucesso
+05/24/2025 02:35:25 PM - INFO - 70 dados de Vinhos de mesa salvos em 'importacao'.
+05/24/2025 02:35:25 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:35:25 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/24/2025 02:35:25 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:35:27 PM - INFO - 126 dados de Suco de uva salvos em 'exportacao'.
+05/24/2025 02:35:30 PM - INFO - 47 dados de Espumantes salvos em 'importacao'.
+05/24/2025 02:35:30 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:35:30 PM - INFO - 1 dados de Sem classificação salvos em 'processamento'.
+05/24/2025 02:35:30 PM - INFO - Extracting data year: 2024
+05/24/2025 02:35:30 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:35:35 PM - INFO - 21 dados de Uvas frescas salvos em 'importacao'.
+05/24/2025 02:35:35 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:35:35 PM - INFO - 139 dados de Viníferas salvos em 'processamento'.
+05/24/2025 02:35:35 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:35:40 PM - INFO - 37 dados de Uvas passas salvos em 'importacao'.
+05/24/2025 02:35:40 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:35:40 PM - INFO - 62 dados de Americanas e híbridas salvos em 'processamento'.
+05/24/2025 02:35:40 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:35:45 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:35:45 PM - INFO - 10 dados de Uvas de mesa salvos em 'processamento'.
+05/24/2025 02:35:45 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:35:51 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:35:51 PM - INFO - 1 dados de Sem classificação salvos em 'processamento'.
+05/24/2025 02:39:24 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:39:29 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:39:30 PM - INFO - Dados do site coletados com sucesso
+05/24/2025 02:40:49 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:40:54 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:40:54 PM - INFO - Dados do site coletados com sucesso
+05/24/2025 02:46:07 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:46:13 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:46:13 PM - INFO - Dados do site coletados com sucesso
+05/24/2025 02:47:16 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:47:21 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:47:21 PM - INFO - Dados do site coletados com sucesso
+05/24/2025 02:49:53 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:49:59 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:49:59 PM - INFO - Dados do site coletados com sucesso
+05/24/2025 02:53:25 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:53:30 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:53:30 PM - INFO - Dados do site coletados com sucesso
+05/24/2025 02:53:36 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:53:41 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:53:41 PM - INFO - Dados do site coletados com sucesso
+05/24/2025 02:53:45 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:53:50 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:53:50 PM - INFO - Dados do site coletados com sucesso
+05/24/2025 02:54:21 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:54:27 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:54:27 PM - INFO - Dados do site coletados com sucesso
+05/24/2025 02:54:42 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:54:47 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:54:47 PM - INFO - Dados do site coletados com sucesso
+05/24/2025 02:55:09 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:55:15 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:55:15 PM - INFO - Dados do site coletados com sucesso
+05/24/2025 02:55:20 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:55:25 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:55:25 PM - INFO - Dados do site coletados com sucesso
+05/24/2025 02:56:06 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:56:11 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:56:11 PM - INFO - Dados do site coletados com sucesso
+05/24/2025 02:56:18 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:56:23 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:56:23 PM - INFO - Dados do site coletados com sucesso
+05/24/2025 02:57:19 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:57:24 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:57:24 PM - INFO - Dados do site coletados com sucesso
+05/24/2025 02:57:36 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:57:41 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:57:41 PM - INFO - Dados do site coletados com sucesso
+05/24/2025 02:57:49 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:57:54 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:57:55 PM - INFO - Dados do site coletados com sucesso
+05/24/2025 02:58:29 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:58:34 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:58:34 PM - INFO - Dados do site coletados com sucesso
+05/24/2025 02:58:42 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:58:47 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:58:47 PM - INFO - Dados do site coletados com sucesso
+05/24/2025 02:59:08 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:59:13 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:59:13 PM - INFO - Dados do site coletados com sucesso
+05/24/2025 02:59:25 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:59:30 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:59:30 PM - INFO - Dados do site coletados com sucesso
+05/24/2025 02:59:44 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:59:50 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:59:50 PM - INFO - Dados do site coletados com sucesso
+05/24/2025 02:59:54 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 02:59:59 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 02:59:59 PM - INFO - Dados do site coletados com sucesso
+05/24/2025 03:00:17 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 03:00:22 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 03:00:22 PM - INFO - Dados do site coletados com sucesso
+05/24/2025 03:00:28 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 03:00:34 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 03:00:34 PM - INFO - Dados do site coletados com sucesso
+05/24/2025 03:00:41 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 03:00:46 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 03:00:46 PM - INFO - Dados do site coletados com sucesso
+05/24/2025 03:00:59 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 03:01:05 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 03:01:05 PM - INFO - Dados do site coletados com sucesso
+05/24/2025 03:02:39 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 03:02:45 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 03:02:45 PM - INFO - Dados do site coletados com sucesso
+05/24/2025 03:04:18 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 03:04:23 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 03:04:23 PM - INFO - Dados do site coletados com sucesso
+05/24/2025 03:04:42 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 03:04:47 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 03:04:47 PM - INFO - Dados do site coletados com sucesso
+05/24/2025 03:05:00 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 03:05:05 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 03:05:05 PM - INFO - Dados do site coletados com sucesso
+05/24/2025 03:05:25 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 03:05:30 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 03:05:30 PM - INFO - Dados do site coletados com sucesso
+05/24/2025 03:06:19 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 03:06:25 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 03:06:25 PM - INFO - Dados do site coletados com sucesso
+05/24/2025 03:06:37 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 03:06:42 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 03:06:42 PM - INFO - Dados do site coletados com sucesso
+05/24/2025 03:07:53 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 03:07:58 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 03:07:58 PM - INFO - Dados do site coletados com sucesso
+05/24/2025 03:08:10 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 03:08:15 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 03:08:15 PM - INFO - Dados do site coletados com sucesso
+05/24/2025 03:08:25 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 03:08:30 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 03:08:30 PM - INFO - Dados do site coletados com sucesso
+05/24/2025 03:09:00 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 03:09:05 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 03:09:05 PM - INFO - Dados do site coletados com sucesso
+05/24/2025 03:09:18 PM - INFO - Iniciando scraping de processamento.
+05/24/2025 03:09:23 PM - INFO - Acesso ao site bem-sucedido.
+05/24/2025 03:09:23 PM - INFO - Dados do site coletados com sucesso
