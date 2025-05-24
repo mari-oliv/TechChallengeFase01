@@ -108,7 +108,7 @@ def scrap_exportacao() -> None:
     for year in range(1970, now):
         logging.info(f"Extracting data year: {year}")
         for option in range(1, 5):
-            df = get_export(year, option)
+            df = get_exportacao(year, option)
             page = df["Page"].iloc[0] if not df.empty else "desconhecido"
             if not df.empty:
                 product = df["Product"].iloc[0]

@@ -2,7 +2,6 @@ vitibrasil.db
 env
 tests
 users.db
-meuarquivo.txt
 vscode
 app/__pycache__
 routes/__pycache__
