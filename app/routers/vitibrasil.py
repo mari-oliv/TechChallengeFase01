@@ -114,14 +114,6 @@ async def producao(
         conn.close()
         return {"success": True, "total": len(data), "data": data}
 
-#funtcion for parsing kg values
-def parse_float(value: Optional[str]) -> Optional[float]:
-    if value is None:
-        return None
-    try:
-        return float(value.replace(",", ".")) #substitui virgula por ponto
-    except ValueError:
-        return None
     
 #rota da aba processamento, subseleção viniferas
 @router.get("/processamento")
@@ -129,9 +121,7 @@ async def processamento(
     product: str = Query(None),
     year: int = Query(None, ge=1970, le=2023),
     group:  Optional[str] = Query(None),
-    cultive:  Optional[str] = Query(None),
-    quant_min: Optional[str] = Query(None),
-    quant_max: Optional[str] = Query(None)
+    cultive:  Optional[str] = Query(None)
 ,
 token_user: str = Depends(verifica_token)):
     if product is None:
@@ -157,10 +147,6 @@ token_user: str = Depends(verifica_token)):
             df = df[df["Cultive"].str.contains(cultive, case=False, na=False)]
         if product:
             df = df[df["Product"].str.contains(product, case=False, na=False)]
-        if quant_min:
-            df = df[df["Quantity_Kg"].replace(",", ".", regex=True).astype(float) >= float(quant_min.replace(",", "."))]
-        if quant_max:
-            df = df[df["Quantity_Kg"].replace(",", ".", regex=True).astype(float) <= float(quant_max.replace(",", "."))]
         data = df.to_dict(orient="records")
         logging.info("Dados do site coletados com sucesso")
         return {"success": True, "total": len(data), "data": data}
@@ -169,8 +155,6 @@ token_user: str = Depends(verifica_token)):
         return {"Success": False, "error": str(e)}
     except:
         logging.error("Erro ao capturar dados do site, tentando coletar do banco")
-        quant_min_value = parse_float(quant_min)
-        quant_max_value = parse_float(quant_max)
 
         conn = sqlite3.connect("vitibrasil.db")
         cursor = conn.cursor()
@@ -197,15 +181,6 @@ token_user: str = Depends(verifica_token)):
         if year is not None:
             query += " AND Year = ?"
             params.append(year) #adiciona ano a lista dos parametros criada
-
-        if quant_min is not None and quant_min != "":
-            query += " AND CAST(REPLACE(Quantity_Kg, '.', '') AS REAL) >= ?"
-            params.append(quant_min)
-
-        if quant_max is not None and quant_max != "":
-            query += " AND CAST(REPLACE(Quantity_Kg, '.', '') AS REAL) <= ?"
-            params.append(quant_max)
-            
         
         logging.info("QUERY:", query)
         logging.info("PARAMS:", params)
@@ -223,15 +198,10 @@ token_user: str = Depends(verifica_token)):
 async def get_comercializacao(
     year: int = Query(None, ge=1970, le=2023),
     group: str = Query(None),
-    cultive: str = Query(None),
-    quant_min: Optional[str] = Query(None),
-    quant_max: Optional[str] = Query(None)
+    cultive: str = Query(None)
 ,
 token_user: str = Depends(verifica_token)):
     try:
-        quant_min_value = parse_float(quant_min)
-        quant_max_value = parse_float(quant_max)
-
         conn = sqlite3.connect("vitibrasil.db")
         cursor = conn.cursor()
 
@@ -249,15 +219,7 @@ token_user: str = Depends(verifica_token)):
         if cultive:
             query += " AND Cultive LIKE ?"
             params.append(cultive)
-        
-        if quant_min_value is not None:
-            query += " AND CAST(REPLACE(Quantity_L, '.', '') AS REAL) >= ?"
-            params.append(quant_min)
-        
-        if quant_max_value is not None:
-            query += " AND CAST(REPLACE(Quantity_L, '.', '') AS REAL) <= ?"
-            params.append(quant_max)
-        
+    
 
         cursor.execute(query, params)
         rows = cursor.fetchall()
@@ -275,11 +237,7 @@ token_user: str = Depends(verifica_token)):
 async def importacao(
     year: int = Query(None, ge= 1970, le= 2024),
     country: Optional[str] = Query(None),
-    product: str = Query(None),
-    quant_min: Optional[str] = Query(None),
-    quant_max: Optional[str] = Query(None),
-    value_min: Optional[str] = Query(None),
-    value_max: Optional[str] = Query(None)
+    product: str = Query(None)
 ,
 token_user: str = Depends(verifica_token)):
     if product is None:
@@ -315,10 +273,6 @@ token_user: str = Depends(verifica_token)):
         return {"Success": False, "error": str(e)}  
     except:
         logging.error("Erro ao capturar dados do site, tentando coletar do banco")
-        quant_min_value = parse_float(quant_min)
-        quant_max_value = parse_float(quant_max)
-        value_max_quant = parse_float(value_max)
-        value_min_quant = parse_float(value_min)
     
         conn = sqlite3.connect("vitibrasil.db")
         cursor = conn.cursor()
@@ -338,21 +292,6 @@ token_user: str = Depends(verifica_token)):
             query += " AND Product LIKE ?"
             params.append(product)
         
-        if quant_min_value is not None:
-            query += " AND CAST(REPLACE(Quantity_Kg, '.', '') AS REAL) >= ?"
-            params.append(quant_min)
-
-        if quant_max_value is not None:
-            query += " AND CAST(REPLACE(Quantity_Kg, '.', '') AS REAL) <= ?"
-            params.append(quant_max)
-        
-        if value_min_quant is not None:
-            query += " AND CAST(REPLACE(Value_USD, '.', '') AS REAL) >= ?"
-            params.append(value_min)
-        
-        if value_max_quant is not None:
-            query += " AND CAST(REPLACE(Value_USD, '.', '') AS REAL) <= ?"
-            params.append(value_max)
 
         cursor.execute(query, params)
         rows = cursor.fetchall()
@@ -361,21 +300,14 @@ token_user: str = Depends(verifica_token)):
         conn.close()
 
         return {"Success": True, "total": len(data), "data": data}
-    
-
-
         
- #rota para aba de exportacao vinhos de mesa
+#rota para aba de exportacao vinhos de mesa
 
 @router.get("/exportacao")
 async def exportacao(
     year: int = Query(None, ge= 1970, le= 2024),
     product: str = Query(None),
-    country: Optional[str] = Query(None),
-    quant_min: Optional[str] = Query(None),
-    quant_max: Optional[str] = Query(None),
-    value_min: Optional[str] = Query(None),
-    value_max: Optional[str] = Query(None)
+    country: Optional[str] = Query(None)
 ,
 token_user: str = Depends(verifica_token)):
     if product is None:
@@ -399,10 +331,6 @@ token_user: str = Depends(verifica_token)):
             df = df[df["Country"].str.contains(country, case=False, na=False)]
         if product:
             df = df[df["Product"].str.contains(product, case=False, na=False)]
-        if quant_min:
-            df = df[df["Quantity_Kg"].replace(",", ".", regex=True).astype(float) >= float(quant_min.replace(",", "."))]
-        if quant_max:
-            df = df[df["Quantity_Kg"].replace(",", ".", regex=True).astype(float) <= float(quant_max.replace(",", "."))]
         data = df.to_dict(orient="records")
         logging.info("Dados do site coletados com sucesso")
         return {"success": True, "total": len(data), "data": data}
@@ -410,11 +338,8 @@ token_user: str = Depends(verifica_token)):
         logging.error(f"Erro ao capturar dados do banco: {e}")
         return {"Success": False, "error": str(e)}
     except:
-        quant_min_value = parse_float(quant_min)
-        quant_max_value = parse_float(quant_max)
-        value_max_quant = parse_float(value_max)
-        value_min_quant = parse_float(value_min)
-    
+        logging.error("Erro ao capturar dados do site, tentando coletar do banco")
+
         conn = sqlite3.connect("vitibrasil.db")
         cursor = conn.cursor()
 
@@ -428,22 +353,6 @@ token_user: str = Depends(verifica_token)):
         if country:
             query += " AND Country LIKE ?"
             params.append(country)
-        
-        if quant_min_value is not None:
-            query += " AND CAST(REPLACE(Quantity_Kg, '.', '') AS REAL) >= ?"
-            params.append(quant_min)
-
-        if quant_max_value is not None:
-            query += " AND CAST(REPLACE(Quantity_Kg, '.', '') AS REAL) <= ?"
-            params.append(quant_max)
-        
-        if value_min_quant is not None:
-            query += " AND CAST(REPLACE(Value_USD, '.', '') AS REAL) >= ?"
-            params.append(value_min)
-        
-        if value_max_quant is not None:
-            query += " AND CAST(REPLACE(Value_USD, '.', '') AS REAL) <= ?"
-            params.append(value_max)
 
         cursor.execute(query, params)
         rows = cursor.fetchall()
@@ -452,8 +361,4 @@ token_user: str = Depends(verifica_token)):
         conn.close()
 
         return {"Success": True, "total": len(data), "data": data}
-    
 
-    
-
- #rota para aba de exportacao espumantes
