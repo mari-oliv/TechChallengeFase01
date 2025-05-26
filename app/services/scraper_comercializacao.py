@@ -41,13 +41,13 @@ def get_comercializacao(year: int) -> pd.DataFrame:
         if len(cols) != 2:
             continue
 
-        col1_class = cols[0].get("class", []) #css class de cada td
+        col1_class = cols[0].get("class", []) 
 
-        if "tb_item" in col1_class: #identifica o grupo
+        if "tb_item" in col1_class: 
             group = cols[0].text.strip()
             cultive = group
             quantity = cols[1].text.strip()
-        elif "tb_subitem" in col1_class: #identifica subitem do grupo
+        elif "tb_subitem" in col1_class: 
             cultive = cols[0].text.strip()
             quantity = cols[1].text.strip()
         else:
@@ -104,7 +104,7 @@ def scrap_comercializacao() -> None:
     now = datetime.now().year
     for year in range(1970, now):
         logging.info(f"Extracting data year: {year}")
-        df = get_comercializacao(year) #chama a function para cada ano 70's - 2024
+        df = get_comercializacao(year)
         if not df.empty:
             save_data_db(df)
             logging.info(f"{len(df)} dados de salvos em 'comercializacao'.")

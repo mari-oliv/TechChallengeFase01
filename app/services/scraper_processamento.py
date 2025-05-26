@@ -57,19 +57,18 @@ def get_processamento(year: int, option: int) -> pd.DataFrame:
         if len(cols) != 2:
             continue
 
-        col1_class = cols[0].get("class", []) #css class de cada td
+        col1_class = cols[0].get("class", [])
 
-        if "tb_item" in col1_class: #identifica o grupo
+        if "tb_item" in col1_class:
             group = cols[0].text.strip()
             cultive = group
             quantity = cols[1].text.strip()
-        elif "tb_subitem" in col1_class: #identifica subitem do grupo
+        elif "tb_subitem" in col1_class:
             cultive = cols[0].text.strip()
             quantity = cols[1].text.strip()
         else:
             continue
         
-        #logging.info(col_sem_definicao)
         if col_sem_definicao != []:
             data.append({
                 "Year": year, 
@@ -84,7 +83,7 @@ def get_processamento(year: int, option: int) -> pd.DataFrame:
                 "Product": product
             })
 
-    return pd.DataFrame(data) #salva dados
+    return pd.DataFrame(data)
 
 def save_data_db(df: pd.DataFrame) -> None:
     """
@@ -108,9 +107,9 @@ def save_data_db(df: pd.DataFrame) -> None:
             Quantity_Kg TEXT,
             Product TEXT
         )
-    ''')#cria a table
+    ''')
 
-    df.to_sql("processamento", conn, if_exists="append", index=False)#dataframe para sql
+    df.to_sql("processamento", conn, if_exists="append", index=False)
     conn.commit()
     conn.close()
 

@@ -23,11 +23,16 @@ class UserRequest(BaseModel):
 
 
 @router.get("/")
+    """
+    Rota raiz da API Vitibrasil.
+    Parâmetros:
+        Nenhum.
+    Retorno:
+        Retorna uma mensagem de confirmação de que a API está funcionando.
+    """
 async def root():
     return {"msg": "Vitibrasil API is aliiive"}
 
-
-#cria usuario para poder capturar token
 @router.post("/signup")
 async def signup(user: UserRequest):
     await init_db()
@@ -50,7 +55,6 @@ async def signup(user: UserRequest):
     finally:
         conn.close()
 
-#rota para capturar token
 @router.post("/token")
 async def login(username: str = Form(...), password: str = Form(...)):
     conn = sqlite3.connect("users.db")
@@ -66,11 +70,10 @@ async def login(username: str = Form(...), password: str = Form(...)):
     access_token = cria_token(data={"sub": username})
     return {"access_token": access_token, "token_type": "bearer"}
 
-#rota da aba produtos
-@router.get("/producao") #?year=70-2023
+@router.get("/producao") 
 async def producao(
     year: int = Query(None, ge=1970, le=2023),
-    product: Optional[str] = Query(None),  # pode ser query param
+    product: Optional[str] = Query(None),  
     category: Optional[str] = Query(None),
     token_user: str = Depends(verifica_token)
 ):
@@ -79,7 +82,6 @@ async def producao(
         df = get_producao(year)
         data = df.to_dict(orient="records")
         logging.info("Dados do site coletados com sucesso")
-        # Aplica filtros se product e/ou category forem informados
         filtered_data = data
         if product:
             filtered_data = [row for row in filtered_data if row.get("Product") and product.lower() in row["Product"].lower()]
@@ -91,19 +93,19 @@ async def producao(
         return {"Success": False, "error": str(e)}
     except:
         logging.info("Erro ao capturar dados do site, tentando coletar do banco")
-        conn = sqlite3.connect("vitibrasil.db") #pega o banco
+        conn = sqlite3.connect("vitibrasil.db") 
         cursor = conn.cursor()
 
         if year and product:
             logging.info(f"Capturando dados do banco para o ano {year} e produto {product}")
             query = "SELECT Year, Product, Quantity_L FROM producao WHERE Year = ? AND Product LIKE ?"
-            cursor.execute(query, (year,product)) #monta a query e executa
+            cursor.execute(query, (year,product)) 
         
         else:
             query = "SELECT Year, Product, Quantity_L FROM producao WHERE Year = ?"
             cursor.execute(query,(year,))
 
-        rows = cursor.fetchall() #pega todos os dados da query
+        rows = cursor.fetchall()
 
         if not rows:
             logging.warning("Consulta ao banco realizada, mas nenhum dado encontrado.")
@@ -115,7 +117,6 @@ async def producao(
         return {"success": True, "total": len(data), "data": data}
 
     
-#rota da aba processamento, subseleção viniferas
 @router.get("/processamento")
 async def processamento(
     product: str = Query(None),
@@ -140,7 +141,7 @@ token_user: str = Depends(verifica_token)):
     
     try:
         df = get_processamento(year, option)
-        # Aplica os filtros recebidos
+   
         if group:
             df = df[df["GroupName"].str.contains(group, case=False, na=False)]
         if cultive:
@@ -159,12 +160,12 @@ token_user: str = Depends(verifica_token)):
         conn = sqlite3.connect("vitibrasil.db")
         cursor = conn.cursor()
 
-        query = "SELECT Year, GroupName, Cultive, Quantity_Kg, Product FROM processamento WHERE 1=1" #query inicial
-        params = [] #armazena parametros da query
+        query = "SELECT Year, GroupName, Cultive, Quantity_Kg, Product FROM processamento WHERE 1=1" 
+        params = [] 
 
         if year is not None:
             query += " AND Year = ?"
-            params.append(year) #adiciona ano a lista dos parametros criada
+            params.append(year) 
 
         if group:
             query += " AND GroupName LIKE ?"
@@ -180,20 +181,19 @@ token_user: str = Depends(verifica_token)):
 
         if year is not None:
             query += " AND Year = ?"
-            params.append(year) #adiciona ano a lista dos parametros criada
+            params.append(year) 
         
         logging.info("QUERY:", query)
         logging.info("PARAMS:", params)
-        cursor.execute(query, params) #monta a query e executa os filtros caso sejam passados
-        rows = cursor.fetchall() #pega todos os dados da query
+        cursor.execute(query, params) 
+        rows = cursor.fetchall() 
 
         data = [{"Year": row[0], "GroupName": row[1], "Cultive": row[2], "Quantity_Kg": row[3]} for row in rows]
-        conn.close() #fecha conexao
+        conn.close() 
         
         return {"success": True, "total": len(data), "data": data}
     
 
-#rota da aba comercializacao
 @router.get("/comercializacao/")
 async def get_comercializacao(
     year: int = Query(None, ge=1970, le=2023),
@@ -205,8 +205,8 @@ token_user: str = Depends(verifica_token)):
         conn = sqlite3.connect("vitibrasil.db")
         cursor = conn.cursor()
 
-        query = "SELECT Year, GroupName, Cultive, Quantity_L FROM comercializacao WHERE 1=1" #query inicial
-        params = [] #lista dos filtros
+        query = "SELECT Year, GroupName, Cultive, Quantity_L FROM comercializacao WHERE 1=1" 
+        params = []
 
         if year is not None:
             query += " AND Year = ?"
@@ -243,7 +243,6 @@ token_user: str = Depends(verifica_token)):
     if product is None:
         return {"Necessário informar o produto": "Vinhos de mesa, Espumantes, Uvas frescas, Uvas passas ou Suco de uva"}
 
-
     if product == 'Vinhos de mesa':
         option = 1
     elif product == 'Espumantes':
@@ -261,7 +260,6 @@ token_user: str = Depends(verifica_token)):
         df = get_importacao(year, option)
         data = df.to_dict(orient="records")
         logging.info("Dados do site coletados com sucesso")
-        # Aplica filtros se product e/ou category forem informados
         filtered_data = data
         if product:
             filtered_data = [row for row in filtered_data if row.get("Product") and product.lower() in row["Product"].lower()]
@@ -277,8 +275,8 @@ token_user: str = Depends(verifica_token)):
         conn = sqlite3.connect("vitibrasil.db")
         cursor = conn.cursor()
 
-        query = "SELECT Year, Country, Quantity_Kg, Value_USD, Product FROM importacao WHERE 1=1" #query inicial
-        params = [] #lista dos filtros
+        query = "SELECT Year, Country, Quantity_Kg, Value_USD, Product FROM importacao WHERE 1=1"
+        params = []
 
         if year is not None:
             query += " AND Year = ?"
@@ -300,8 +298,6 @@ token_user: str = Depends(verifica_token)):
         conn.close()
 
         return {"Success": True, "total": len(data), "data": data}
-        
-#rota para aba de exportacao vinhos de mesa
 
 @router.get("/exportacao")
 async def exportacao(
@@ -326,7 +322,6 @@ token_user: str = Depends(verifica_token)):
     
     try:
         df = get_exportacao(year, option)
-        # Aplica os filtros recebidos
         if country:
             df = df[df["Country"].str.contains(country, case=False, na=False)]
         if product:

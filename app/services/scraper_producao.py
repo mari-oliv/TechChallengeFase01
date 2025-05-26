@@ -6,7 +6,7 @@ from app.core import logging_config
 import logging
 from datetime import datetime
 
-def get_producao(year: int) -> pd.DataFrame: #funcao recebe ano
+def get_producao(year: int) -> pd.DataFrame:
     """
     Coleta dados da página de producao do Vitibrasil usando scraping.
 
@@ -16,7 +16,8 @@ def get_producao(year: int) -> pd.DataFrame: #funcao recebe ano
     Retorna:
         pd.DataFrame: Dados coletados do site para o ano informado.
     """
-    URL = f"http://vitibrasil.cnpuv.embrapa.br/index.php?ano={year}&opcao=opt_02" #monta a url dinamica
+    URL = f"http://vitibrasil.cnpuv.embrapa.br/index.php?ano={year}&opcao=opt_02"
+    
     try:
         logging.info("Acessando o site Vitibrasil")
         response = requests.get(URL)
@@ -28,7 +29,6 @@ def get_producao(year: int) -> pd.DataFrame: #funcao recebe ano
     
     soup = BeautifulSoup(response.text, "html.parser") 
     table = soup.find("table", class_="tb_base tb_dados")
-    
     
     if not table:
         return pd.DataFrame()
@@ -58,7 +58,7 @@ def get_producao(year: int) -> pd.DataFrame: #funcao recebe ano
                 "Quantity_L": quantity
             })
 
-    return pd.DataFrame(data) 
+    return pd.DataFrame(data)
 
 def save_at_db(df: pd.DataFrame) -> None:
     """
@@ -81,12 +81,11 @@ def save_at_db(df: pd.DataFrame) -> None:
             Product TEXT,
             Quantity_L TEXT
         )
-''')#cria a table
+        ''')
     
     df.to_sql("producao", conn, if_exists="append", index=False)
     conn.commit()
     conn.close()
-
 
 def scrap_producao() -> None:
     """

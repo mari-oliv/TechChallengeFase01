@@ -88,7 +88,7 @@ def save_data_db(df: pd.DataFrame) -> None:
             Product TEXT,
             Page TXT
         )
-    ''')#cria a table
+    ''')
 
     df.to_sql("exportacao", conn, if_exists="append", index=False)
     conn.commit()
