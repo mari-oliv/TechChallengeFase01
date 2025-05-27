@@ -23,14 +23,14 @@ Este projeto busca retornar dados do site Embrapa, como por exemplo produção/i
 
 ## 🚀 Como rodar localmente
 
-## 1. Clone o repositório
+#### 1. Clone o repositório
 No terminal, execute os comandos:
 ```bash
 git clone https://github.com/pecosta23/TechChallengeFase1
 cd TechChallengeFase1
 ```
 
-## 2. Realize o Scraper para salvar no banco (Opcional - como fallback caso o site Vitibrasil esteja fora do ar)
+#### 2. Realize o Scraper para salvar no banco (Opcional - como fallback caso o site Vitibrasil esteja fora do ar)
 No terminal, execute os comandos:
 ```bash
     python -m app.services.scraper_producao
@@ -40,12 +40,12 @@ No terminal, execute os comandos:
     python -m app.services.scraper_comercializacao
 ```
 
-### 3. Execute o servidor localmente
+#### 3. Execute o servidor localmente
 Acesse a pasta app/ e rode no terminal o uvicorn
 ```bash
 cd TechChallengeFase1/app
 uvicorn app.main:app --reload
 ```
 
-### 4. Use as rotas
+#### 4. Use as rotas
 No navegador, acesse o URL/docs para ver quais APIs disponíveis
