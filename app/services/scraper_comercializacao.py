@@ -1,9 +1,9 @@
 import logging
-import requests
-from bs4 import BeautifulSoup
 import pandas as pd
+import requests
 import sqlite3
 from app.core import logging_config, logging
+from bs4 import BeautifulSoup
 from datetime import datetime
 
 def get_comercializacao(year: int) -> pd.DataFrame:

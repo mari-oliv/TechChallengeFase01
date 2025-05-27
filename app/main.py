@@ -1,9 +1,9 @@
-from fastapi import FastAPI
-from app.routers import vitibrasil
-from app.core import init_db
-import uvicorn
 import logging
 import nest_asyncio
+import uvicorn
+from app.core import init_db
+from app.routers import vitibrasil
+from fastapi import FastAPI
 
 nest_asyncio.apply()
 

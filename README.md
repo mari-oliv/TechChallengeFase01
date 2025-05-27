@@ -1,23 +1,51 @@
-A scraper for http://vitibrasil.cnpuv.embrapa.br/index.php?opcao=opt_01, work in progress
+# 🧠 Projeto TechChallange - Fase 1
 
-# Tech Challenge
+## ✅ Sobre
 
-## O problema
+Este projeto busca retornar dados do site Embrapa, como por exemplo produção/importação de produtos como Espumantes, Vinho Tinto, em forma de API para ser usado futuramente em um app
 
-Você foi contratado(a) para uma consultoria e seu trabalho envolve analisar os dados de vitivinicultura da Embrapa, os quais estão disponíveis aqui.
+---
 
-A ideia do projeto é a criação de uma API pública de consulta nos dados do site nas respectivas abas:
-* Produção.
-* Processamento.
-* Comercialização.
-* Importação.
-* Exportação.
+## ⚙️ Stack utilizada
 
-A API vai servir para alimentar uma base de dados que futuramente será usada para um modelo de Machine Learning.
-Seus objetivos incluem:
+- **Linguagem:** Python 3.12
+- **Framework Web:**  FastAPI
+- **Servidor:**  Uvicorn
+- **Gerenciador de pacotes:**  pip + requirements.txt
+- **Testes:**  pytest (opcional)
+- **Scraping:**  BeautifulSoup, requests
+- **Banco de dados:**  SQLite (via sqlite3)
+- **DataFrame:**  pandas
+- **Validação:**  Pydantic
+- **Autenticação:**  python-jose, passlib[bcrypt]
+- **Outros** : openpyxl, lxml, bcrypt, certifi, charset-normalizer, click, ecdsa, et_xmlfile, anyio, annotated-types
+---
 
-* Criar uma Rest API em Python que faça a consulta no site da Embrapa.
-* Sua API deve estar documentada.
-* É recomendável (não obrigatório) a escolha de um método de autenticação (JWT, por exemplo).
-* Criar um plano para fazer o deploy da API, desenhando a arquitetura do projeto desde a ingestão até a alimentação do modelo (aqui não é necessário elaborar um modelo de ML, mas é preciso que vocês escolham um cenário interessante em que a API possa ser utilizada).
-* Fazer um MVP realizando o deploy com um link compartilhável e um repositório no github.
+## 🚀 Como rodar localmente
+
+## 1. Clone o repositório
+No terminal, execute os comandos:
+```bash
+git clone https://github.com/pecosta23/TechChallengeFase1
+cd TechChallengeFase1
+```
+
+## 2. Realize o Scraper para salvar no banco (Opcional - como fallback caso o site Vitibrasil esteja fora do ar)
+No terminal, execute os comandos:
+```bash
+    python -m app.services.scraper_producao
+    python -m app.services.scraper_exportacao
+    python -m app.services.scraper_importacao
+    python -m app.services.scraper_processamento
+    python -m app.services.scraper_comercializacao
+```
+
+### 3. Execute o servidor localmente
+Acesse a pasta app/ e rode no terminal o uvicorn
+```bash
+cd TechChallengeFase1/app
+uvicorn app.main:app --reload
+```
+
+### 4. Use as rotas
+No navegador, acesse o URL/docs para ver quais APIs disponíveis

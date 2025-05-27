@@ -1,10 +1,10 @@
-import requests
-from bs4 import BeautifulSoup
-from app.core import logging_config
 import logging
 import pandas as pd
+import requests
 import sqlite3
+from bs4 import BeautifulSoup
 from datetime import datetime
+from app.core import logging_config
 
 def get_processamento(year: int, option: int) -> pd.DataFrame:
     """

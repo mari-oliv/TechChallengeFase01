@@ -1,10 +1,7 @@
 from fastapi import APIRouter, Query, Depends, HTTPException, Form
 from typing import Optional
 import sqlite3
-from app.util.auth import verifica_token
-from app.util.auth import cria_token
-from app.util.auth import hash_pass
-from app.util.auth import verifica_pass
+from app.util.auth import verifica_token, cria_token, hash_pass, verifica_pass
 from app.core.database_config import init_db
 from app.core.logging_config import logging_config
 import logging
@@ -24,11 +21,11 @@ class UserRequest(BaseModel):
 @router.get("/")
 async def root() -> dict:
     """
-        Descrição:
+        ### Descrição:
             Rota raiz da API Vitibrasil.
-        Parâmetros:
+        **Parâmetros:**
             - method: GET
-        Retorno:
+        **Retorno:**
             Retorna uma mensagem de confirmação de que a API está funcionando.
     """
     return {"msg": "Vitibrasil API is aliiive"}
@@ -36,9 +33,9 @@ async def root() -> dict:
 @router.post("/signup")
 async def signup(user: UserRequest) -> dict:
     """
-        Descrição:
+        ### Descrição:
             Rota de cadastro de usuários.
-        Parâmetros:
+        **Parâmetros:**
             - method: POST
             - headers: content-type: application/json
             - Body JSON:
@@ -46,7 +43,7 @@ async def signup(user: UserRequest) -> dict:
                     "username": "user",
                     "password": "pass"
                 }
-        Retorno:
+        **Retorno:**
             Retorna uma mensagem de confirmação de que o usuário foi cadastrado com sucesso.
     """
     await init_db()
@@ -72,9 +69,9 @@ async def signup(user: UserRequest) -> dict:
 @router.post("/token")
 async def login_user(user: UserRequest) -> dict:
     """
-        Descrição:
+        ### Descrição:
             Esta rota é responsável por autenticar o usuário e retornar um token de acesso.
-        Parâmetros:
+        **Parâmetros:**
             - headers: content-type: application/json
             - method: POST
             - Body JSON:
@@ -82,7 +79,7 @@ async def login_user(user: UserRequest) -> dict:
                     "username": "user",
                     "password": "pass"
                 }
-        Retorno:
+        **Retorno:**
             Retorna o token de acesso se as credenciais forem válidas.
     """
     conn = sqlite3.connect("users.db")
@@ -107,9 +104,9 @@ async def producao(
     token_user: str = Depends(verifica_token)
 ) -> dict:
     """
-        Descrição:
+        ### Descrição:
             Rota de Produção.
-        Parâmetros:
+        **Parâmetros:**
             - headers:
                 - Authorization: Bearer {token}
             - method: GET
@@ -117,9 +114,9 @@ async def producao(
                 - year: int (obrigatório, ano de 1970 a 2023)
                 - product: str (opcional, nome do produto)
                 - category: str (opcional, categoria do produto)
-        Retorno:
+        **Retorno:**
             Retorna dados de produção filtrados por ano, produto e categoria.
-        Exemplo de uso:
+        **Exemplo de uso:**
             GET /producao?year=2020&product=uva&category=vinho
             Retorna dados de produção de uva para o ano de 2020 na categoria vinho.
     """
@@ -171,9 +168,9 @@ async def processamento(
     cultive:  Optional[str] = Query(None),
     token_user: str = Depends(verifica_token))  -> dict:
     """
-        Descrição:
+        ### Descrição:
             Rota de Processamento.
-        Parâmetros:
+        **Parâmetros:**
             - headers:
                 - Authorization: Bearer {token}
             - method: GET
@@ -181,9 +178,9 @@ async def processamento(
                 - year: int (obrigatório, ano de 1970 a 2023)
                 - product: str (obrigatório, nome do produto)
                 - cultive: str (opcional, cultivo do produto)
-        Retorno:
+        **Retorno:**
             Retorna dados de produção filtrados por ano, produto e cultivo.
-        Exemplo de uso:
+        **Exemplo de uso:**
             GET /processamento?year=2020&product=uva&cultive=Grand Noir
             Retorna dados de produção de uva para o ano de 2020 na categoria Grand Noir.
     """
@@ -263,9 +260,9 @@ async def get_comercializacao(
     cultive: Optional[str] = Query(None),
     token_user: str = Depends(verifica_token))  -> dict:
     """
-        Descrição:
+        ### Descrição:
             Rota de Comercialização.
-        Parâmetros:
+        **Parâmetros:**
             - headers:
                 - Authorization: Bearer {token}
             - method: GET
@@ -273,9 +270,9 @@ async def get_comercializacao(
                 - year: int (obrigatório, ano de 1970 a 2023)
                 - group: str (opcional, nome do grupo)
                 - cultive: str (opcional, cultivo do produto)
-        Retorno:
+        **Retorno:**
             Retorna dados de produção filtrados por ano, grupo e cultivo.
-        Exemplo de uso:
+        **Exemplo de uso:**
             GET /processamento?year=2020&group=uva&cultive=Grand Noir
             Retorna dados de produção de uva para o ano de 2020 na categoria Grand Noir.
     """
@@ -318,9 +315,9 @@ async def importacao(
     product: str = Query(None),
     token_user: str = Depends(verifica_token))  -> dict:
     """
-        Descrição:
+        ### Descrição:
             Rota de Importação.
-        Parâmetros:
+        **Parâmetros:**
             - headers:
                 - Authorization: Bearer {token}
             - method: GET
@@ -328,9 +325,9 @@ async def importacao(
                 - year: int (obrigatório, ano de 1970 a 2023)
                 - country: str (opcional, nome do país importador)
                 - product: str (obrigatório, nome do produto)
-        Retorno:
+        **Retorno:**
             Retorna dados de importação filtrados por ano, país e produto.
-        Exemplo de uso:
+        **Exemplo de uso:**
             GET /importacao?year=2020&country=França&product=Vinhos de mesa
             Retorna dados de importação de Vinhos de mesa para o ano de 2020 da França.
     """
@@ -400,9 +397,9 @@ async def exportacao (
     country: Optional[str] = Query(None),
     token_user: str = Depends(verifica_token))  -> dict:
     """
-        Descrição:
+        ### Descrição:
             Rota de Exportação.
-        Parâmetros:
+        **Parâmetros:**
             - headers:
                 - Authorization: Bearer {token}
             - method: GET
@@ -410,9 +407,9 @@ async def exportacao (
                 - year: int (obrigatório, ano de 1970 a 2023)
                 - country: str (opcional, nome do país exportador)
                 - product: str (obrigatório, nome do produto)
-        Retorno:
+        **Retorno:**
             Retorna dados de exportação filtrados por ano, país e produto.
-        Exemplo de uso:
+        **Exemplo de uso:**
             GET /exportacao?year=2020&country=França&product=Vinhos de mesa
             Retorna dados de exportação de Vinhos de mesa para o ano de 2020 da França.
     """
