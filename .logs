@@ -33,3 +33,21 @@ Traceback (most recent call last):
     version = _bcrypt.__about__.__version__
               ^^^^^^^^^^^^^^^^^
 AttributeError: module 'bcrypt' has no attribute '__about__'
+05/26/2025 09:11:50 PM - INFO - Iniciando scraping de processamento.
+05/26/2025 09:11:51 PM - ERROR - Erro ao acessar http://vitibrasil.cnpuv.embrapa.br/index.php?ano=1992&opcao=opt_03&subopcao=subopt_01: HTTPConnectionPool(host='vitibrasil.cnpuv.embrapa.br', port=80): Max retries exceeded with url: /
+05/26/2025 09:11:51 PM - ERROR - Erro ao capturar dados do banco: 'Product'
+05/26/2025 09:14:12 PM - INFO - Iniciando scraping de processamento.
+05/26/2025 09:14:12 PM - INFO - Acesso ao site bem-sucedido.
+05/26/2025 09:14:12 PM - INFO - Dados do site coletados com sucesso
+05/26/2025 09:14:36 PM - INFO - Iniciando scraping de processamento.
+05/26/2025 09:14:36 PM - ERROR - Erro ao acessar http://vitibrasil.cnpuv.embrapa.br/index.php?ano=1992&opcao=opt_03&subopcao=subopt_03: HTTPConnectionPool(host='vitibrasil.cnpuv.embrapa.br', port=80): Max retries exceeded with url: /
+05/26/2025 09:14:36 PM - ERROR - Erro ao capturar dados do banco: 'Product'
+05/26/2025 09:14:42 PM - INFO - Iniciando scraping de processamento.
+05/26/2025 09:14:42 PM - ERROR - Erro ao acessar http://vitibrasil.cnpuv.embrapa.br/index.php?ano=1992&opcao=opt_03&subopcao=subopt_03: HTTPConnectionPool(host='vitibrasil.cnpuv.embrapa.br', port=80): Max retries exceeded with url: /
+05/26/2025 09:14:42 PM - ERROR - Erro ao capturar dados do banco: 'Product'
+05/26/2025 09:15:02 PM - INFO - Iniciando scraping de processamento.
+05/26/2025 09:15:02 PM - ERROR - Erro ao acessar http://vitibrasil.cnpuv.embrapa.br/index.php?ano=1992&opcao=opt_03&subopcao=subopt_01: HTTPConnectionPool(host='vitibrasil.cnpuv.embrapa.br', port=80): Max retries exceeded with url: /
+05/26/2025 09:15:02 PM - ERROR - Erro ao capturar dados do banco: 'Product'
+05/26/2025 09:15:03 PM - INFO - Iniciando scraping de processamento.
+05/26/2025 09:15:03 PM - ERROR - Erro ao acessar http://vitibrasil.cnpuv.embrapa.br/index.php?ano=1992&opcao=opt_03&subopcao=subopt_01: HTTPConnectionPool(host='vitibrasil.cnpuv.embrapa.br', port=80): Max retries exceeded with url: /
+05/26/2025 09:15:03 PM - ERROR - Erro ao capturar dados do banco: 'Product'

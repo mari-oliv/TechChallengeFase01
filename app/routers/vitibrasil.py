@@ -22,26 +22,25 @@ class UserRequest(BaseModel):
     password: str
 
 @router.get("/")
-async def root():
+async def root() -> dict:
     """
         Descrição:
             Rota raiz da API Vitibrasil.
         Parâmetros:
             - method: GET
-            Nenhum.
         Retorno:
             Retorna uma mensagem de confirmação de que a API está funcionando.
     """
     return {"msg": "Vitibrasil API is aliiive"}
 
 @router.post("/signup")
-async def signup(user: UserRequest):
+async def signup(user: UserRequest) -> dict:
     """
         Descrição:
             Rota de cadastro de usuários.
         Parâmetros:
             - method: POST
-            - headers: contet-type: application/json
+            - headers: content-type: application/json
             - Body JSON:
                 {
                     "username": "user",
@@ -71,12 +70,12 @@ async def signup(user: UserRequest):
         conn.close()
 
 @router.post("/token")
-async def login_user(user: UserRequest):
+async def login_user(user: UserRequest) -> dict:
     """
         Descrição:
-            Rota de retorno de token.
+            Esta rota é responsável por autenticar o usuário e retornar um token de acesso.
         Parâmetros:
-            - headers: contet-type: application/json
+            - headers: content-type: application/json
             - method: POST
             - Body JSON:
                 {
@@ -84,7 +83,7 @@ async def login_user(user: UserRequest):
                     "password": "pass"
                 }
         Retorno:
-            Retorna um token de acesso se as credenciais forem válidas.
+            Retorna o token de acesso se as credenciais forem válidas.
     """
     conn = sqlite3.connect("users.db")
     cursor = conn.cursor()
@@ -106,7 +105,7 @@ async def producao(
     product: Optional[str] = Query(None),  
     category: Optional[str] = Query(None),
     token_user: str = Depends(verifica_token)
-):
+) -> dict:
     """
         Descrição:
             Rota de Produção.
@@ -169,9 +168,8 @@ async def processamento(
     product: str = Query(None),
     year: int = Query(None, ge=1970, le=2023),
     group:  Optional[str] = Query(None),
-    cultive:  Optional[str] = Query(None)
-,
-token_user: str = Depends(verifica_token)):
+    cultive:  Optional[str] = Query(None),
+    token_user: str = Depends(verifica_token))  -> dict:
     """
         Descrição:
             Rota de Processamento.
@@ -181,13 +179,13 @@ token_user: str = Depends(verifica_token)):
             - method: GET
             - parameters:
                 - year: int (obrigatório, ano de 1970 a 2023)
-                - product: str (nome do produto)
-                - category: str (opcional, categoria do produto)
+                - product: str (obrigatório, nome do produto)
+                - cultive: str (opcional, cultivo do produto)
         Retorno:
-            Retorna dados de produção filtrados por ano, produto e categoria.
+            Retorna dados de produção filtrados por ano, produto e cultivo.
         Exemplo de uso:
-            GET /producao?year=2020&product=uva&category=vinho
-            Retorna dados de produção de uva para o ano de 2020 na categoria vinho.
+            GET /processamento?year=2020&product=uva&cultive=Grand Noir
+            Retorna dados de produção de uva para o ano de 2020 na categoria Grand Noir.
     """
     if product is None:
         return {"Necessário informar o produto": "Viníferas, Uvas de mesa, Americanas e Híbridas ou Sem Classificação"}
@@ -261,10 +259,26 @@ token_user: str = Depends(verifica_token)):
 @router.get("/comercializacao/")
 async def get_comercializacao(
     year: int = Query(None, ge=1970, le=2023),
-    group: str = Query(None),
-    cultive: str = Query(None)
-,
-token_user: str = Depends(verifica_token)):
+    group: Optional[str] = Query(None),
+    cultive: Optional[str] = Query(None),
+    token_user: str = Depends(verifica_token))  -> dict:
+    """
+        Descrição:
+            Rota de Comercialização.
+        Parâmetros:
+            - headers:
+                - Authorization: Bearer {token}
+            - method: GET
+            - parameters:
+                - year: int (obrigatório, ano de 1970 a 2023)
+                - group: str (opcional, nome do grupo)
+                - cultive: str (opcional, cultivo do produto)
+        Retorno:
+            Retorna dados de produção filtrados por ano, grupo e cultivo.
+        Exemplo de uso:
+            GET /processamento?year=2020&group=uva&cultive=Grand Noir
+            Retorna dados de produção de uva para o ano de 2020 na categoria Grand Noir.
+    """
     try:
         conn = sqlite3.connect("vitibrasil.db")
         cursor = conn.cursor()
@@ -301,9 +315,25 @@ token_user: str = Depends(verifica_token)):
 async def importacao(
     year: int = Query(None, ge= 1970, le= 2024),
     country: Optional[str] = Query(None),
-    product: str = Query(None)
-,
-token_user: str = Depends(verifica_token)):
+    product: str = Query(None),
+    token_user: str = Depends(verifica_token))  -> dict:
+    """
+        Descrição:
+            Rota de Importação.
+        Parâmetros:
+            - headers:
+                - Authorization: Bearer {token}
+            - method: GET
+            - parameters:
+                - year: int (obrigatório, ano de 1970 a 2023)
+                - country: str (opcional, nome do país importador)
+                - product: str (obrigatório, nome do produto)
+        Retorno:
+            Retorna dados de importação filtrados por ano, país e produto.
+        Exemplo de uso:
+            GET /importacao?year=2020&country=França&product=Vinhos de mesa
+            Retorna dados de importação de Vinhos de mesa para o ano de 2020 da França.
+    """
     if product is None:
         return {"Necessário informar o produto": "Vinhos de mesa, Espumantes, Uvas frescas, Uvas passas ou Suco de uva"}
 
@@ -364,12 +394,28 @@ token_user: str = Depends(verifica_token)):
         return {"Success": True, "total": len(data), "data": data}
 
 @router.get("/exportacao")
-async def exportacao(
+async def exportacao (
     year: int = Query(None, ge= 1970, le= 2024),
     product: str = Query(None),
-    country: Optional[str] = Query(None)
-,
-token_user: str = Depends(verifica_token)):
+    country: Optional[str] = Query(None),
+    token_user: str = Depends(verifica_token))  -> dict:
+    """
+        Descrição:
+            Rota de Exportação.
+        Parâmetros:
+            - headers:
+                - Authorization: Bearer {token}
+            - method: GET
+            - parameters:
+                - year: int (obrigatório, ano de 1970 a 2023)
+                - country: str (opcional, nome do país exportador)
+                - product: str (obrigatório, nome do produto)
+        Retorno:
+            Retorna dados de exportação filtrados por ano, país e produto.
+        Exemplo de uso:
+            GET /exportacao?year=2020&country=França&product=Vinhos de mesa
+            Retorna dados de exportação de Vinhos de mesa para o ano de 2020 da França.
+    """
     if product is None:
         return {"Necessário informar o produto": "Vinhos de mesa, Espumantes, Uvas frescas ou Suco de uva"}
 
@@ -402,8 +448,8 @@ token_user: str = Depends(verifica_token)):
         conn = sqlite3.connect("vitibrasil.db")
         cursor = conn.cursor()
 
-        query = "SELECT Year, Country, Quantity_Kg, Value_USD FROM exportacoes WHERE 1=1" #query inicial
-        params = [] #lista dos filtros
+        query = "SELECT Year, Country, Quantity_Kg, Value_USD FROM exportacoes WHERE 1=1" 
+        params = [] 
 
         if year is not None:
             query += " AND Year = ?"
