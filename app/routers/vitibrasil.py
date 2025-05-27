@@ -11,6 +11,7 @@ from app.services.scraper_processamento import get_processamento
 from app.services.scraper_comercializacao import get_comercializacao
 from app.services.scraper_importacao import get_importacao
 from app.services.scraper_exportacao import get_exportacao
+from fastapi.responses import JSONResponse
 
 router = APIRouter()
 logging_config()
@@ -23,19 +24,19 @@ async def root() -> dict:
     """
         ### Descrição:
             Rota raiz da API Vitibrasil.
-        **Parâmetros:**
-            - method: GET
-        **Retorno:**
+        ### Parâmetros:
+            None.
+        ### Retorno:
             Retorna uma mensagem de confirmação de que a API está funcionando.
     """
-    return {"msg": "Vitibrasil API is aliiive"}
+    return JSONResponse(content={"message": "Vitibrasil API is aliiive"})
 
 @router.post("/signup")
 async def signup(user: UserRequest) -> dict:
     """
         ### Descrição:
             Rota de cadastro de usuários.
-        **Parâmetros:**
+       ### Parâmetros:
             - method: POST
             - headers: content-type: application/json
             - Body JSON:
@@ -43,7 +44,7 @@ async def signup(user: UserRequest) -> dict:
                     "username": "user",
                     "password": "pass"
                 }
-        **Retorno:**
+        ### Retorno:
             Retorna uma mensagem de confirmação de que o usuário foi cadastrado com sucesso.
     """
     await init_db()
@@ -59,7 +60,7 @@ async def signup(user: UserRequest) -> dict:
         ''', (user.username, hashed_pw))
         conn.commit()
         logging.info(f"Usuário {user.username} cadastrado com sucesso.")
-        return {"message": "Usuário cadastrado com sucesso!"}
+        return JSONResponse(status_code=200,content={"message": "Usuário cadastrado com sucesso!"})
     except sqlite3.IntegrityError:
         logging.error(f"Usuário {user.username} já existe.")
         raise HTTPException(status_code=202, detail="Usuário já existe.")
@@ -71,7 +72,7 @@ async def login_user(user: UserRequest) -> dict:
     """
         ### Descrição:
             Esta rota é responsável por autenticar o usuário e retornar um token de acesso.
-        **Parâmetros:**
+       ### Parâmetros:
             - headers: content-type: application/json
             - method: POST
             - Body JSON:
@@ -79,7 +80,7 @@ async def login_user(user: UserRequest) -> dict:
                     "username": "user",
                     "password": "pass"
                 }
-        **Retorno:**
+        ### Retorno:
             Retorna o token de acesso se as credenciais forem válidas.
     """
     conn = sqlite3.connect("users.db")
@@ -93,7 +94,7 @@ async def login_user(user: UserRequest) -> dict:
         raise HTTPException(status_code=401, detail="As credenciais sao invalidas")
 
     access_token = cria_token(data={"sub": user.username})
-    return {"access_token": access_token, "token_type": "bearer"}
+    return JSONResponse(status_code=200, content={"access_token": access_token, "token_type": "bearer"})
 
 @router.get("/producao")
 async def producao(
@@ -106,7 +107,7 @@ async def producao(
     """
         ### Descrição:
             Rota de Produção.
-        **Parâmetros:**
+       ### Parâmetros:
             - headers:
                 - Authorization: Bearer {token}
             - method: GET
@@ -114,9 +115,9 @@ async def producao(
                 - year: int (obrigatório, ano de 1970 a 2023)
                 - product: str (opcional, nome do produto)
                 - category: str (opcional, categoria do produto)
-        **Retorno:**
+        ### Retorno:
             Retorna dados de produção filtrados por ano, produto e categoria.
-        **Exemplo de uso:**
+        ### Exemplo de uso:
             GET /producao?year=2020&product=uva&category=vinho
             Retorna dados de produção de uva para o ano de 2020 na categoria vinho.
     """
@@ -130,10 +131,10 @@ async def producao(
             filtered_data = [row for row in filtered_data if row.get("Product") and product.lower() in row["Product"].lower()]
         if category:
             filtered_data = [row for row in filtered_data if row.get("Category") and category.lower() in row["Category"].lower()]
-        return {"success": True, "total": len(filtered_data), "data": filtered_data}
+        return JSONResponse(status_code=200, content={"success": True, "total": len(filtered_data), "data": filtered_data})
     except Exception as e:
         logging.error(f"Erro ao capturar dados do banco: {e}")
-        return {"Success": False, "error": str(e)}
+        return JSONResponse(status_code=500, content={"Success": False, "error": str(e)})
     except:
         logging.info("Erro ao capturar dados do site, tentando coletar do banco")
         conn = sqlite3.connect("vitibrasil.db") 
@@ -142,8 +143,8 @@ async def producao(
         if year and product:
             logging.info(f"Capturando dados do banco para o ano {year} e produto {product}")
             query = "SELECT Year, Product, Quantity_L FROM producao WHERE Year = ? AND Product LIKE ?"
-            cursor.execute(query, (year,product)) 
-        
+            cursor.execute(query, (year, product))
+
         else:
             query = "SELECT Year, Product, Quantity_L FROM producao WHERE Year = ?"
             cursor.execute(query,(year,))
@@ -153,11 +154,11 @@ async def producao(
         if not rows:
             logging.warning("Consulta ao banco realizada, mas nenhum dado encontrado.")
             conn.close()
-            return {"success": True, "total": 0, "data": [], "message": "Nenhum dado encontrado no banco para os filtros informados."}
+            return JSONResponse(status_code=200, content={"success": True, "total": 0, "data": [], "message": "Nenhum dado encontrado no banco para os filtros informados."})
 
         data = [{"Year": row[0], "Product": row[1], "Quantity_L": row[2]} for row in rows]
         conn.close()
-        return {"success": True, "total": len(data), "data": data}
+        return JSONResponse(status_code=200, content={"success": True, "total": len(data), "data": data})
 
     
 @router.get("/processamento")
@@ -170,7 +171,7 @@ async def processamento(
     """
         ### Descrição:
             Rota de Processamento.
-        **Parâmetros:**
+       ### Parâmetros:
             - headers:
                 - Authorization: Bearer {token}
             - method: GET
@@ -178,9 +179,9 @@ async def processamento(
                 - year: int (obrigatório, ano de 1970 a 2023)
                 - product: str (obrigatório, nome do produto)
                 - cultive: str (opcional, cultivo do produto)
-        **Retorno:**
+        ### Retorno:
             Retorna dados de produção filtrados por ano, produto e cultivo.
-        **Exemplo de uso:**
+        ### Exemplo de uso:
             GET /processamento?year=2020&product=uva&cultive=Grand Noir
             Retorna dados de produção de uva para o ano de 2020 na categoria Grand Noir.
     """
@@ -209,10 +210,10 @@ async def processamento(
             df = df[df["Product"].str.contains(product, case=False, na=False)]
         data = df.to_dict(orient="records")
         logging.info("Dados do site coletados com sucesso")
-        return {"success": True, "total": len(data), "data": data}
+        return JSONResponse(status_code=200, content={"success": True, "total": len(data), "data": data})
     except Exception as e:
         logging.error(f"Erro ao capturar dados do banco: {e}")
-        return {"Success": False, "error": str(e)}
+        return JSONResponse(status_code=500, content={"success": False, "error": str(e)})
     except:
         logging.error("Erro ao capturar dados do site, tentando coletar do banco")
 
@@ -250,7 +251,7 @@ async def processamento(
         data = [{"Year": row[0], "GroupName": row[1], "Cultive": row[2], "Quantity_Kg": row[3]} for row in rows]
         conn.close() 
         
-        return {"success": True, "total": len(data), "data": data}
+        return JSONResponse(status_code=200, content={"success": True, "total": len(data), "data": data})
     
 
 @router.get("/comercializacao/")
@@ -262,7 +263,7 @@ async def get_comercializacao(
     """
         ### Descrição:
             Rota de Comercialização.
-        **Parâmetros:**
+       ### Parâmetros:
             - headers:
                 - Authorization: Bearer {token}
             - method: GET
@@ -270,9 +271,9 @@ async def get_comercializacao(
                 - year: int (obrigatório, ano de 1970 a 2023)
                 - group: str (opcional, nome do grupo)
                 - cultive: str (opcional, cultivo do produto)
-        **Retorno:**
-            Retorna dados de produção filtrados por ano, grupo e cultivo.
-        **Exemplo de uso:**
+        ### Retorno:
+            Retorna dados de produção em JSON filtrados por ano, grupo e cultivo. 
+        ### Exemplo de uso:
             GET /processamento?year=2020&group=uva&cultive=Grand Noir
             Retorna dados de produção de uva para o ano de 2020 na categoria Grand Noir.
     """
@@ -302,11 +303,10 @@ async def get_comercializacao(
         data = [{"Year": row[0], "GroupName": row[1], "Cultive": row[2], "Quantity": row[3]} for row in rows]
         conn.close()
 
-        return {"success": True, "total": len(data), "data": data}
+        return JSONResponse(content={"success": True, "total": len(data), "data": data})
     
     except Exception as e:
-        return {"success": False, "error": str(e)}
-    
+        raise HTTPException(status_code=500, detail={"success": False, "error": str(e)})
 
 @router.get("/importacao")
 async def importacao(
@@ -317,7 +317,7 @@ async def importacao(
     """
         ### Descrição:
             Rota de Importação.
-        **Parâmetros:**
+       ### Parâmetros:
             - headers:
                 - Authorization: Bearer {token}
             - method: GET
@@ -325,9 +325,9 @@ async def importacao(
                 - year: int (obrigatório, ano de 1970 a 2023)
                 - country: str (opcional, nome do país importador)
                 - product: str (obrigatório, nome do produto)
-        **Retorno:**
+        ### Retorno:
             Retorna dados de importação filtrados por ano, país e produto.
-        **Exemplo de uso:**
+        ### Exemplo de uso:
             GET /importacao?year=2020&country=França&product=Vinhos de mesa
             Retorna dados de importação de Vinhos de mesa para o ano de 2020 da França.
     """
@@ -356,10 +356,10 @@ async def importacao(
             filtered_data = [row for row in filtered_data if row.get("Product") and product.lower() in row["Product"].lower()]
         if country:
             filtered_data = [row for row in filtered_data if row.get("Country") and country.lower() in row["Country"].lower()]
-        return {"success": True, "total": len(filtered_data), "data": filtered_data}
+        return JSONResponse(status_code=200, content={"success": True, "total": len(filtered_data), "data": filtered_data})
     except Exception as e:
         logging.error(f"Erro ao capturar dados do banco: {e}")
-        return {"Success": False, "error": str(e)}  
+        return JSONResponse(status_code=500, content={"success": False, "error": str(e)})
     except:
         logging.error("Erro ao capturar dados do site, tentando coletar do banco")
     
@@ -388,7 +388,7 @@ async def importacao(
         data = [{"Year": row[0], "Country": row[1], "Quantity_Kg": row[2], "Value_USD": row[3], "Product": row[4]} for row in rows]
         conn.close()
 
-        return {"Success": True, "total": len(data), "data": data}
+        return JSONResponse(status_code=200, content={"success": True, "total": len(data), "data": data})
 
 @router.get("/exportacao")
 async def exportacao (
@@ -399,7 +399,7 @@ async def exportacao (
     """
         ### Descrição:
             Rota de Exportação.
-        **Parâmetros:**
+       ### Parâmetros:
             - headers:
                 - Authorization: Bearer {token}
             - method: GET
@@ -407,9 +407,9 @@ async def exportacao (
                 - year: int (obrigatório, ano de 1970 a 2023)
                 - country: str (opcional, nome do país exportador)
                 - product: str (obrigatório, nome do produto)
-        **Retorno:**
+        ### Retorno:
             Retorna dados de exportação filtrados por ano, país e produto.
-        **Exemplo de uso:**
+        ### Exemplo de uso:
             GET /exportacao?year=2020&country=França&product=Vinhos de mesa
             Retorna dados de exportação de Vinhos de mesa para o ano de 2020 da França.
     """
@@ -435,10 +435,10 @@ async def exportacao (
             df = df[df["Product"].str.contains(product, case=False, na=False)]
         data = df.to_dict(orient="records")
         logging.info("Dados do site coletados com sucesso")
-        return {"success": True, "total": len(data), "data": data}
+        return JSONResponse(status_code=200, content={"success": True, "total": len(data), "data": data})
     except Exception as e:
         logging.error(f"Erro ao capturar dados do banco: {e}")
-        return {"Success": False, "error": str(e)}
+        return JSONResponse(status_code=500, content={"success": False, "error": str(e)})
     except:
         logging.error("Erro ao capturar dados do site, tentando coletar do banco")
 
@@ -462,5 +462,5 @@ async def exportacao (
         data = [{"Year": row[0], "Country": row[1], "Quantity_Kg": row[2], "Value_USD": row[3]} for row in rows]
         conn.close()
 
-        return {"Success": True, "total": len(data), "data": data}
+        return JSONResponse(status_code=200, content={"success": True, "total": len(data), "data": data})
 
