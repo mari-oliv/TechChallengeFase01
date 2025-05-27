@@ -9,6 +9,7 @@ nest_asyncio.apply()
 
 app = FastAPI(
     title="Vitibrasil API",
+    description="API da Vitibrasil.",
     version ="1.0.0"
     )
 
