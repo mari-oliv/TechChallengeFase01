@@ -1,0 +1,28 @@
+{
+  "builds": [
+    {
+      "src": "app/main.py",
+      "use": "@vercel/python",
+      "config": {
+        "maxLambdaSize": "50mb",
+        "includeFiles": [
+          "app/**/*",
+          "requirements.txt"
+        ],
+        "excludeFiles": [
+          "env/**/*",
+          "**/__pycache__/*",
+          "assets/**/*",
+          "tests/**/*",
+          "*.db"
+        ]
+      }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "app/main.py"
+    }
+  ]
+}
