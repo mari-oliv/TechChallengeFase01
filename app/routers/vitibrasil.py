@@ -21,20 +21,35 @@ class UserRequest(BaseModel):
     username: str
     password: str
 
-
 @router.get("/")
-    """
-    Rota raiz da API Vitibrasil.
-    Parâmetros:
-        Nenhum.
-    Retorno:
-        Retorna uma mensagem de confirmação de que a API está funcionando.
-    """
 async def root():
+    """
+        Descrição:
+            Rota raiz da API Vitibrasil.
+        Parâmetros:
+            - method: GET
+            Nenhum.
+        Retorno:
+            Retorna uma mensagem de confirmação de que a API está funcionando.
+    """
     return {"msg": "Vitibrasil API is aliiive"}
 
 @router.post("/signup")
 async def signup(user: UserRequest):
+    """
+        Descrição:
+            Rota de cadastro de usuários.
+        Parâmetros:
+            - method: POST
+            - headers: contet-type: application/json
+            - Body JSON:
+                {
+                    "username": "user",
+                    "password": "pass"
+                }
+        Retorno:
+            Retorna uma mensagem de confirmação de que o usuário foi cadastrado com sucesso.
+    """
     await init_db()
     logging.info('Iniciando sign-up')
     conn = sqlite3.connect("users.db")
@@ -56,33 +71,65 @@ async def signup(user: UserRequest):
         conn.close()
 
 @router.post("/token")
-async def login(username: str = Form(...), password: str = Form(...)):
+async def login_user(user: UserRequest):
+    """
+        Descrição:
+            Rota de retorno de token.
+        Parâmetros:
+            - headers: contet-type: application/json
+            - method: POST
+            - Body JSON:
+                {
+                    "username": "user",
+                    "password": "pass"
+                }
+        Retorno:
+            Retorna um token de acesso se as credenciais forem válidas.
+    """
     conn = sqlite3.connect("users.db")
     cursor = conn.cursor()
 
-    cursor.execute("SELECT password FROM users WHERE username = ?", (username,))
+    cursor.execute("SELECT password FROM users WHERE username = ?", (user.username,))
     result = cursor.fetchone()
     conn.close()
 
-    if not result or not verifica_pass(password, result[0]):
+    if not result or not verifica_pass(user.password, result[0]):
         raise HTTPException(status_code=401, detail="As credenciais sao invalidas")
-    
-    access_token = cria_token(data={"sub": username})
+
+    access_token = cria_token(data={"sub": user.username})
     return {"access_token": access_token, "token_type": "bearer"}
 
-@router.get("/producao") 
+@router.get("/producao")
 async def producao(
+    
     year: int = Query(None, ge=1970, le=2023),
     product: Optional[str] = Query(None),  
     category: Optional[str] = Query(None),
     token_user: str = Depends(verifica_token)
 ):
+    """
+        Descrição:
+            Rota de Produção.
+        Parâmetros:
+            - headers:
+                - Authorization: Bearer {token}
+            - method: GET
+            - parameters:
+                - year: int (obrigatório, ano de 1970 a 2023)
+                - product: str (opcional, nome do produto)
+                - category: str (opcional, categoria do produto)
+        Retorno:
+            Retorna dados de produção filtrados por ano, produto e categoria.
+        Exemplo de uso:
+            GET /producao?year=2020&product=uva&category=vinho
+            Retorna dados de produção de uva para o ano de 2020 na categoria vinho.
+    """
     try:
-        #raise Exception("Simulação de site offline")
         df = get_producao(year)
         data = df.to_dict(orient="records")
         logging.info("Dados do site coletados com sucesso")
         filtered_data = data
+        
         if product:
             filtered_data = [row for row in filtered_data if row.get("Product") and product.lower() in row["Product"].lower()]
         if category:
@@ -125,6 +172,23 @@ async def processamento(
     cultive:  Optional[str] = Query(None)
 ,
 token_user: str = Depends(verifica_token)):
+    """
+        Descrição:
+            Rota de Processamento.
+        Parâmetros:
+            - headers:
+                - Authorization: Bearer {token}
+            - method: GET
+            - parameters:
+                - year: int (obrigatório, ano de 1970 a 2023)
+                - product: str (nome do produto)
+                - category: str (opcional, categoria do produto)
+        Retorno:
+            Retorna dados de produção filtrados por ano, produto e categoria.
+        Exemplo de uso:
+            GET /producao?year=2020&product=uva&category=vinho
+            Retorna dados de produção de uva para o ano de 2020 na categoria vinho.
+    """
     if product is None:
         return {"Necessário informar o produto": "Viníferas, Uvas de mesa, Americanas e Híbridas ou Sem Classificação"}
     
