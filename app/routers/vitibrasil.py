@@ -1,4 +1,4 @@
-from fastapi import APIRouter, Query, Depends, HTTPException, Form
+from fastapi import APIRouter, Query, Depends, HTTPException, Form, Body
 from typing import Optional
 import sqlite3
 from app.util.auth import verifica_token, cria_token, hash_pass, verifica_pass
@@ -19,7 +19,34 @@ class UserRequest(BaseModel):
     username: str
     password: str
 
-@router.get("/")
+@router.get("/", responses={
+        200: {
+            "description": "Dados de produção retornados com sucesso.",
+            "content": {
+                "application/json": {
+                    "example": {
+                        "message": "Vitibrasil API is aliiive"
+                    }
+                }
+            }
+        },
+        422: {
+            "description": "Erro de validação dos parâmetros.",
+            "content": {
+                "application/json": {
+                    "example": {
+                        "detail": [
+                            {
+                                "loc": ["query", "year"],
+                                "msg": "value is not a valid integer",
+                                "type": "type_error.integer"
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    })
 async def root() -> dict:
     """
         ### Descrição:
@@ -31,8 +58,45 @@ async def root() -> dict:
     """
     return JSONResponse(content={"message": "Vitibrasil API is aliiive"})
 
-@router.post("/signup")
-async def signup(user: UserRequest) -> dict:
+@router.post(
+    "/signup",
+    responses={
+        200: {
+            "description": "Usuário cadastrado com sucesso.",
+            "content": {
+                "application/json": {
+                    "example": {
+                        "message": "Usuário cadastrado com sucesso!"
+                    }
+                }
+            }
+        },
+        422: {
+            "description": "Erro de validação dos dados.",
+            "content": {
+                "application/json": {
+                    "example": {
+                        "detail": [
+                            {
+                                "loc": ["body", "username"],
+                                "msg": "field required",
+                                "type": "value_error.missing"
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    }
+)
+async def signup(user: UserRequest = Body(
+        ...,
+        example={
+            "username": "usuario_exemplo",
+            "password": "senha_segura"
+        }
+    )
+) -> dict:
     """
         ### Descrição:
             Rota de cadastro de usuários.
@@ -67,8 +131,46 @@ async def signup(user: UserRequest) -> dict:
     finally:
         conn.close()
 
-@router.post("/token")
-async def login_user(user: UserRequest) -> dict:
+@router.post(
+    "/token",
+    responses={
+        200: {
+            "description": "Token de acesso gerado com sucesso.",
+            "content": {
+                "application/json": {
+                    "example": {
+                        "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...",
+                        "token_type": "bearer"
+                    }
+                }
+            }
+        },
+        422: {
+            "description": "Erro de validação dos dados.",
+            "content": {
+                "application/json": {
+                    "example": {
+                        "detail": [
+                            {
+                                "loc": ["body", "username"],
+                                "msg": "field required",
+                                "type": "value_error.missing"
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    }
+)
+async def login_user(user: UserRequest = Body(
+        ...,
+        example={
+            "username": "usuario_exemplo",
+            "password": "senha_segura"
+        }
+    )
+) -> dict:
     """
         ### Descrição:
             Esta rota é responsável por autenticar o usuário e retornar um token de acesso.
@@ -96,9 +198,47 @@ async def login_user(user: UserRequest) -> dict:
     access_token = cria_token(data={"sub": user.username})
     return JSONResponse(status_code=200, content={"access_token": access_token, "token_type": "bearer"})
 
-@router.get("/producao")
+@router.get(
+    "/producao",
+    responses={
+        200: {
+            "description": "Dados de produção retornados com sucesso.",
+            "content": {
+                "application/json": {
+                    "example": {
+                        "success": True,
+                        "total": 1,
+                        "data": [
+                            {
+                                "Year": 2020,
+                                "Product": "Uva",
+                                "Category": "Vinho",
+                                "Quantity_L": 123456
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        422: {
+            "description": "Erro de validação dos parâmetros.",
+            "content": {
+                "application/json": {
+                    "example": {
+                        "detail": [
+                            {
+                                "loc": ["query", "year"],
+                                "msg": "value is not a valid integer",
+                                "type": "type_error.integer"
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    }
+)
 async def producao(
-    
     year: int = Query(None, ge=1970, le=2023),
     product: Optional[str] = Query(None),  
     category: Optional[str] = Query(None),
@@ -161,7 +301,44 @@ async def producao(
         return JSONResponse(status_code=200, content={"success": True, "total": len(data), "data": data})
 
     
-@router.get("/processamento")
+@router.get("/processamento", responses={
+        200: {
+            "description": "Dados de processamento retornados com sucesso.",
+            "content": {
+                "application/json": {
+                    "example": {
+                        "success": True,
+                        "total": 1,
+                        "data": [
+                            {
+                                "Year": 2020,
+                                "GroupName": "Uva",
+                                "Cultive": "Vinho",
+                                "Quantity_Kg": 123456,
+                                "Product": "Viníferas"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        422: {
+            "description": "Erro de validação dos parâmetros.",
+            "content": {
+                "application/json": {
+                    "example": {
+                        "detail": [
+                            {
+                                "loc": ["query", "year"],
+                                "msg": "value is not a valid integer",
+                                "type": "type_error.integer"
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    })
 async def processamento(
     product: str = Query(None),
     year: int = Query(None, ge=1970, le=2023),
@@ -254,7 +431,43 @@ async def processamento(
         return JSONResponse(status_code=200, content={"success": True, "total": len(data), "data": data})
     
 
-@router.get("/comercializacao/")
+@router.get("/comercializacao/", responses={
+        200: {
+            "description": "Dados de comercialização retornados com sucesso.",
+            "content": {
+                "application/json": {
+                    "example": {
+                        "success": True,
+                        "total": 1,
+                        "data": [
+                            {
+                                "Year": 2020,
+                                "GroupName": "Uva",
+                                "Cultive": "Vinho",
+                                "Quantity": 123456
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        422: {
+            "description": "Erro de validação dos parâmetros.",
+            "content": {
+                "application/json": {
+                    "example": {
+                        "detail": [
+                            {
+                                "loc": ["query", "year"],
+                                "msg": "value is not a valid integer",
+                                "type": "type_error.integer"
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    })
 async def get_comercializacao(
     year: int = Query(None, ge=1970, le=2023),
     group: Optional[str] = Query(None),
@@ -308,7 +521,44 @@ async def get_comercializacao(
     except Exception as e:
         raise HTTPException(status_code=500, detail={"success": False, "error": str(e)})
 
-@router.get("/importacao")
+@router.get("/importacao", responses={
+        200: {
+            "description": "Dados de importação retornados com sucesso.",
+            "content": {
+                "application/json": {
+                    "example": {
+                        "success": True,
+                        "total": 1,
+                        "data": [
+                            {
+                                "Year": 2020,
+                                "Country": "França",
+                                "Quantity_Kg": 123456,
+                                "Value_USD": 1000000,
+                                "Product": "Vinhos de mesa"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        422: {
+            "description": "Erro de validação dos parâmetros.",
+            "content": {
+                "application/json": {
+                    "example": {
+                        "detail": [
+                            {
+                                "loc": ["query", "year"],
+                                "msg": "value is not a valid integer",
+                                "type": "type_error.integer"
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    })
 async def importacao(
     year: int = Query(None, ge= 1970, le= 2024),
     country: Optional[str] = Query(None),
@@ -390,7 +640,44 @@ async def importacao(
 
         return JSONResponse(status_code=200, content={"success": True, "total": len(data), "data": data})
 
-@router.get("/exportacao")
+@router.get("/exportacao", responses={
+        200: {
+            "description": "Dados de exportação retornados com sucesso.",
+            "content": {
+                "application/json": {
+                    "example": {
+                        "success": True,
+                        "total": 1,
+                        "data": [
+                            {
+                                "Year": 2020,
+                                "Country": "França",
+                                "Quantity_Kg": 123456,
+                                "Value_USD": 1000000,
+                                "Product": "Vinhos de mesa"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        422: {
+            "description": "Erro de validação dos parâmetros.",
+            "content": {
+                "application/json": {
+                    "example": {
+                        "detail": [
+                            {
+                                "loc": ["query", "year"],
+                                "msg": "value is not a valid integer",
+                                "type": "type_error.integer"
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    })
 async def exportacao (
     year: int = Query(None, ge= 1970, le= 2024),
     product: str = Query(None),
