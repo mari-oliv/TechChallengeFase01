@@ -1,19 +1,12 @@
 {
   "builds": [
     {
-      "src": "api/main.py",
+      "src": "app/main.py",
       "use": "@vercel/python",
       "config": {
-        "maxLambdaSize": "250mb",
         "includeFiles": [
-          "views//*",
-          "routers//*",
-          "data_extraction//*"
-        ],
-        "excludeFiles": [
-          "env//*",
-          "pycache//*",
-          "assets//*"
+          "app/**/*",
+          "requirements.txt"
         ]
       }
     }
@@ -21,7 +14,7 @@
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "api/routers/vitibrasil.py"
+      "dest": "app/main.py"
     }
   ]
 }
