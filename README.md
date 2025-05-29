@@ -20,6 +20,8 @@ Este projeto busca retornar dados do site Embrapa, como por exemplo produção/i
 - **Autenticação:**  python-jose, passlib[bcrypt]
 - **Outros** : openpyxl, lxml, bcrypt, certifi, charset-normalizer, click, ecdsa, et_xmlfile, anyio, annotated-types
 ---
+## Deploy
+URL https://techchallengefase1-1.onrender.com
 
 ## 🚀 Como rodar localmente
 
@@ -44,7 +46,7 @@ No terminal, execute os comandos:
 Acesse a pasta app/ e rode no terminal o uvicorn
 ```bash
 cd TechChallengeFase1/app
-uvicorn app.main:app --reload
+gunicorn -k uvicorn.workers.UvicornWorker main:app --bind 0.0.0.0:10000s
 ```
 
 #### 4. Use as rotas
