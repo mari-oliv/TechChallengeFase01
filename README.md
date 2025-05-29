@@ -10,7 +10,7 @@ Este projeto busca retornar dados do site Embrapa, como por exemplo produção/i
 
 - **Linguagem:** Python 3.12
 - **Framework Web:**  FastAPI
-- **Servidor:**  Uvicorn
+- **Servidor:**  gunicorn uvicorn / render https://techchallengefase1-1.onrender.com
 - **Gerenciador de pacotes:**  pip + requirements.txt
 - **Testes:**  pytest (opcional)
 - **Scraping:**  BeautifulSoup, requests
@@ -20,10 +20,17 @@ Este projeto busca retornar dados do site Embrapa, como por exemplo produção/i
 - **Autenticação:**  python-jose, passlib[bcrypt]
 - **Outros** : openpyxl, lxml, bcrypt, certifi, charset-normalizer, click, ecdsa, et_xmlfile, anyio, annotated-types
 ---
-## Deploy
+## 🚀 Deploy
+
 URL https://techchallengefase1-1.onrender.com
 
-## 🚀 Como rodar localmente
+## APIs
+https://techchallengefase1-1.onrender.com/docs
+
+
+
+
+## Como rodar localmente
 
 #### 1. Clone o repositório
 No terminal, execute os comandos:
