@@ -36,3 +36,4 @@ urllib3==2.4.0
 uvicorn==0.34.2
 mangum
 nest_asyncio
+gunicorn
