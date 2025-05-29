@@ -1,16 +1,13 @@
 {
-  "builds": [
-    {
-      "src": "app/main.py",
-      "use": "@vercel/python",
-      "config": {
-        "includeFiles": [
-          "app/**/*",
-          "requirements.txt"
-        ]
-      }
+  "functions": {
+    "app/main.py": {
+      "runtime": "python3.9",
+      "includeFiles": [
+        "app/*/",
+        "requirements.txt"
+      ]
     }
-  ],
+  },
   "routes": [
     {
       "src": "/(.*)",
