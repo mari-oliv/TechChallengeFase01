@@ -5,6 +5,7 @@ import sqlite3
 from bs4 import BeautifulSoup
 from datetime import datetime
 from app.core import logging_config
+from fastapi.responses import JSONResponse
 
 def get_producao(year: int) -> pd.DataFrame:
     """
