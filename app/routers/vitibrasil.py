@@ -1,7 +1,7 @@
 from fastapi import APIRouter, Query, Depends, HTTPException, Form, Body
 from typing import Optional
 import sqlite3
-from app.util.auth import verifica_token, cria_token, hash_pass, verifica_pass
+from app.util.auth import verifica_token, cria_token, hash_pass, verifica_pass, oauth2
 from app.core.database_config import init_db
 from app.core.logging_config import logging_config
 import logging
@@ -12,6 +12,8 @@ from app.services.scraper_comercializacao import get_comercializacao
 from app.services.scraper_importacao import get_importacao
 from app.services.scraper_exportacao import get_exportacao
 from fastapi.responses import JSONResponse
+from fastapi.security import OAuth2PasswordBearer
+
 
 router = APIRouter()
 logging_config()
@@ -163,13 +165,9 @@ async def signup(user: UserRequest = Body(
         }
     }
 )
-async def login_user(user: UserRequest = Body(
-        ...,
-        example={
-            "username": "usuario_exemplo",
-            "password": "senha_segura"
-        }
-    )
+async def login_user(
+    username: str = Form(...),
+    password: str = Form(...)
 ) -> dict:
     """
         ### Descrição:
@@ -185,18 +183,19 @@ async def login_user(user: UserRequest = Body(
         ### Retorno:
             Retorna o token de acesso se as credenciais forem válidas.
     """
+
     conn = sqlite3.connect("users.db")
     cursor = conn.cursor()
 
-    cursor.execute("SELECT password FROM users WHERE username = ?", (user.username,))
+    cursor.execute("SELECT password FROM users WHERE username = ?", (username,))
     result = cursor.fetchone()
     conn.close()
 
-    if not result or not verifica_pass(user.password, result[0]):
+    if not result or not verifica_pass(password, result[0]):
         raise HTTPException(status_code=401, detail="As credenciais sao invalidas")
 
-    access_token = cria_token(data={"sub": user.username})
-    return JSONResponse(status_code=200, content={"access_token": access_token, "token_type": "bearer"})
+    access_token = cria_token(data={"sub": username})
+    return {"access_token": access_token, "token_type": "bearer"}
 
 @router.get(
     "/producao",
@@ -258,8 +257,11 @@ async def producao(
         ### Retorno:
             Retorna dados de produção filtrados por ano, produto e categoria.
         ### Exemplo de uso:
-            GET /producao?year=2020&product=uva&category=vinho
-            Retorna dados de produção de uva para o ano de 2020 na categoria vinho.
+            curl -X 'GET' \
+                '/producao?year=2000&product=Rosado&category=VINHO%20DE%20MESA' \
+                -H 'accept: application/json' \
+                -H 'Authorization: Bearer TOKEN_EXAMPLE'
+            Retorna dados de produção de Rosado para o ano de 2020 na categoria VINHO DE MESA.
     """
     try:
         df = get_producao(year)

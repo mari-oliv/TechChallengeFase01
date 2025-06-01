@@ -5,3 +5,37 @@
 05/28/2025 08:50:22 PM - INFO - Iniciando sign-up
 05/28/2025 08:50:22 PM - INFO - Usuário admin2 cadastrado com sucesso.
 05/28/2025 08:52:26 PM - INFO - Dados do site coletados com sucesso
+05/31/2025 10:12:50 PM - INFO - Banco de dados já existe.
+05/31/2025 10:12:50 PM - INFO - Banco de dados já existe.
+05/31/2025 10:12:50 PM - INFO - Iniciando sign-up
+05/31/2025 10:12:50 PM - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.12/site-packages/passlib/handlers/bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+05/31/2025 10:12:50 PM - INFO - Usuário usuario_exemplo cadastrado com sucesso.
+05/31/2025 10:20:32 PM - INFO - Banco de dados já existe.
+05/31/2025 10:20:32 PM - INFO - Banco de dados já existe.
+05/31/2025 10:20:32 PM - INFO - Iniciando sign-up
+05/31/2025 10:20:32 PM - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.12/site-packages/passlib/handlers/bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+05/31/2025 10:20:32 PM - ERROR - Usuário usuario_exemplo já existe.
+05/31/2025 10:25:17 PM - INFO - Banco de dados já existe.
+05/31/2025 10:25:17 PM - INFO - Banco de dados já existe.
+05/31/2025 10:25:17 PM - INFO - Iniciando sign-up
+05/31/2025 10:25:18 PM - ERROR - Usuário usuario_exemplo já existe.
+05/31/2025 10:35:53 PM - INFO - Banco de dados já existe.
+05/31/2025 10:35:53 PM - INFO - Banco de dados já existe.
+05/31/2025 10:35:53 PM - INFO - Iniciando sign-up
+05/31/2025 10:35:53 PM - ERROR - Usuário usuario_exemplo já existe.
+05/31/2025 10:46:32 PM - INFO - Banco de dados já existe.
+05/31/2025 10:46:32 PM - INFO - Banco de dados já existe.
+05/31/2025 10:46:32 PM - INFO - Iniciando sign-up
+05/31/2025 10:46:33 PM - ERROR - Usuário usuario_exemplo já existe.
+05/31/2025 10:48:22 PM - INFO - Acessando o site Vitibrasil
+05/31/2025 10:48:24 PM - INFO - Dados do site coletados com sucesso

@@ -4,6 +4,7 @@ from fastapi import Depends, HTTPException, status
 from fastapi.security import OAuth2PasswordBearer
 from typing import Optional
 from passlib.context import CryptContext
+from bcrypt import hashpw, gensalt, checkpw
 
 SECRET_KEY = "chave"
 ALGORITHM = "HS256"
@@ -37,4 +38,4 @@ def verifica_token(token: str = Depends(oauth2)):
         return username
     except JWTError:
         raise HTTPException(status_code=401, detail="O token não é válido")
-    
+
