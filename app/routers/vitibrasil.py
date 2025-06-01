@@ -11,8 +11,7 @@ from app.services.scraper_processamento import get_processamento
 from app.services.scraper_comercializacao import get_comercializacao
 from app.services.scraper_importacao import get_importacao
 from app.services.scraper_exportacao import get_exportacao
-from fastapi.responses import JSONResponse
-from fastapi.security import OAuth2PasswordBearer
+from fastapi.responses import JSONResponse, RedirectResponse
 
 
 router = APIRouter()
@@ -21,47 +20,12 @@ class UserRequest(BaseModel):
     username: str
     password: str
 
-@router.get("/", responses={
-        200: {
-            "description": "Dados de produção retornados com sucesso.",
-            "content": {
-                "application/json": {
-                    "example": {
-                        "message": "Vitibrasil API is aliiive"
-                    }
-                }
-            }
-        },
-        422: {
-            "description": "Erro de validação dos parâmetros.",
-            "content": {
-                "application/json": {
-                    "example": {
-                        "detail": [
-                            {
-                                "loc": ["query", "year"],
-                                "msg": "value is not a valid integer",
-                                "type": "type_error.integer"
-                            }
-                        ]
-                    }
-                }
-            }
-        }
-    })
-async def root() -> dict:
-    """
-        ### Descrição:
-            Rota raiz da API Vitibrasil.
-        ### Parâmetros:
-            None.
-        ### Retorno:
-            Retorna uma mensagem de confirmação de que a API está funcionando.
-    """
-    return JSONResponse(content={"message": "Vitibrasil API is aliiive"})
+@router.get("/", include_in_schema=False)
+async def root():
+    return RedirectResponse(url="/docs")
 
 @router.post(
-    "/signup",
+    "/signup", tags=["Usuários"],
     responses={
         200: {
             "description": "Usuário cadastrado com sucesso.",
@@ -134,7 +98,7 @@ async def sign_up(user: UserRequest = Body(
         conn.close()
 
 @router.post(
-    "/token",
+    "/login", tags=["Usuários"],
     responses={
         200: {
             "description": "Token de acesso gerado com sucesso.",
@@ -198,7 +162,7 @@ async def login_user (
     return {"access_token": access_token, "token_type": "bearer"}
 
 @router.get(
-    "/producao/options",
+    "/producao/options", tags=["Vitivinicultura"],
     responses={
         200: {
             "description": "Opções de produção retornadas com sucesso.",
@@ -206,8 +170,8 @@ async def login_user (
                 "application/json": {
                     "example": {
                         "success": True,
-                        "categories": ["VINHO DE MESA", "VINHO FINO DE MESA", "ESPUMANTE", "SUCO DE UVA", "UVAS FRESCAS", "UVAS PASSAS"],
-                        "products": ["Rosado", "Tinto", "Branco"]
+                        "categories": ["vinho de mesa","vinho fino de mesa (vinifera)","suco","derivados"],
+                        "products": ["Todos da categoria","tinto","branco","rosado"]
                     }
                 }
             }
@@ -254,7 +218,7 @@ async def producao_opcoes() -> dict:
         return JSONResponse(status_code=500, content={"success": False, "error": str(e)}) 
 
 @router.get(
-    "/producao",
+    "/producao", tags=["Vitivinicultura"],
     responses={
         200: {
             "description": "Dados de produção retornados com sucesso.",
@@ -266,9 +230,9 @@ async def producao_opcoes() -> dict:
                         "data": [
                             {
                                 "Year": 2020,
-                                "Product": "Rosado",
-                                "Category": "VINHO DE MESA",
-                                "Quantity_L": 123456
+                                "Category": "vinho de mesa",
+                                "Product": "tinto",
+                                "Quantity_L": "175.267.437"
                             }
                         ]
                     }
@@ -295,8 +259,8 @@ async def producao_opcoes() -> dict:
 )
 async def producao (
     year: int = Query(None, ge=1970, le=2023),
-    product: Optional[str] = Query(None),  
     category: Optional[str] = Query(None),
+    product: Optional[str] = Query(None),
     token_user: str = Depends(verifica_token)
 ) -> dict:
     """
@@ -308,16 +272,16 @@ async def producao (
             - method: GET
             - parameters:
                 - year: int (obrigatório, ano de 1970 a 2023)
-                - product: str (opcional, nome do produto)
                 - category: str (opcional, categoria do produto)
+                - product: str (opcional, nome do produto)
         ### Retorno:
             Retorna dados de produção filtrados por ano, produto e categoria.
         ### Exemplo de uso:
             curl -X 'GET' 
-                '/producao?year=2000&product=Rosado&category=VINHO%20DE%20MESA' 
+                '/producao?year=2001&product=Tinto&category=Vinho%20de%20mesa' 
                 -H 'accept: application/json' 
                 -H 'Authorization: Bearer TOKEN_EXAMPLE'
-            Retorna dados de produção de Rosado para o ano de 2020 na categoria VINHO DE MESA.
+            Retorna dados de produção de Tinto para o ano de 2001 na categoria Vinho de mesa.
     """
     try:
         df = get_producao(year)
@@ -358,9 +322,8 @@ async def producao (
         conn.close()
         return JSONResponse(status_code=200, content={"success": True, "total": len(data), "data": data})
 
- 
 @router.get(
-    "/processamento/options",
+    "/processamento/options", tags=["Vitivinicultura"],
     responses={
         200: {
             "description": "Opções de processamento retornadas com sucesso.",
@@ -368,9 +331,9 @@ async def producao (
                 "application/json": {
                     "example": {
                         "success": True,
-                        "Grupo": ["TINTAS","BRANCAS E ROSADAS","BRANCAS","Sem classificação"],
-                        "Produtos": ["Viníferas","Americanas e híbridas","Uvas de mesa","Sem classificação"],
-                        "Cultivos": ["TINTAS","Alicante Bouschet","Ancelota","Aramon","Alfrocheiro","Arinarnoa","Aspirant Bouschet"]
+                        "Grupo": ["tintas","brancas e rosadas","brancas","sem classificação"],
+                        "Produtos": ["viníferas","americanas e híbridas","uvas de mesa","sem classificação"],
+                        "Cultivos": ["tintas","alicante bouschet","ancelota"]
                     }
                 }
             }
@@ -396,12 +359,12 @@ async def producao (
 async def processamento_opcoes() -> dict:
     """
         ### Descrição:
-            Rota para obter as opções de categorias e produtos disponíveis na produção.
+            Rota para obter as opções grupo, produtos e cultivos disponíveis na em processamento.
        ### Parâmetros:
             - headers: content-type: application/json
             - method: GET
         ### Retorno:
-            Retorna uma lista de categorias e produtos disponíveis.
+            Retorna uma lista de grupos, produtos e cultivos disponíveis.
     """
     try:
         conn = sqlite3.connect("vitibrasil.db")
@@ -416,9 +379,9 @@ async def processamento_opcoes() -> dict:
         return JSONResponse(status_code=200, content={"success": True, "Grupo": group_name, "Produtos": products, "Cultivos": cultives})
     except Exception as e:
         logging.error(f"Erro ao acessar o banco de dados: {e}")
-        return JSONResponse(status_code=500, content={"success": False, "error": str(e)}) 
-    
-@router.get("/processamento", responses={
+        return JSONResponse(status_code=500, content={"success": False, "error": str(e)})
+
+@router.get("/processamento",  tags=["Vitivinicultura"], responses={
         200: {
             "description": "Dados de processamento retornados com sucesso.",
             "content": {
@@ -474,27 +437,27 @@ async def processamento (
                 - product: str (obrigatório, nome do produto)
                 - cultive: str (opcional, cultivo do produto)
         ### Retorno:
-            Retorna dados de produção filtrados por ano, produto e cultivo.
+            Retorna dados de processamento filtrados por ano, produto e cultivo.
         ### Exemplo de uso:
             curl -X 'GET' 
-                '/processamento?product=Viniferas&year=1980' 
+                '/processamento?product=vin%C3%ADferas&year=2003&group=tintas&cultive=alfrocheiro' 
                 -H 'accept: application/json' 
                 -H 'Authorization: Bearer TOKEN_EXAMPLE'
-            Retorna dados de produção de Viníferas para o ano de 1980.
+            Retorna dados de processamento de Viníferas do grupo Tintas e cultivo Alfrocheiro, para o ano de 2003.
     """
     if product is None:
-        return {"Necessário informar o produto": "Viníferas, Uvas de mesa, Americanas e Híbridas ou Sem Classificação"}
+        return JSONResponse(status_code=400, content={"success": False, "error": "Necessário informar o produto: Viníferas, Uvas de mesa, Americanas e Híbridas ou Sem Classificação"})
     
-    if product == 'Viníferas':
+    if product.lower() == 'viníferas' or product.lower() == 'viniferas':
         option = 1
-    elif product == 'Americanas e Híbridas':
+    elif product.lower() == 'americanas e híbridas' or product.lower() == 'americanas e hibridas':
         option = 2
-    elif product == 'Uvas de mesa':
+    elif product.lower() == 'uvas de mesa':
         option = 3
-    elif product == 'Sem Classificação':
+    elif product.lower() == 'sem classificação' or product.lower() == 'sem classificacao':
         option = 4
     else:
-        pass
+        return JSONResponse(status_code=400, content={"success": False, "error": "Produto inválido. Opções válidas: Viníferas, Uvas de mesa, Americanas e Híbridas ou Sem Classificação."})
     
     try:
         df = get_processamento(year, option)
@@ -551,7 +514,7 @@ async def processamento (
         return JSONResponse(status_code=200, content={"success": True, "total": len(data), "data": data})
     
 @router.get(
-    "/comercializacao/options",
+    "/comercializacao/options", tags=["Vitivinicultura"],
     responses={
         200: {
             "description": "Opções de comercialização retornadas com sucesso.",
@@ -559,9 +522,7 @@ async def processamento (
                 "application/json": {
                     "example": {
                         "success": True,
-                        "Grupo": ["TINTAS","BRANCAS E ROSADAS","BRANCAS","Sem classificação"],
-                        "Produtos": ["Viníferas","Americanas e híbridas","Uvas de mesa","Sem classificação"],
-                        "Cultivos": ["TINTAS","Alicante Bouschet","Ancelota","Aramon","Alfrocheiro","Arinarnoa","Aspirant Bouschet"]
+                         "Grupos": ["vinho de mesa","vinho fino de mesa","vinho frizante","vinho orgânico","vinho especial","espumantes","suco de uvas","suco de uvas concentrado","outros produtos comercializados"],"Cultivos": ["vinho de mesa","tinto","rosado","branco"]
                     }
                 }
             }
@@ -587,27 +548,27 @@ async def processamento (
 async def comercializacao_opcoes() -> dict:
     """
         ### Descrição:
-            Rota para obter as opções de categorias e produtos disponíveis na comercialização.
+            Rota para obter as opções de grupos e produtos disponíveis na comercialização.
        ### Parâmetros:
             - headers: content-type: application/json
             - method: GET
         ### Retorno:
-            Retorna uma lista de grupos e cultivos disponíveis.
+            Retorna uma lista de grupos e produtos disponíveis.
     """
     try:
         conn = sqlite3.connect("vitibrasil.db")
         cursor = conn.cursor()
         cursor.execute("SELECT DISTINCT GroupName FROM comercializacao")
         group_name = [row[0] for row in cursor.fetchall()]
-        cursor.execute("SELECT DISTINCT Cultive FROM comercializacao")
-        cultives = [row[0] for row in cursor.fetchall()]
+        cursor.execute("SELECT DISTINCT Product FROM comercializacao")
+        products = [row[0] for row in cursor.fetchall()]
         conn.close()
-        return JSONResponse(status_code=200, content={"success": True, "Grupos": group_name, "Cultivos": cultives})
+        return JSONResponse(status_code=200, content={"success": True, "Grupos": group_name, "Produtos": products})
     except Exception as e:
         logging.error(f"Erro ao acessar o banco de dados: {e}")
-        return JSONResponse(status_code=500, content={"success": False, "error": str(e)}) 
-    
-@router.get("/comercializacao", responses={
+        return JSONResponse(status_code=500, content={"success": False, "error": str(e)})
+
+@router.get("/comercializacao", tags=["Vitivinicultura"], responses={
         200: {
             "description": "Dados de comercialização retornados com sucesso.",
             "content": {
@@ -647,7 +608,7 @@ async def comercializacao_opcoes() -> dict:
 async def comercializacao (
     year: int = Query(None, ge=1970, le=2023),
     group: Optional[str] = Query(None),
-    cultive: Optional[str] = Query(None),
+    product: Optional[str] = Query(None),
     token_user: str = Depends(verifica_token))  -> dict:
     """
         ### Descrição:
@@ -663,7 +624,6 @@ async def comercializacao (
         ### Retorno:
             Retorna dados de produção em JSON filtrados por ano, grupo e cultivo. 
         ### Exemplo de uso:
-            GET /processamento?year=2020&group=uva&cultive=Grand Noir
             curl -X 'GET' 
                 'comercializacao/?year=2002&group=VINHO%20FINO%20DE%20MESA&cultive=Tinto' 
                 -H 'accept: application/json' 
@@ -674,7 +634,7 @@ async def comercializacao (
         conn = sqlite3.connect("vitibrasil.db")
         cursor = conn.cursor()
 
-        query = "SELECT Year, GroupName, Cultive, Quantity_L FROM comercializacao WHERE 1=1" 
+        query = "SELECT Year, GroupName, Product, Quantity_L FROM comercializacao WHERE 1=1" 
         params = []
 
         if year is not None:
@@ -684,16 +644,15 @@ async def comercializacao (
         if group:
             query += " AND GroupName LIKE ?"
             params.append(group)
-        
-        if cultive:
-            query += " AND Cultive LIKE ?"
-            params.append(cultive)
-    
+
+        if product:
+            query += " AND Product LIKE ?"
+            params.append(product)
 
         cursor.execute(query, params)
         rows = cursor.fetchall()
 
-        data = [{"Year": row[0], "GroupName": row[1], "Cultive": row[2], "Quantity": row[3]} for row in rows]
+        data = [{"Year": row[0], "GroupName": row[1], "Product": row[2], "Quantity": row[3]} for row in rows]
         conn.close()
 
         return JSONResponse(content={"success": True, "total": len(data), "data": data})
@@ -701,9 +660,8 @@ async def comercializacao (
     except Exception as e:
         raise HTTPException(status_code=500, detail={"success": False, "error": str(e)})
 
-
 @router.get(
-    "/importacao/options",
+    "/importacao/options", tags=["Vitivinicultura"],
     responses={
         200: {
             "description": "Opções de importação retornadas com sucesso.",
@@ -755,7 +713,7 @@ async def importacao_opcoes() -> dict:
         logging.error(f"Erro ao acessar o banco de dados: {e}")
         return JSONResponse(status_code=500, content={"success": False, "error": str(e)}) 
     
-@router.get("/importacao", responses={
+@router.get("/importacao", tags=["Vitivinicultura"], responses={
         200: {
             "description": "Dados de importação retornados com sucesso.",
             "content": {
@@ -813,26 +771,26 @@ async def importacao (
             Retorna dados de importação filtrados por ano, país e produto.
         ### Exemplo de uso:
             curl -X 'GET' 
-                '/importacao?year=2002&country=Brasil&product=Suco de uva' 
+                '/importacao?year=2002&country=argentina&product=Vinhos%20de%20mesa' 
                 -H 'accept: application/json' 
                 -H 'Authorization: Bearer TOKEN_EXAMPLE'
-            Retorna dados de importação de Suco de uva para o ano de 2002 do Brasil.
+            Retorna dados de importação de Vinhos de mesa para o ano de 2002 da Argentina.
     """
     if product is None:
         return {"Necessário informar o produto": "Vinhos de mesa, Espumantes, Uvas frescas, Uvas passas ou Suco de uva"}
 
-    if product == 'Vinhos de mesa':
+    if product == 'Vinhos de mesa' or product == 'vinhos de mesa':
         option = 1
-    elif product == 'Espumantes':
+    elif product == 'Espumantes' or product == 'espumantes':
         option = 2
-    elif product == 'Uvas frescas':
+    elif product == 'Uvas frescas' or product == 'uvas frescas':
         option = 3
-    elif product == 'Uvas passas':
+    elif product == 'Uvas passas' or product == 'uvas passas':
         option = 4
-    elif product == 'Suco de uva':
+    elif product == 'Suco de uva' or product == 'suco de uva':
         option = 5
     else:
-        pass
+        return JSONResponse(status_code=400, content={"success": False, "error": "Produto inválido. Opções válidas: Vinhos de mesa, Espumantes, Uvas frescas, Uvas passas ou Suco de uva."})
 
     try:
         df = get_importacao(year, option)
@@ -878,7 +836,7 @@ async def importacao (
         return JSONResponse(status_code=200, content={"success": True, "total": len(data), "data": data})
 
 @router.get(
-    "/exportacao/options",
+    "/exportacao/options", tags=["Vitivinicultura"],
     responses={
         200: {
             "description": "Opções de exportação retornadas com sucesso.",
@@ -932,7 +890,7 @@ async def exportacao_opcoes() -> dict:
         logging.error(f"Erro ao acessar o banco de dados: {e}")
         return JSONResponse(status_code=500, content={"success": False, "error": str(e)}) 
 
-@router.get("/exportacao", responses={
+@router.get("/exportacao", tags=["Vitivinicultura"], responses={
         200: {
             "description": "Dados de exportação retornados com sucesso.",
             "content": {
@@ -946,7 +904,7 @@ async def exportacao_opcoes() -> dict:
                                 "Country": "França",
                                 "Quantity_Kg": 123456,
                                 "Value_USD": 1000000,
-                                "Product": "Vinhos de mesa"
+                                "Product": "vinho de mesa"
                             }
                         ]
                     }
@@ -998,17 +956,17 @@ async def exportacao (
     if product is None:
         return {"Necessário informar o produto": "Vinhos de mesa, Espumantes, Uvas frescas ou Suco de uva"}
 
-    if product == 'Vinhos de mesa':
+    if product == 'Vinhos de mesa' or product == 'vinhos de mesa':
         option = 1
-    elif product == 'Espumantes':
+    elif product == 'Espumantes' or product == 'espumantes':
         option = 2
-    elif product == 'Uvas frescas':
+    elif product == 'Uvas frescas' or product == 'uvas frescas':
         option = 3
-    elif product == 'Suco de uva':
+    elif product == 'Suco de uva' or product == 'suco de uva':
         option = 4
     else:
-        pass
-    
+        return JSONResponse(status_code=400, content={"success": False, "error": "Produto inválido. Opções válidas: Vinhos de mesa, Espumantes, Uvas frescas, Uvas passas ou Suco de uva."})
+
     try:
         df = get_exportacao(year, option)
         if country:

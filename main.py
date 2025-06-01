@@ -9,10 +9,15 @@ import gunicorn
 nest_asyncio.apply()
 
 app = FastAPI(
-    title="Vitibrasil API",
-    description="API da Vitibrasil.",
+    title="Vitivinicultura API",
+    description="TechChallenge Fase 1 - Machine Learning Engineering na FIAP. API desenvolvido para fornecer informações sobre da Vitivinicultura do site Vitibrasil.",
+    contact={
+        "name": "Pedro Costa e Marina Oliveira",
+        "url": "https://github.com/pecosta23/TechChallengeFase1"
+    },
     version ="1.0.0"
-    )
+)
+
 
 logging.basicConfig(
     level=logging.INFO, 
@@ -29,9 +34,6 @@ app.include_router(vitibrasil.router)
 async def main():
     logging.info("Starting Vitibrasil API...")
     await init_db()
-    # Remova a execução do uvicorn aqui. 
-    # Para usar gunicorn, rode o comando no terminal:
-    # gunicorn -k uvicorn.workers.UvicornWorker main:app --bind 127.0.0.1:5000
 
 if __name__ == "__main__":
     main()

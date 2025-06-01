@@ -34,7 +34,7 @@ def get_exportacao(year: int, option: int) -> pd.DataFrame:
     table = soup.find("table", class_="tb_base tb_dados")
     product_tags = soup.find_all("button", class_="btn_sopt")
     if len(product_tags) >= option:
-        product = product_tags[option-1].text.strip()
+        product = product_tags[option-1].text.strip().lower()
     else:
         product = None
         
@@ -49,17 +49,16 @@ def get_exportacao(year: int, option: int) -> pd.DataFrame:
         if len(cols) != 3:
             continue
 
-        country = cols[0].text.strip()
-        quantity = cols[1].text.strip()
-        value = cols[2].text.strip()
+        country = cols[0].text.strip().lower()
+        quantity = cols[1].text.strip().lower()
+        value = cols[2].text.strip().lower()
 
         data.append({
             "Year": year,
             "Country": country, 
             "Quantity_Kg": quantity, 
             "Value_USD": value,
-            "Product": product,
-            "Page": "exportacao"
+            "Product": product
         })
 
     return pd.DataFrame(data) 
@@ -84,8 +83,7 @@ def save_data_db(df: pd.DataFrame) -> None:
             Country TEXT,
             Quantity_Kg TEXT, 
             Value_USD TEXT,
-            Product TEXT,
-            Page TXT
+            Product TEXT
         )
     ''')
 
@@ -108,13 +106,12 @@ def scrap_exportacao() -> None:
         logging.info(f"Extracting data year: {year}")
         for option in range(1, 5):
             df = get_exportacao(year, option)
-            page = df["Page"].iloc[0] if not df.empty else "desconhecido"
             if not df.empty:
                 product = df["Product"].iloc[0]
                 save_data_db(df)
                 logging.info(f"{len(df)} dados de {product} salvos em 'exportacao'.")
             else:
-                logging.warning(f"Data not saved - page: {page}) - empty DataFrame")
+                logging.warning(f"Data not saved")
                 
     
 if __name__ == "__main__":

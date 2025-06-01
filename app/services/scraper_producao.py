@@ -40,18 +40,18 @@ def get_producao(year: int) -> pd.DataFrame:
         cols = row.find_all("td")
         if len(cols) == 2:
             if "tb_item" in cols[0].get("class", []):
-                current_product = cols[0].text.strip()
-                total_quantity = cols[1].text.strip()
+                current_product = cols[0].text.strip().lower()
+                total_quantity = cols[1].text.strip().lower()
                 data.append({
                     "Year": year,
                     "Category": current_product,
-                    "Product": "Todos da categoria",
+                    "Product": "todos da categoria",
                     "Quantity_L": total_quantity
                 })
                 continue
             
-            quantity = cols[1].text.strip()
-            subProduct = cols[0].text.strip()
+            quantity = cols[1].text.strip().lower()
+            subProduct = cols[0].text.strip().lower()
             data.append({
                 "Year": year,
                 "Category": current_product if 'current_product' in locals() else None,

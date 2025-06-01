@@ -44,19 +44,19 @@ def get_comercializacao(year: int) -> pd.DataFrame:
         col1_class = cols[0].get("class", []) 
 
         if "tb_item" in col1_class: 
-            group = cols[0].text.strip()
-            cultive = group
-            quantity = cols[1].text.strip()
+            group = cols[0].text.strip().lower()
+            product = group
+            quantity = cols[1].text.strip().lower()
         elif "tb_subitem" in col1_class: 
-            cultive = cols[0].text.strip()
-            quantity = cols[1].text.strip()
+            product = cols[0].text.strip().lower()
+            quantity = cols[1].text.strip().lower()
         else:
             continue
 
         data.append({
             "Year": year, 
             "GroupName": group, 
-            "Cultive": cultive,
+            "Product": product,
             "Quantity_L": quantity
         })
 
@@ -80,7 +80,7 @@ def save_data_db(df: pd.DataFrame) -> None:
             id INTEGER PRIMARY KEY AUTOINCREMENT,
             Year INTEGER,
             GroupName TEXT, 
-            Cultive TEXT,
+            Product TEXT,
             Quantity_L TEXT
         )
     ''')

@@ -37,12 +37,12 @@ def get_processamento(year: int, option: int) -> pd.DataFrame:
     
     if not table: 
         product_tags = soup.find_all("button", class_="btn_sopt")
-        logging.warning(f"Table not found for year {year}, option {option} (produto: {product_tags[option-1].text.strip() if len(product_tags) >= option else 'desconhecido'})")
+        logging.warning(f"Table not found for year {year}, option {option} (produto: {product_tags[option-1].text.strip().lower() if len(product_tags) >= option else 'desconhecido'})")
         return pd.DataFrame()
     
     product_tags = soup.find_all("button", class_="btn_sopt")
     if len(product_tags) >= option:
-        product = product_tags[option-1].text.strip()
+        product = product_tags[option-1].text.strip().lower()
     else:
         product = None
         
@@ -60,12 +60,12 @@ def get_processamento(year: int, option: int) -> pd.DataFrame:
         col1_class = cols[0].get("class", [])
 
         if "tb_item" in col1_class:
-            group = cols[0].text.strip()
+            group = cols[0].text.strip().lower()
             cultive = group
-            quantity = cols[1].text.strip()
+            quantity = cols[1].text.strip().lower()
         elif "tb_subitem" in col1_class:
-            cultive = cols[0].text.strip()
-            quantity = cols[1].text.strip()
+            cultive = cols[0].text.strip().lower()
+            quantity = cols[1].text.strip().lower()
         else:
             continue
         

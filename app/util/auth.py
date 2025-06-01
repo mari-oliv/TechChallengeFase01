@@ -10,7 +10,7 @@ SECRET_KEY = "chave"
 ALGORITHM = "HS256"
 ACCESS_TOKEN_MINUTES = 30
 
-oauth2 = OAuth2PasswordBearer(tokenUrl="/token")
+oauth2 = OAuth2PasswordBearer(tokenUrl="/login")
 
 pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
 
