@@ -27,6 +27,9 @@ URL https://techchallengefase1-1.onrender.com
 ## APIs
 https://techchallengefase1-1.onrender.com/docs
 
+## Arquitetura do Projeto
+
+![Main py (3)](https://github.com/user-attachments/assets/ee2a0665-2577-4575-b62e-8d1068f045f0)
 
 
 
@@ -58,3 +61,4 @@ gunicorn -k uvicorn.workers.UvicornWorker main:app --bind 0.0.0.0:10000s
 
 #### 4. Use as rotas
 No navegador, acesse o URL/docs para ver quais APIs disponíveis
+
