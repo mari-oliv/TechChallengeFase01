@@ -53,12 +53,12 @@ No terminal, execute os comandos:
 ```
 
 #### 3. Execute o servidor localmente
-Acesse a pasta app/ e rode no terminal o uvicorn
+Acesse a pasta app/ e execute no terminal:
 ```bash
 cd TechChallengeFase1/app
 gunicorn -k uvicorn.workers.UvicornWorker main:app --bind 0.0.0.0:10000s
 ```
 
 #### 4. Use as rotas
-No navegador, acesse o URL/docs para ver quais APIs disponíveis
+No navegador, acesse o URL/docs para ver quais endpoints disponíveis
 
